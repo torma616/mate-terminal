@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./autogen.sh --prefix=/usr --sysconfdir=/etc     --disable-static --localstatedir=/var --with-gnu-ld
+make
+sudo make install

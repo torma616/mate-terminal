@@ -2,27 +2,27 @@
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-terminal package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # samson <sambelet@yahoo.com>, 2018
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-terminal 1.23\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-terminal/issues\n"
-"POT-Creation-Date: 2020-01-13 14:52+0100\n"
+"POT-Creation-Date: 2020-04-01 03:44-0400\n"
 "PO-Revision-Date: 2018-03-12 08:42+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>, 2018\n"
 "Language-Team: Amharic (https://www.transifex.com/mate/teams/13566/am/)\n"
+"Language: am\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: am\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: mate-terminal.appdata.xml.in:7 mate-terminal.desktop.in.in:3
-#: src/terminal-options.c:189 src/terminal-window.c:4466
+#: src/terminal-options.c:189 src/terminal-window.c:4470
 msgid "MATE Terminal"
 msgstr "የ ሜት ተርሚናል"
 
@@ -32,8 +32,8 @@ msgstr "ተርሚናል ተመሳሳይ ለ ሜት ዴስክቶፕ አካባቢ 
 
 #: mate-terminal.appdata.xml.in:10
 msgid ""
-"MATE Terminal is a terminal emulation application that you can use to access"
-" a UNIX shell in the MATE environment. MATE Terminal emulates the xterm "
+"MATE Terminal is a terminal emulation application that you can use to access "
+"a UNIX shell in the MATE environment. MATE Terminal emulates the xterm "
 "program developed by the X Consortium. It supports translucent backgrounds, "
 "opening multiple terminals in a single window (tabs) and clickable URLs."
 msgstr ""
@@ -54,8 +54,7 @@ msgstr "ተርሚናል"
 msgid "Use the command line"
 msgstr "የ ትእዛዝ መስመር ይጠቀሙ "
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: mate-terminal.desktop.in.in:9
 msgid "utilities-terminal"
 msgstr ""
@@ -97,8 +96,8 @@ msgid ""
 "List of profiles known to mate-terminal. The list contains strings naming "
 "subdirectories relative to /org/mate/terminal/profiles."
 msgstr ""
-"በ ሜት=ተርሚናል የታወቀ የ ገጽታ ዝርዝር: ዝርዝሩ የያዘው ሀረግ የ ተሰየመ ንዑስ ሀረግ አንፃራዊ ነው ለ "
-"/org/ሜት/ተርሚናል/ገጽታ."
+"በ ሜት=ተርሚናል የታወቀ የ ገጽታ ዝርዝር: ዝርዝሩ የያዘው ሀረግ የ ተሰየመ ንዑስ ሀረግ አንፃራዊ ነው ለ /org/ሜት/"
+"ተርሚናል/ገጽታ."
 
 #: src/org.mate.terminal.gschema.xml.in:54
 msgid "Profile to use for new terminals"
@@ -106,8 +105,7 @@ msgstr "ለ አዲስ ተርሚናል የሚጠቀሙት ገጽታ"
 
 #: src/org.mate.terminal.gschema.xml.in:55
 msgid ""
-"Profile to be used when opening a new window or tab. Must be in "
-"profile_list."
+"Profile to be used when opening a new window or tab. Must be in profile_list."
 msgstr "አዲስ መስኮት በሚከፍቱ ጊዜ የሚጠቀሙት ገጽታ ወይንም tab በ ገጽታ_ዝርዝር ውስጥ መኖር አለበት"
 
 #: src/org.mate.terminal.gschema.xml.in:59
@@ -117,8 +115,8 @@ msgstr "የ ዝርዝር መደርደሪያ መድረሻ ቁልፍ ይኑረው 
 #: src/org.mate.terminal.gschema.xml.in:60
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
-"with some applications run inside the terminal so it's possible to turn them"
-" off."
+"with some applications run inside the terminal so it's possible to turn them "
+"off."
 msgstr ""
 "Alt+ፊደል ዝርዝር መደርደሪያ ጋር ይደርስ እንደሆን ማስቻያ: ይህ ከ አንዳንድ መተግበሪያ ጋር ሊጋጭ ይችላል: በ "
 "ተርሚናል ውስጥ ሲያስኬዱ: ስለዚህ ማጥፋት ይችላሉ"
@@ -176,8 +174,8 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:85
 msgid ""
-"If true, it enables the ability to switch tabs using [Ctrl+Tab] and "
-"[Ctrl+Shift+Tab]."
+"If true, it enables the ability to switch tabs using [Ctrl+Tab] and [Ctrl"
+"+Shift+Tab]."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:92
@@ -209,8 +207,8 @@ msgstr "ነባር ቀለም ለ ጽሁፍ በ ተርሚናል ውስጥ"
 
 #: src/org.mate.terminal.gschema.xml.in:104
 msgid ""
-"Default color of text in the terminal, as a color specification (can be "
-"HTML-style hex digits, or a color name such as \"red\")."
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
 msgstr ""
 "ነባር ቀለም ለ ጽሁፍ በ ተርሚናል ውስጥ: እንደ ቀለም መወሰኛ: (መሆን ይችላል HTML-style hex digits, "
 "ወይንም የ ቀለም ስም እንደ \"ቀይ\")."
@@ -233,12 +231,12 @@ msgstr "ነባር ቀለም ለ ጽሁፍ ማድመቂያ በ ተርሚናል �
 
 #: src/org.mate.terminal.gschema.xml.in:114
 msgid ""
-"Default color of bold text in the terminal, as a color specification (can be"
-" HTML-style hex digits, or a color name such as \"red\"). This is ignored if"
-" bold_color_same_as_fg is true."
+"Default color of bold text in the terminal, as a color specification (can be "
+"HTML-style hex digits, or a color name such as \"red\"). This is ignored if "
+"bold_color_same_as_fg is true."
 msgstr ""
-"ነባር ቀለም ለ ጽሁፍ ማድመቂያ በ ተርሚናል ውስጥ (can be HTML-style hex digits, ወይንም የ ቀለም ስም"
-" እንደ የ \"ቀይ\"). ይህ ይተዋል የ ማድመቂያ_ቀለም_ተመሳሳይ ከሆነ_as_fg እውነት ከሆነ"
+"ነባር ቀለም ለ ጽሁፍ ማድመቂያ በ ተርሚናል ውስጥ (can be HTML-style hex digits, ወይንም የ ቀለም ስም "
+"እንደ የ \"ቀይ\"). ይህ ይተዋል የ ማድመቂያ_ቀለም_ተመሳሳይ ከሆነ_as_fg እውነት ከሆነ"
 
 #: src/org.mate.terminal.gschema.xml.in:118
 msgid "Whether bold text should use the same color as normal text"
@@ -256,8 +254,8 @@ msgstr "በ ሀይለኛ አርእስት ምን ይደረግ"
 #: src/org.mate.terminal.gschema.xml.in:124
 msgid ""
 "If the application in the terminal sets the title (most typically people "
-"have their shell set up to do this), the dynamically-set title can erase the"
-" configured title, go before it, go after it, or replace it. The possible "
+"have their shell set up to do this), the dynamically-set title can erase the "
+"configured title, go before it, go after it, or replace it. The possible "
 "values are \"replace\", \"before\", \"after\", and \"ignore\"."
 msgstr ""
 
@@ -312,8 +310,8 @@ msgstr "\"እንደ ቃል አካል\" የሚወሰዱ ባህሪዎች"
 #: src/org.mate.terminal.gschema.xml.in:149
 msgid ""
 "When selecting text by word, sequences of these characters are considered "
-"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing"
-" a range) should be the first character given."
+"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
+"a range) should be the first character given."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:153
@@ -369,8 +367,8 @@ msgstr "በ መሸብለያ መደርደሪያ ውስጥ የሚኖረው የ መ
 #: src/org.mate.terminal.gschema.xml.in:174
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
-"terminal by this number of lines; lines that don't fit in the scrollback are"
-" discarded. If scrollback_unlimited is true, this value is ignored."
+"terminal by this number of lines; lines that don't fit in the scrollback are "
+"discarded. If scrollback_unlimited is true, this value is ignored."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:178
@@ -379,9 +377,9 @@ msgstr "ያልተወሰነ ቁጥር መስመርበ መሸብለያ ውስጥ �
 
 #: src/org.mate.terminal.gschema.xml.in:179
 msgid ""
-"If true, scrollback lines will never be discarded. The scrollback history is"
-" stored on disk temporarily, so this may cause the system to run out of disk"
-" space if there is a lot of output to the terminal."
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:183
@@ -535,11 +533,11 @@ msgstr "የ ኋሊት ደምሳሽ ቁልፍ ውጤት"
 
 #: src/org.mate.terminal.gschema.xml.in:259
 msgid ""
-"Sets what code the backspace key generates. Possible values are \"ascii-"
-"del\" for the ASCII DEL character, \"control-h\" for Control-H (AKA the "
-"ASCII BS character), \"escape-sequence\" for the escape sequence typically "
-"bound to backspace or delete. \"ascii-del\" is normally considered the "
-"correct setting for the Backspace key."
+"Sets what code the backspace key generates. Possible values are \"ascii-del"
+"\" for the ASCII DEL character, \"control-h\" for Control-H (AKA the ASCII "
+"BS character), \"escape-sequence\" for the escape sequence typically bound "
+"to backspace or delete. \"ascii-del\" is normally considered the correct "
+"setting for the Backspace key."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:263
@@ -591,8 +589,8 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:284
 msgid ""
-"If true, URLs under mouse pointer are highlighted and can be opened by mouse"
-" click together with control key or used in context menu."
+"If true, URLs under mouse pointer are highlighted and can be opened by mouse "
+"click together with control key or used in context menu."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:290
@@ -606,8 +604,8 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"የ ፊደል ገበታ አቋራጭ ቁልፍ አዲስ tab ለ መክፈት: የሚገለጸው እንደ ሀረግ ነው በ ተመሳሳይ አቀራረብ እንደ ተጠቀሙት"
-" በ GTK+ ፋይል ምንጮች ውስጥ: እርስዎ ምርጫ ካሰናዱ ወደ የተለየ ሀረግ  \"ተሰናክሏል\", ከዛ  የ ፊደል ገበታ "
+"የ ፊደል ገበታ አቋራጭ ቁልፍ አዲስ tab ለ መክፈት: የሚገለጸው እንደ ሀረግ ነው በ ተመሳሳይ አቀራረብ እንደ ተጠቀሙት "
+"በ GTK+ ፋይል ምንጮች ውስጥ: እርስዎ ምርጫ ካሰናዱ ወደ የተለየ ሀረግ  \"ተሰናክሏል\", ከዛ  የ ፊደል ገበታ "
 "አቋራጭ ለዚህ ተግባር አይኖርም"
 
 #: src/org.mate.terminal.gschema.xml.in:295
@@ -616,8 +614,8 @@ msgstr "የ ፊደል ገበታ አቋራጭ ለ መክፈት አዲስ መስ�
 
 #: src/org.mate.terminal.gschema.xml.in:296
 msgid ""
-"Keyboard shortcut key for opening a new window. Expressed as a string in the"
-" same format used for GTK+ resource files. If you set the option to the "
+"Keyboard shortcut key for opening a new window. Expressed as a string in the "
+"same format used for GTK+ resource files. If you set the option to the "
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
@@ -633,8 +631,8 @@ msgstr "የ ፊደል ገበታ አቋራጭ ለ መፍጠር አዲስ ገጽ�
 msgid ""
 "Keyboard shortcut key for bringing up the dialog for profile creation. "
 "Expressed as a string in the same format used for GTK+ resource files. If "
-"you set the option to the special string \"disabled\", then there will be no"
-" keyboard shortcut for this action."
+"you set the option to the special string \"disabled\", then there will be no "
+"keyboard shortcut for this action."
 msgstr ""
 "የ ፊደል ገበታ አቋራጭ ቁልፍ የ ገጽታ መፍጠሪያ ንግግር ለ ማምጣት: የሚገለጸው እንደ ሀረግ ነው በ ተመሳሳይ አቀራረብ "
 "እንደ ተጠቀሙት በ GTK+ ፋይል ምንጮች ውስጥ: እርስዎ ምርጫ ካሰናዱ ወደ የተለየ ሀረግ  \"ተሰናክሏል\", ከዛ  የ "
@@ -663,8 +661,7 @@ msgstr "የ ፊደል ገበታ አቋራጭ ለ መዝጋት tab"
 msgid ""
 "Keyboard shortcut key for closing a tab. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "የ ፊደል ገበታ አቋራጭ ቁልፍ የ አሁኑን tab ለ መዝጋት እንደ ሀረግ በ ተመሳሳይ አቀራረብ እንደ ተጠቀሙት በ GTK+ "
 "ፋይል ምንጮች ውስጥ: እርስዎ ምርጫ ካሰናዱ ወደ የተለየ ሀረግ  \"ተሰናክሏል\", ከዛ  የ ፊደል ገበታ አቋራጭ ለዚህ "
@@ -754,8 +751,8 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:346
 msgid ""
-"Keyboard shortcut key for finding the previous occurrence of the search term"
-" in the terminal. Expressed as a string in the same format used for GTK+ "
+"Keyboard shortcut key for finding the previous occurrence of the search term "
+"in the terminal. Expressed as a string in the same format used for GTK+ "
 "resource files. If you set the option to the special string \"disabled\", "
 "then there will be no keyboard shortcut for this action."
 msgstr ""
@@ -768,8 +765,8 @@ msgstr "የ ፊደል ገበታ አቋራጭ ለ መቀያየር ከ ሙሉ መ�
 msgid ""
 "Keyboard shortcut key for toggling full screen mode. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "የ ፊደል ገበታ አቋራጭ ቁልፍ የ መመልከቻ ዘዴ ለ መቀያየር በ አስቸኳይ  የ ተገለጸውን እንደ ሀረግ በ ተመሳሳይ "
 "አቀራረብ እንደ ተጠቀሙት በ GTK+ ፋይል ምንጮች ውስጥ: እርስዎ ምርጫ ካሰናዱ ወደ የተለየ ሀረግ  \"ተሰናክሏል\", "
@@ -786,9 +783,9 @@ msgid ""
 "option to the special string \"disabled\", then there will be no keyboard "
 "shortcut for this action."
 msgstr ""
-"የ ፊደል ገበታ አቋራጭ ቁልፍ የ መመልከቻ ዘዴ ለ መቀያየር የ ዝርዝር መደርደሪያ የ ተገለጸውን እንደ ሀረግ በ ተመሳሳይ"
-" አቀራረብ እንደ ተጠቀሙት በ GTK+ ፋይል ምንጮች ውስጥ: እርስዎ ምርጫ ካሰናዱ ወደ የተለየ ሀረግ  \"ተሰናክሏል\","
-" ከዛ የ ፊደል ገበታ አቋራጭ ለዚህ ተግባር አይኖርም"
+"የ ፊደል ገበታ አቋራጭ ቁልፍ የ መመልከቻ ዘዴ ለ መቀያየር የ ዝርዝር መደርደሪያ የ ተገለጸውን እንደ ሀረግ በ ተመሳሳይ "
+"አቀራረብ እንደ ተጠቀሙት በ GTK+ ፋይል ምንጮች ውስጥ: እርስዎ ምርጫ ካሰናዱ ወደ የተለየ ሀረግ  \"ተሰናክሏል\", "
+"ከዛ የ ፊደል ገበታ አቋራጭ ለዚህ ተግባር አይኖርም"
 
 #: src/org.mate.terminal.gschema.xml.in:360
 msgid "Keyboard shortcut to set the terminal title"
@@ -826,10 +823,10 @@ msgstr "የ ፊደል ገበታ አቋራጭ ተርሚናል እንደገና ለ
 
 #: src/org.mate.terminal.gschema.xml.in:371
 msgid ""
-"Keyboard shortcut key to reset and clear the terminal. Expressed as a string"
-" in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"Keyboard shortcut key to reset and clear the terminal. Expressed as a string "
+"in the same format used for GTK+ resource files. If you set the option to "
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "የ ፊደል ገበታ አቋራጭ ቁልፍ እንደ ነበር ለ መመለስ እና ለማጽዳት ተርሚናል: የ ተገለጸውን እንደ ሀረግ በ ተመሳሳይ "
 "አቀራረብ እንደ ተጠቀሙት በ GTK+ ፋይል ምንጮች ውስጥ: እርስዎ ምርጫ ካሰናዱ ወደ የተለየ ሀረግ  \"ተሰናክሏል\", "
@@ -843,8 +840,8 @@ msgstr "የ ፊደል ገበታ አቋራጭ ለ መቀያየር ላለፈው ta
 msgid ""
 "Keyboard shortcut key to switch to the previous tab. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "የ ፊደል ገበታ አቋራጭ ቁልፍ እንደ ነበር ለ መመለስ ያለፈውን  tab የ ተገለጸውን እንደ ሀረግ በ ተመሳሳይ አቀራረብ "
 "እንደ ተጠቀሙት በ GTK+ ፋይል ምንጮች ውስጥ: እርስዎ ምርጫ ካሰናዱ ወደ የተለየ ሀረግ  \"ተሰናክሏል\", ከዛ የ "
@@ -885,8 +882,8 @@ msgstr "የ ፊደል ገበታ አቋራጭ ለ መቀየር የሚቀጥለው
 msgid ""
 "Keyboard shortcut key to switch to the next profile. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:395
@@ -930,10 +927,9 @@ msgstr "የ ፊደል ገበታ አቋራጭ ለ መቀየር ወደ tab 1 "
 
 #: src/org.mate.terminal.gschema.xml.in:411
 msgid ""
-"Keyboard shortcut key for switch to tab 1. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 1. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:415
@@ -942,10 +938,9 @@ msgstr "የ ፊደል ገበታ አቋራጭ ለ መቀየር ወደ tab 2"
 
 #: src/org.mate.terminal.gschema.xml.in:416
 msgid ""
-"Keyboard shortcut key for switch to tab 2. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 2. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:420
@@ -954,10 +949,9 @@ msgstr "የ ፊደል ገበታ አቋራጭ ለ መቀየር ወደ tab 3 "
 
 #: src/org.mate.terminal.gschema.xml.in:421
 msgid ""
-"Keyboard shortcut key for switch to tab 3. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 3. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:425
@@ -966,10 +960,9 @@ msgstr "የ ፊደል ገበታ አቋራጭ ለ መቀየር ወደ tab 4 "
 
 #: src/org.mate.terminal.gschema.xml.in:426
 msgid ""
-"Keyboard shortcut key for switch to tab 4. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 4. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:430
@@ -978,10 +971,9 @@ msgstr "የ ፊደል ገበታ አቋራጭ ለ መቀየር ወደ tab 5 "
 
 #: src/org.mate.terminal.gschema.xml.in:431
 msgid ""
-"Keyboard shortcut key for switch to tab 5. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 5. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:435
@@ -990,10 +982,9 @@ msgstr "የ ፊደል ገበታ አቋራጭ ለ መቀየር ወደ tab 6 "
 
 #: src/org.mate.terminal.gschema.xml.in:436
 msgid ""
-"Keyboard shortcut key for switch to tab 6. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 6. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:440
@@ -1002,10 +993,9 @@ msgstr "የ ፊደል ገበታ አቋራጭ ለ መቀየር ወደ tab 7 "
 
 #: src/org.mate.terminal.gschema.xml.in:441
 msgid ""
-"Keyboard shortcut key for switch to tab 7. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 7. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:445
@@ -1014,10 +1004,9 @@ msgstr "የ ፊደል ገበታ አቋራጭ ለ መቀየር ወደ tab 8 "
 
 #: src/org.mate.terminal.gschema.xml.in:446
 msgid ""
-"Keyboard shortcut key for switch to tab 8. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 8. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:450
@@ -1026,10 +1015,9 @@ msgstr "የ ፊደል ገበታ አቋራጭ ለ መቀየር ወደ tab 9 "
 
 #: src/org.mate.terminal.gschema.xml.in:451
 msgid ""
-"Keyboard shortcut key for switch to tab 9. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 9. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:455
@@ -1076,8 +1064,7 @@ msgstr "የ ፊደል ገበታ አቋራጭ እርዳታ ለ ማስጀመር"
 msgid ""
 "Keyboard shortcut key for launching help. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:475
@@ -1110,10 +1097,10 @@ msgstr "የ ፊደል ገበታ አቋራጭ ፊደል መደበኛ-መጠን �
 
 #: src/org.mate.terminal.gschema.xml.in:486
 msgid ""
-"Keyboard shortcut key for making font the normal size. Expressed as a string"
-" in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"Keyboard shortcut key for making font the normal size. Expressed as a string "
+"in the same format used for GTK+ resource files. If you set the option to "
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 
 #: src/profile-editor.c:44
@@ -1136,14 +1123,12 @@ msgstr "አረንጓዴ በጥቁር ላይ "
 msgid "White on black"
 msgstr "ነጭ በጥቁር ላይ "
 
-#. Translators: "Solarized" is the name of a colour scheme, "light" can be
-#. translated
+#. Translators: "Solarized" is the name of a colour scheme, "light" can be translated
 #: src/profile-editor.c:69
 msgid "Solarized light"
 msgstr ""
 
-#. Translators: "Solarized" is the name of a colour scheme, "dark" can be
-#. translated
+#. Translators: "Solarized" is the name of a colour scheme, "dark" can be translated
 #: src/profile-editor.c:74
 msgid "Solarized dark"
 msgstr ""
@@ -1644,8 +1629,8 @@ msgstr "በመሸብለል ላይ "
 msgid ""
 "<small><i><b>Note:</b> These options may cause some applications to behave "
 "incorrectly.  They are only here to allow you to work around certain "
-"applications and operating systems that expect different terminal "
-"behavior.</i></small>"
+"applications and operating systems that expect different terminal behavior.</"
+"i></small>"
 msgstr ""
 
 #: src/profile-preferences.ui:2250
@@ -1869,53 +1854,53 @@ msgstr "_ተግባር "
 msgid "Shortcut _Key"
 msgstr "አቋራጭ _ቁልፍ "
 
-#: src/terminal-app.c:523
+#: src/terminal-app.c:525
 msgid "Click button to choose profile"
 msgstr "ገጽታ ለመምረጥ ቁልፉን ይጫኑ "
 
-#: src/terminal-app.c:606
+#: src/terminal-app.c:608
 msgid "Profile list"
 msgstr "የገጽታ ዝርዝር"
 
-#: src/terminal-app.c:683
+#: src/terminal-app.c:685
 #, c-format
 msgid "Delete profile “%s”?"
 msgstr "ገጽታውን ላጥፋው “%s”?"
 
-#: src/terminal-app.c:687
+#: src/terminal-app.c:689
 msgid "_Cancel"
 msgstr "_መሰረዣ "
 
-#: src/terminal-app.c:692
+#: src/terminal-app.c:694
 msgid "_Delete"
 msgstr "_ማጥፊያ"
 
-#: src/terminal-app.c:699
+#: src/terminal-app.c:701
 msgid "Delete Profile"
 msgstr "ገጽታውን ማጥፊያ"
 
-#: src/terminal-app.c:1146
+#: src/terminal-app.c:1148
 #, c-format
 msgid ""
 "You already have a profile called “%s”. Do you want to create another "
 "profile with the same name?"
 msgstr ""
 
-#: src/terminal-app.c:1241
+#: src/terminal-app.c:1243
 msgid "Choose base profile"
 msgstr "መሰረታዊ ገጽታ ይምረጡ "
 
-#: src/terminal-app.c:1828
+#: src/terminal-app.c:1830
 #, c-format
 msgid "No such profile \"%s\", using default profile\n"
 msgstr "ይህ ገጽታ አልተገኘም \"%s\", ነባሩን ገጽታ መጠቀሚያ \n"
 
-#: src/terminal-app.c:1855
+#: src/terminal-app.c:1857
 #, c-format
 msgid "Invalid geometry string \"%s\"\n"
 msgstr "ዋጋ የሌለው የጂዮሜትሪ ሐረግ \"%s\"\n"
 
-#: src/terminal-app.c:2061
+#: src/terminal-app.c:2063
 msgid "User Defined"
 msgstr "ተጠቃሚው ተከልክሏል "
 
@@ -2061,15 +2046,15 @@ msgstr "Vietnamese"
 msgid "Thai"
 msgstr "Thai"
 
-#: src/terminal-encoding.c:506 src/terminal-encoding.c:531
+#: src/terminal-encoding.c:503 src/terminal-encoding.c:528
 msgid "_Description"
 msgstr "_መግለጫ"
 
-#: src/terminal-encoding.c:515 src/terminal-encoding.c:540
+#: src/terminal-encoding.c:512 src/terminal-encoding.c:537
 msgid "_Encoding"
 msgstr "_መቀየሪያ"
 
-#: src/terminal-encoding.c:598
+#: src/terminal-encoding.c:595
 msgid "Current Locale"
 msgstr "የ አሁኑ ቋንቋ"
 
@@ -2262,29 +2247,29 @@ msgstr "የ-ተርሚናል ምርጫ ማሳያ"
 msgid "Unnamed"
 msgstr "ያልተሰየመ "
 
-#: src/terminal-screen.c:1520
+#: src/terminal-screen.c:1521
 msgid "_Profile Preferences"
 msgstr "_የገጽታ ምርጫዎች"
 
-#: src/terminal-screen.c:1521 src/terminal-screen.c:1966
+#: src/terminal-screen.c:1522 src/terminal-screen.c:1964
 msgid "_Relaunch"
 msgstr "_እንደገና ማስጀመሪያ "
 
-#: src/terminal-screen.c:1524
+#: src/terminal-screen.c:1525
 msgid "There was an error creating the child process for this terminal"
 msgstr ""
 
-#: src/terminal-screen.c:1971
+#: src/terminal-screen.c:1969
 #, c-format
 msgid "The child process exited normally with status %d."
 msgstr ""
 
-#: src/terminal-screen.c:1976
+#: src/terminal-screen.c:1974
 #, c-format
 msgid "The child process was terminated by signal %d."
 msgstr ""
 
-#: src/terminal-screen.c:1981
+#: src/terminal-screen.c:1979
 msgid "The child process was terminated."
 msgstr ""
 
@@ -2315,22 +2300,23 @@ msgstr ""
 
 #: src/terminal-util.c:329
 msgid ""
-"MATE Terminal is distributed in the hope that it will be useful, but WITHOUT"
-" ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"MATE Terminal is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
 msgstr ""
 
 #: src/terminal-util.c:333
 msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
+"You should have received a copy of the GNU General Public License along with "
+"MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
 msgstr ""
 
 #. Translators: This is the label of a menu item to choose a profile.
 #. * _%d is used as the accelerator (with d between 1 and 9), and
 #. * the %s is the name of the terminal profile.
+#.
 #: src/terminal-window.c:618
 #, c-format
 msgid "_%d. %s"
@@ -2339,6 +2325,7 @@ msgstr "_%d. %s"
 #. Translators: This is the label of a menu item to choose a profile.
 #. * _%c is used as the accelerator (it will be a character between A and Z),
 #. * and the %s is the name of the terminal profile.
+#.
 #: src/terminal-window.c:624
 #, c-format
 msgid "_%c. %s"
@@ -2578,8 +2565,8 @@ msgstr ""
 
 #: src/terminal-window.c:3621
 msgid ""
-"There is still a process running in this terminal. Closing the terminal will"
-" kill it."
+"There is still a process running in this terminal. Closing the terminal will "
+"kill it."
 msgstr ""
 
 #: src/terminal-window.c:3624
@@ -2610,15 +2597,23 @@ msgstr "ማስቀመጫ እንደ..."
 msgid "_Title:"
 msgstr "_አርእስት:"
 
-#: src/terminal-window.c:4449
+#: src/terminal-window.c:4450
 msgid "Contributors:"
 msgstr "አበርካቾች "
 
-#: src/terminal-window.c:4468
+#: src/terminal-window.c:4466
+#, fuzzy, c-format
+#| msgid "A terminal emulator for the MATE desktop environment"
+msgid ""
+"A terminal emulator for the MATE desktop\n"
+"Using VTE %d.%d.%d"
+msgstr "ተርሚናል ተመሳሳይ ለ ሜት ዴስክቶፕ አካባቢ "
+
+#: src/terminal-window.c:4472
 msgid "About MATE Terminal"
 msgstr ""
 
-#: src/terminal-window.c:4469
+#: src/terminal-window.c:4473
 msgid ""
 "Copyright © 2002–2004 Havoc Pennington\n"
 "Copyright © 2003–2004, 2007 Mariano Suárez-Alvarez\n"
@@ -2628,10 +2623,6 @@ msgid ""
 "Copyright © 2012-2020 MATE developers"
 msgstr ""
 
-#: src/terminal-window.c:4475
-msgid "A terminal emulator for the MATE desktop"
-msgstr ""
-
-#: src/terminal-window.c:4481
+#: src/terminal-window.c:4485
 msgid "translator-credits"
 msgstr "Samson-Belete-Belayineh"

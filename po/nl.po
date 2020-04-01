@@ -2,7 +2,7 @@
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-terminal package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # dragnadh, 2018
 # Volluta <volluta@tutanota.com>, 2018
@@ -12,23 +12,23 @@
 # Erik Bent <hj.bent.60@gmail.com>, 2018
 # infirit <inactive+infirit@transifex.com>, 2018
 # Pjotr <pjotrvertaalt@gmail.com>, 2020
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-terminal 1.23\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-terminal/issues\n"
-"POT-Creation-Date: 2020-01-13 14:52+0100\n"
+"POT-Creation-Date: 2020-04-01 03:44-0400\n"
 "PO-Revision-Date: 2018-03-12 08:42+0000\n"
 "Last-Translator: Pjotr <pjotrvertaalt@gmail.com>, 2020\n"
 "Language-Team: Dutch (https://www.transifex.com/mate/teams/13566/nl/)\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: mate-terminal.appdata.xml.in:7 mate-terminal.desktop.in.in:3
-#: src/terminal-options.c:189 src/terminal-window.c:4466
+#: src/terminal-options.c:189 src/terminal-window.c:4470
 msgid "MATE Terminal"
 msgstr "MATE Terminalvenster"
 
@@ -38,8 +38,8 @@ msgstr "Een terminalvenster voor de MATE-werkomgeving"
 
 #: mate-terminal.appdata.xml.in:10
 msgid ""
-"MATE Terminal is a terminal emulation application that you can use to access"
-" a UNIX shell in the MATE environment. MATE Terminal emulates the xterm "
+"MATE Terminal is a terminal emulation application that you can use to access "
+"a UNIX shell in the MATE environment. MATE Terminal emulates the xterm "
 "program developed by the X Consortium. It supports translucent backgrounds, "
 "opening multiple terminals in a single window (tabs) and clickable URLs."
 msgstr ""
@@ -68,8 +68,7 @@ msgstr "Terminalvenster"
 msgid "Use the command line"
 msgstr "Gebruik de opdrachtregel"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: mate-terminal.desktop.in.in:9
 msgid "utilities-terminal"
 msgstr "utilities-terminal"
@@ -121,8 +120,7 @@ msgstr "Te gebruiken profiel bij starten van nieuwe terminalvensters"
 
 #: src/org.mate.terminal.gschema.xml.in:55
 msgid ""
-"Profile to be used when opening a new window or tab. Must be in "
-"profile_list."
+"Profile to be used when opening a new window or tab. Must be in profile_list."
 msgstr ""
 "Profiel dat gebruikt moet worden bij een nieuw venster of tabblad. Moet in "
 "profile_list staan."
@@ -134,8 +132,8 @@ msgstr "Of de menubalk sneltoetsen heeft"
 #: src/org.mate.terminal.gschema.xml.in:60
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
-"with some applications run inside the terminal so it's possible to turn them"
-" off."
+"with some applications run inside the terminal so it's possible to turn them "
+"off."
 msgstr ""
 "De menubalk heeft sneltoetsen in de vorm van 'Alt+letter'. Deze zouden "
 "kunnen storen bij bepaalde toepassingen die in de terminal worden "
@@ -152,8 +150,8 @@ msgid ""
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
 "standard menubar accelerator to be disabled."
 msgstr ""
-"Normaal gesproken kan de menubalk benaderd worden met F10. Dit kan anders in"
-" worden gesteld via gtkrc (gtk-menu-bar-accel = ‘watdanook’). Deze optie "
+"Normaal gesproken kan de menubalk benaderd worden met F10. Dit kan anders in "
+"worden gesteld via gtkrc (gtk-menu-bar-accel = ‘watdanook’). Deze optie "
 "maakt het mogelijk om de standaard-menubalksneltoets uit te schakelen."
 
 #: src/org.mate.terminal.gschema.xml.in:68
@@ -171,15 +169,14 @@ msgid ""
 "This is a list of encodings to appear there. The special encoding name "
 "\"current\" means to display the encoding of the current locale."
 msgstr ""
-"Een verzameling mogelijke coderingen wordt gepresenteerd in het "
-"'Codering'-submenu. Dit is een lijst van coderingen die daar moet "
-"verschijnen. De speciale coderingnaam 'huidig' beoogt de codering te tonen "
-"van de huidige regionale instelling."
+"Een verzameling mogelijke coderingen wordt gepresenteerd in het 'Codering'-"
+"submenu. Dit is een lijst van coderingen die daar moet verschijnen. De "
+"speciale coderingnaam 'huidig' beoogt de codering te tonen van de huidige "
+"regionale instelling."
 
 #: src/org.mate.terminal.gschema.xml.in:74
 msgid "Whether to ask for confirmation when closing terminal windows"
-msgstr ""
-"Al dan niet vragen om bevestiging bij het sluiten van terminalvensters"
+msgstr "Al dan niet vragen om bevestiging bij het sluiten van terminalvensters"
 
 #: src/org.mate.terminal.gschema.xml.in:75
 msgid ""
@@ -204,11 +201,11 @@ msgstr "Tabbladen wisselen met  [Ctrl]+[Tab]"
 
 #: src/org.mate.terminal.gschema.xml.in:85
 msgid ""
-"If true, it enables the ability to switch tabs using [Ctrl+Tab] and "
-"[Ctrl+Shift+Tab]."
+"If true, it enables the ability to switch tabs using [Ctrl+Tab] and [Ctrl"
+"+Shift+Tab]."
 msgstr ""
-"Indien waar, schakelt het de mogelijkheid in om te wisselen tussen tabbladen"
-" met gebruikmaking van [Ctrl+Tab] en [Ctrl+Shift+Tab]."
+"Indien waar, schakelt het de mogelijkheid in om te wisselen tussen tabbladen "
+"met gebruikmaking van [Ctrl+Tab] en [Ctrl+Shift+Tab]."
 
 #: src/org.mate.terminal.gschema.xml.in:92
 msgctxt "visible-name"
@@ -232,8 +229,8 @@ msgid ""
 "True if the menubar should be shown in new windows, for windows/tabs with "
 "this profile."
 msgstr ""
-"'Waar' indien de menubalk moet worden getoond in nieuwe vensters. Geldt voor"
-" vensters/tabbladen met dit profiel."
+"'Waar' indien de menubalk moet worden getoond in nieuwe vensters. Geldt voor "
+"vensters/tabbladen met dit profiel."
 
 #: src/org.mate.terminal.gschema.xml.in:103
 msgid "Default color of text in the terminal"
@@ -241,11 +238,11 @@ msgstr "De standaardkleur van de tekst in het terminalvenster"
 
 #: src/org.mate.terminal.gschema.xml.in:104
 msgid ""
-"Default color of text in the terminal, as a color specification (can be "
-"HTML-style hex digits, or a color name such as \"red\")."
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
 msgstr ""
-"De kleur van de tekst in het terminalvenster, als een kleurspecificatie (kan"
-" een HTML-stijl-hexgetal zijn of de naam van een kleur zoals ‘red’)."
+"De kleur van de tekst in het terminalvenster, als een kleurspecificatie (kan "
+"een HTML-stijl-hexgetal zijn of de naam van een kleur zoals ‘red’)."
 
 #: src/org.mate.terminal.gschema.xml.in:108
 msgid "Default color of terminal background"
@@ -256,8 +253,8 @@ msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
 msgstr ""
-"Achtergrondkleur van het terminalvenster, als een kleurspecificatie (kan een"
-" HTML-stijl-hexgetal zijn of de naam van een kleur zoals ‘red’)."
+"Achtergrondkleur van het terminalvenster, als een kleurspecificatie (kan een "
+"HTML-stijl-hexgetal zijn of de naam van een kleur zoals ‘red’)."
 
 #: src/org.mate.terminal.gschema.xml.in:113
 msgid "Default color of bold text in the terminal"
@@ -265,13 +262,13 @@ msgstr "De standaardkleur van vetgedrukte tekst in het terminalvenster"
 
 #: src/org.mate.terminal.gschema.xml.in:114
 msgid ""
-"Default color of bold text in the terminal, as a color specification (can be"
-" HTML-style hex digits, or a color name such as \"red\"). This is ignored if"
-" bold_color_same_as_fg is true."
+"Default color of bold text in the terminal, as a color specification (can be "
+"HTML-style hex digits, or a color name such as \"red\"). This is ignored if "
+"bold_color_same_as_fg is true."
 msgstr ""
 "De standaardkleur van vetgedrukte tekst in het terminalvenster, als een "
-"kleurspecificatie (kan een HTML-stijl-hexgetal zijn of de naam van een kleur"
-" zoals ‘red’). Dit wordt genegeerd als ‘bold_color_same_as_fg’ is "
+"kleurspecificatie (kan een HTML-stijl-hexgetal zijn of de naam van een kleur "
+"zoals ‘red’). Dit wordt genegeerd als ‘bold_color_same_as_fg’ is "
 "ingeschakeld."
 
 #: src/org.mate.terminal.gschema.xml.in:118
@@ -293,8 +290,8 @@ msgstr "Wat te doen met een dynamische titel"
 #: src/org.mate.terminal.gschema.xml.in:124
 msgid ""
 "If the application in the terminal sets the title (most typically people "
-"have their shell set up to do this), the dynamically-set title can erase the"
-" configured title, go before it, go after it, or replace it. The possible "
+"have their shell set up to do this), the dynamically-set title can erase the "
+"configured title, go before it, go after it, or replace it. The possible "
 "values are \"replace\", \"before\", \"after\", and \"ignore\"."
 msgstr ""
 "Als het programma in het terminalvenster de titel instelt (gebruikelijk is "
@@ -318,8 +315,8 @@ msgid ""
 "by or combined with the title set by the application inside the terminal, "
 "depending on the title_mode setting."
 msgstr ""
-"Titel die in in het terminalvenster of tabblad weergegeven moet worden. Deze"
-" titel mag worden vervangen door, of worden gecombineerd met, de titel die "
+"Titel die in in het terminalvenster of tabblad weergegeven moet worden. Deze "
+"titel mag worden vervangen door, of worden gecombineerd met, de titel die "
 "door het programma in het terminalvenster wordt ingesteld, afhankelijk van "
 "de 'title_mode'-instelling."
 
@@ -362,8 +359,8 @@ msgstr "Tekens die beschouwd worden als deel van een woord"
 #: src/org.mate.terminal.gschema.xml.in:149
 msgid ""
 "When selecting text by word, sequences of these characters are considered "
-"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing"
-" a range) should be the first character given."
+"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
+"a range) should be the first character given."
 msgstr ""
 "Wanneer tekst per woord wordt geselecteerd, wordt een reeks van deze tekens "
 "beschouwd als een enkel woord. Reeksen kunnen worden opgegeven als ‘A-Z’. "
@@ -426,8 +423,8 @@ msgstr "Aantal regels dat in de schuifbuffer moet worden gehouden"
 #: src/org.mate.terminal.gschema.xml.in:174
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
-"terminal by this number of lines; lines that don't fit in the scrollback are"
-" discarded. If scrollback_unlimited is true, this value is ignored."
+"terminal by this number of lines; lines that don't fit in the scrollback are "
+"discarded. If scrollback_unlimited is true, this value is ignored."
 msgstr ""
 "Maximaal aantal regels in de schuifbuffer. U kunt dit aantal regels in het "
 "terminalvenster terugschuiven; regels die niet meer in de buffer passen "
@@ -440,9 +437,9 @@ msgstr "Of het aantal regels in de schuifbuffer onbeperkt dient te zijn"
 
 #: src/org.mate.terminal.gschema.xml.in:179
 msgid ""
-"If true, scrollback lines will never be discarded. The scrollback history is"
-" stored on disk temporarily, so this may cause the system to run out of disk"
-" space if there is a lot of output to the terminal."
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
 msgstr ""
 "Indien ingeschakeld, blijft alle uit beeld geschoven terminaluitvoer "
 "bewaard. De geschiedenis wordt tijdelijk op schijf opgeslagen, dus dit zou "
@@ -497,8 +494,7 @@ msgid ""
 "(argv[0] will have a hyphen in front of it.)"
 msgstr ""
 "Indien ingeschakeld zal de opdracht in het terminalvenster gestart worden "
-"als een aanmeldingsschil (er zal een streepje voor argv[0] geplaatst "
-"worden)."
+"als een aanmeldingsschil (er zal een streepje voor argv[0] geplaatst worden)."
 
 #: src/org.mate.terminal.gschema.xml.in:203
 msgid "Whether to run a custom command instead of the shell"
@@ -565,10 +561,10 @@ msgid ""
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. \"#FF00FF\""
 msgstr ""
-"Terminalvensters hebben een 16-kleuren-palet dat gebruikt kan worden door de"
-" toepassing in de terminal. Dit is dat palet, in de vorm van een puntkomma-"
-"gescheiden lijst met kleurnamen. Kleurnamen moeten in hex-formaat zijn. b.v."
-" ‘#FF00FF’."
+"Terminalvensters hebben een 16-kleuren-palet dat gebruikt kan worden door de "
+"toepassing in de terminal. Dit is dat palet, in de vorm van een puntkomma-"
+"gescheiden lijst met kleurnamen. Kleurnamen moeten in hex-formaat zijn. b.v. "
+"‘#FF00FF’."
 
 #: src/org.mate.terminal.gschema.xml.in:233
 msgid "Font"
@@ -577,8 +573,8 @@ msgstr "Lettertype"
 #: src/org.mate.terminal.gschema.xml.in:234
 msgid "An Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
 msgstr ""
-"Een naam van een Pango-lettertype. Voorbeelden: ‘Sans 12’ of ‘Monospace Bold"
-" 14’."
+"Een naam van een Pango-lettertype. Voorbeelden: ‘Sans 12’ of ‘Monospace Bold "
+"14’."
 
 #: src/org.mate.terminal.gschema.xml.in:238
 msgid "Background type"
@@ -637,15 +633,15 @@ msgstr "Het effect van de Backspace-toets"
 
 #: src/org.mate.terminal.gschema.xml.in:259
 msgid ""
-"Sets what code the backspace key generates. Possible values are \"ascii-"
-"del\" for the ASCII DEL character, \"control-h\" for Control-H (AKA the "
-"ASCII BS character), \"escape-sequence\" for the escape sequence typically "
-"bound to backspace or delete. \"ascii-del\" is normally considered the "
-"correct setting for the Backspace key."
+"Sets what code the backspace key generates. Possible values are \"ascii-del"
+"\" for the ASCII DEL character, \"control-h\" for Control-H (AKA the ASCII "
+"BS character), \"escape-sequence\" for the escape sequence typically bound "
+"to backspace or delete. \"ascii-del\" is normally considered the correct "
+"setting for the Backspace key."
 msgstr ""
 "Stelt in welke code de backspace-toets genereert. Mogelijke waarden zijn "
-"‘ascii-del’ voor het ASCII DEL-teken, ‘control-h’ voor Control-H (ook bekend"
-" als ASCII BS-teken), ‘escape-sequence’ voor de escape sequence die "
+"‘ascii-del’ voor het ASCII DEL-teken, ‘control-h’ voor Control-H (ook bekend "
+"als ASCII BS-teken), ‘escape-sequence’ voor de escape sequence die "
 "gebruikelijk is voor backspace of delete. ‘ascii-del’ is normaal gesproken "
 "de goede instelling voor de backspace-toets."
 
@@ -664,8 +660,8 @@ msgstr ""
 "Stelt in welke code de delete-toets genereert. Mogelijk waarden zijn ‘ascii-"
 "del’ voor het ASCII DEL-teken, ‘control-h’ voor Control-H (ook bekend als "
 "het ASCII BS-teken), ‘escape-sequence’ voor de escape sequence die normaal "
-"gesproken verbonden is met backspace of delete. ‘escape-sequence’ is normaal"
-" gesproken de goede instelling voor de delete-toets."
+"gesproken verbonden is met backspace of delete. ‘escape-sequence’ is normaal "
+"gesproken de goede instelling voor de delete-toets."
 
 #: src/org.mate.terminal.gschema.xml.in:268
 msgid "Whether to use the colors from the theme for the terminal widget"
@@ -691,8 +687,8 @@ msgid ""
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
 "Indien ingeschakeld zal het terminalvenster het standaardlettertype van de "
-"werkomgeving overnemen als dit lettertype een vaste breedte heeft (en anders"
-" een lettertype gebruiken dat er veel op lijkt)."
+"werkomgeving overnemen als dit lettertype een vaste breedte heeft (en anders "
+"een lettertype gebruiken dat er veel op lijkt)."
 
 #: src/org.mate.terminal.gschema.xml.in:278
 msgid "Highlight S/Key challenges"
@@ -713,8 +709,8 @@ msgstr "Webadressen laten oplichten onder muispijl"
 
 #: src/org.mate.terminal.gschema.xml.in:284
 msgid ""
-"If true, URLs under mouse pointer are highlighted and can be opened by mouse"
-" click together with control key or used in context menu."
+"If true, URLs under mouse pointer are highlighted and can be opened by mouse "
+"click together with control key or used in context menu."
 msgstr ""
 "Indien waar, lichten webadressen op onder de muispijl en kunnen zij worden "
 "geopend door een muisklik in combinatie met de Ctrl-toets of in het "
@@ -741,8 +737,8 @@ msgstr "Sneltoets voor het openen van een nieuw venster"
 
 #: src/org.mate.terminal.gschema.xml.in:296
 msgid ""
-"Keyboard shortcut key for opening a new window. Expressed as a string in the"
-" same format used for GTK+ resource files. If you set the option to the "
+"Keyboard shortcut key for opening a new window. Expressed as a string in the "
+"same format used for GTK+ resource files. If you set the option to the "
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
@@ -758,13 +754,13 @@ msgstr "Sneltoets voor het creëren van een nieuw profiel."
 msgid ""
 "Keyboard shortcut key for bringing up the dialog for profile creation. "
 "Expressed as a string in the same format used for GTK+ resource files. If "
-"you set the option to the special string \"disabled\", then there will be no"
-" keyboard shortcut for this action."
+"you set the option to the special string \"disabled\", then there will be no "
+"keyboard shortcut for this action."
 msgstr ""
 "Sneltoets voor het openen van het dialoogvenster voor het maken van een "
 "nieuw profiel, uitgedrukt als een tekenreeks in dezelfde opmaak als de GTK+ "
-"resource bestanden. Als de speciale optie ‘disabled’ wordt ingesteld, zal er"
-" geen sneltoets aan deze actie gekoppeld worden."
+"resource bestanden. Als de speciale optie ‘disabled’ wordt ingesteld, zal er "
+"geen sneltoets aan deze actie gekoppeld worden."
 
 #: src/org.mate.terminal.gschema.xml.in:305
 msgid "Keyboard shortcut to save the current tab contents to file"
@@ -779,8 +775,8 @@ msgid ""
 "shortcut for this action."
 msgstr ""
 "Sneltoets voor het opslaan in een bestand van de inhoud van het huidige "
-"tabblad. Uitgevoerd als een tekenreeks in dezelfde opmaak als de "
-"GTK+-resourcebestanden. Als u de optie instelt op ‘disabled’, zal er geen "
+"tabblad. Uitgevoerd als een tekenreeks in dezelfde opmaak als de GTK+-"
+"resourcebestanden. Als u de optie instelt op ‘disabled’, zal er geen "
 "sneltoets zijn voor deze actie."
 
 #: src/org.mate.terminal.gschema.xml.in:310
@@ -791,11 +787,10 @@ msgstr "Sneltoets voor het sluiten van een tabblad"
 msgid ""
 "Keyboard shortcut key for closing a tab. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Sneltoets voor het sluiten van een tabblad. Uitgevoerd als een tekenreeks in"
-" dezelfde opmaak als de GTK+-resourcebestanden. Als u de optie instelt op "
+"Sneltoets voor het sluiten van een tabblad. Uitgevoerd als een tekenreeks in "
+"dezelfde opmaak als de GTK+-resourcebestanden. Als u de optie instelt op "
 "‘disabled’, zal er geen sneltoets zijn voor deze actie."
 
 #: src/org.mate.terminal.gschema.xml.in:315
@@ -809,8 +804,8 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"Sneltoets voor het sluiten van een venster. Uitgevoerd als een tekenreeks in"
-" dezelfde opmaak als de GTK+-resourcebestanden. Als u de optie instelt op "
+"Sneltoets voor het sluiten van een venster. Uitgevoerd als een tekenreeks in "
+"dezelfde opmaak als de GTK+-resourcebestanden. Als u de optie instelt op "
 "‘disabled’, zal er geen sneltoets zijn voor deze actie."
 
 #: src/org.mate.terminal.gschema.xml.in:320
@@ -825,8 +820,8 @@ msgid ""
 "shortcut for this action."
 msgstr ""
 "Sneltoets voor het kopiëren van geselecteerde tekst naar het klembord. "
-"Uitgevoerd als een tekenreeks in dezelfde opmaak als de "
-"GTK+-resourcebestanden. Als u de optie instelt op ‘disabled’, zal er geen "
+"Uitgevoerd als een tekenreeks in dezelfde opmaak als de GTK+-"
+"resourcebestanden. Als u de optie instelt op ‘disabled’, zal er geen "
 "sneltoets zijn voor deze actie."
 
 #: src/org.mate.terminal.gschema.xml.in:325
@@ -858,8 +853,8 @@ msgid ""
 "shortcut for this action."
 msgstr ""
 "Sneltoets voor het kiezen van alle tekst in het terminalvenster. Uitgedrukt "
-"als een tekenreeks in dezelfde opmaak als die, welke wordt gebruikt voor "
-"GTK+ bronbestanden. Wanneer u de optie instelt op de speciale tekenreeks "
+"als een tekenreeks in dezelfde opmaak als die, welke wordt gebruikt voor GTK"
+"+ bronbestanden. Wanneer u de optie instelt op de speciale tekenreeks "
 "'disabled', dan zal er voor deze actie geen sneltoets zijn."
 
 #: src/org.mate.terminal.gschema.xml.in:335
@@ -874,8 +869,8 @@ msgid ""
 "this action."
 msgstr ""
 "Sneltoets om de zoekdialoog te tonen. Uitgedrukt als een tekenreeks in "
-"dezelfde opmaak als die welke wordt gebruikt voor GTK+ bronbestanden. Indien"
-" u de optie instelt op de speciale tekenreeks 'uitgeschakeld', dan zal er "
+"dezelfde opmaak als die welke wordt gebruikt voor GTK+ bronbestanden. Indien "
+"u de optie instelt op de speciale tekenreeks 'uitgeschakeld', dan zal er "
 "geen sneltoets zijn voor deze actie."
 
 #: src/org.mate.terminal.gschema.xml.in:340
@@ -900,14 +895,14 @@ msgstr "Sneltoets om de vorige keer dat een zoekterm vóórkwam, te vinden"
 
 #: src/org.mate.terminal.gschema.xml.in:346
 msgid ""
-"Keyboard shortcut key for finding the previous occurrence of the search term"
-" in the terminal. Expressed as a string in the same format used for GTK+ "
+"Keyboard shortcut key for finding the previous occurrence of the search term "
+"in the terminal. Expressed as a string in the same format used for GTK+ "
 "resource files. If you set the option to the special string \"disabled\", "
 "then there will be no keyboard shortcut for this action."
 msgstr ""
-"Sneltoets om de vorige keer dat een zoekterm vóórkwam, te vinden. Uitgedrukt"
-" als een tekenreeks in dezelfde opmaak als die, welke wordt gebruikt voor "
-"GTK+ bronbestanden. Wanneer u de optie instelt op de speciale tekenreeks "
+"Sneltoets om de vorige keer dat een zoekterm vóórkwam, te vinden. Uitgedrukt "
+"als een tekenreeks in dezelfde opmaak als die, welke wordt gebruikt voor GTK"
+"+ bronbestanden. Wanneer u de optie instelt op de speciale tekenreeks "
 "'disabled', dan zal er voor deze actie geen sneltoets zijn."
 
 #: src/org.mate.terminal.gschema.xml.in:350
@@ -918,8 +913,8 @@ msgstr "Sneltoets voor het omschakelen van schermvullende modus"
 msgid ""
 "Keyboard shortcut key for toggling full screen mode. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "Sneltoets voor het omschakelen van schermvullende modus. Uitgevoerd als een "
 "tekenreeks in dezelfde opmaak als de GTK+-resourcebestanden. Als u de optie "
@@ -952,8 +947,8 @@ msgid ""
 "this action."
 msgstr ""
 "Sneltoets voor het instellen van de titel van het terminalvenster. "
-"Uitgevoerd als een tekenreeks in dezelfde opmaak als de "
-"GTK+-resourcebestanden. Als u de optie instelt op ‘disabled’, zal er geen "
+"Uitgevoerd als een tekenreeks in dezelfde opmaak als de GTK+-"
+"resourcebestanden. Als u de optie instelt op ‘disabled’, zal er geen "
 "sneltoets zijn voor deze actie."
 
 #: src/org.mate.terminal.gschema.xml.in:365
@@ -968,8 +963,8 @@ msgid ""
 "this action."
 msgstr ""
 "Sneltoets voor het terugzetten van het terminalvenster op de "
-"standaardwaarden. Uitgevoerd als een tekenreeks in dezelfde opmaak als de "
-"GTK+-resourcebestanden. Als u de optie instelt op ‘disabled’, zal er geen "
+"standaardwaarden. Uitgevoerd als een tekenreeks in dezelfde opmaak als de GTK"
+"+-resourcebestanden. Als u de optie instelt op ‘disabled’, zal er geen "
 "sneltoets zijn voor deze actie."
 
 #: src/org.mate.terminal.gschema.xml.in:370
@@ -978,14 +973,14 @@ msgstr "Sneltoets voor het terugzetten en leegmaken van het terminalvenster"
 
 #: src/org.mate.terminal.gschema.xml.in:371
 msgid ""
-"Keyboard shortcut key to reset and clear the terminal. Expressed as a string"
-" in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"Keyboard shortcut key to reset and clear the terminal. Expressed as a string "
+"in the same format used for GTK+ resource files. If you set the option to "
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "Sneltoets voor het leegmaken en terugzetten van het terminalvenster. "
-"Uitgevoerd als een tekenreeks in dezelfde opmaak als de "
-"GTK+-resourcebestanden. Als u de optie instelt op ‘disabled’, zal er geen "
+"Uitgevoerd als een tekenreeks in dezelfde opmaak als de GTK+-"
+"resourcebestanden. Als u de optie instelt op ‘disabled’, zal er geen "
 "sneltoets zijn voor deze actie."
 
 #: src/org.mate.terminal.gschema.xml.in:375
@@ -996,8 +991,8 @@ msgstr "Sneltoets voor het schakelen naar het vorige tabblad"
 msgid ""
 "Keyboard shortcut key to switch to the previous tab. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "Sneltoets voor het schakelen naar het vorige tabblad. Uitgevoerd als een "
 "tekenreeks in dezelfde opmaak als de GTK+-resourcebestanden. Als u de optie "
@@ -1041,8 +1036,8 @@ msgstr "Sneltoets voor het schakelen naar het volgende profiel"
 msgid ""
 "Keyboard shortcut key to switch to the next profile. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "Sneltoets voor het schakelen naar het volgende profiel. Uitgevoerd als een "
 "tekenreeks in dezelfde opmaak als de GTK+-resourcebestanden. Als u de optie "
@@ -1060,8 +1055,8 @@ msgid ""
 "action."
 msgstr ""
 "Sneltoets voor het verplaatsen van het huidige tabblad naar links. "
-"Uitgevoerd als een tekenreeks in dezelfde opmaak als de "
-"GTK+-resourcebestanden. Als u de optie instelt op ‘disabled’, zal er geen "
+"Uitgevoerd als een tekenreeks in dezelfde opmaak als de GTK+-"
+"resourcebestanden. Als u de optie instelt op ‘disabled’, zal er geen "
 "sneltoets zijn voor deze actie."
 
 #: src/org.mate.terminal.gschema.xml.in:400
@@ -1076,8 +1071,8 @@ msgid ""
 "action."
 msgstr ""
 "Sneltoets voor het verplaatsen van het huidige tabblad naar rechts. "
-"Uitgevoerd als een tekenreeks in dezelfde opmaak als de "
-"GTK+-resourcebestanden. Als u de optie instelt op ‘disabled’, zal er geen "
+"Uitgevoerd als een tekenreeks in dezelfde opmaak als de GTK+-"
+"resourcebestanden. Als u de optie instelt op ‘disabled’, zal er geen "
 "sneltoets zijn voor deze actie."
 
 #: src/org.mate.terminal.gschema.xml.in:405
@@ -1100,10 +1095,9 @@ msgstr "Sneltoets voor het schakelen naar tabblad 1"
 
 #: src/org.mate.terminal.gschema.xml.in:411
 msgid ""
-"Keyboard shortcut key for switch to tab 1. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 1. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Sneltoets voor het schakelen naar tabblad 1. Uitgevoerd als een tekenreeks "
 "in dezelfde opmaak als de GTK+-resourcebestanden. Als u de optie instelt op "
@@ -1115,10 +1109,9 @@ msgstr "Sneltoets voor het schakelen naar tabblad 2"
 
 #: src/org.mate.terminal.gschema.xml.in:416
 msgid ""
-"Keyboard shortcut key for switch to tab 2. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 2. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Sneltoets voor het schakelen naar tabblad 2. Uitgevoerd als een tekenreeks "
 "in dezelfde opmaak als de GTK+-resourcebestanden. Als u de optie instelt op "
@@ -1130,10 +1123,9 @@ msgstr "Sneltoets voor het schakelen naar tabblad 3"
 
 #: src/org.mate.terminal.gschema.xml.in:421
 msgid ""
-"Keyboard shortcut key for switch to tab 3. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 3. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Sneltoets voor het schakelen naar tabblad 3. Uitgevoerd als een tekenreeks "
 "in dezelfde opmaak als de GTK+-resourcebestanden. Als u de optie instelt op "
@@ -1145,10 +1137,9 @@ msgstr "Sneltoets voor het schakelen naar tabblad 4"
 
 #: src/org.mate.terminal.gschema.xml.in:426
 msgid ""
-"Keyboard shortcut key for switch to tab 4. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 4. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Sneltoets voor het schakelen naar tabblad 4. Uitgevoerd als een tekenreeks "
 "in dezelfde opmaak als de GTK+-resourcebestanden. Als u de optie instelt op "
@@ -1160,10 +1151,9 @@ msgstr "Sneltoets voor het schakelen naar tabblad 5"
 
 #: src/org.mate.terminal.gschema.xml.in:431
 msgid ""
-"Keyboard shortcut key for switch to tab 5. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 5. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Sneltoets voor het schakelen naar tabblad 5. Uitgevoerd als een tekenreeks "
 "in dezelfde opmaak als de GTK+-resourcebestanden. Als u de optie instelt op "
@@ -1175,10 +1165,9 @@ msgstr "Sneltoets voor het schakelen naar tabblad 6"
 
 #: src/org.mate.terminal.gschema.xml.in:436
 msgid ""
-"Keyboard shortcut key for switch to tab 6. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 6. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Sneltoets voor het schakelen naar tabblad 6. Uitgevoerd als een tekenreeks "
 "in dezelfde opmaak als de GTK+-resourcebestanden. Als u de optie instelt op "
@@ -1190,10 +1179,9 @@ msgstr "Sneltoets voor het schakelen naar tabblad 7"
 
 #: src/org.mate.terminal.gschema.xml.in:441
 msgid ""
-"Keyboard shortcut key for switch to tab 7. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 7. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Sneltoets voor het schakelen naar tabblad 7. Uitgevoerd als een tekenreeks "
 "in dezelfde opmaak als de GTK+-resourcebestanden. Als u de optie instelt op "
@@ -1205,10 +1193,9 @@ msgstr "Sneltoets voor het schakelen naar tabblad 8"
 
 #: src/org.mate.terminal.gschema.xml.in:446
 msgid ""
-"Keyboard shortcut key for switch to tab 8. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 8. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Sneltoets voor het schakelen naar tabblad 8. Uitgevoerd als een tekenreeks "
 "in dezelfde opmaak als de GTK+-resourcebestanden. Als u de optie instelt op "
@@ -1220,10 +1207,9 @@ msgstr "Sneltoets voor het schakelen naar tabblad 9"
 
 #: src/org.mate.terminal.gschema.xml.in:451
 msgid ""
-"Keyboard shortcut key for switch to tab 9. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 9. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Sneltoets voor het schakelen naar tabblad 9. Uitgevoerd als een tekenreeks "
 "in dezelfde opmaak als de GTK+-resourcebestanden. Als u de optie instelt op "
@@ -1282,8 +1268,7 @@ msgstr "Sneltoets voor het oproepen van hulptekst"
 msgid ""
 "Keyboard shortcut key for launching help. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Sneltoets voor het oproepen van de hulptekst. Uitgevoerd als een tekenreeks "
 "in dezelfde opmaak als de GTK+-resourcebestanden. Als u de optie instelt op "
@@ -1325,14 +1310,14 @@ msgstr "Sneltoets om lettertype de standaardgrootte te geven"
 
 #: src/org.mate.terminal.gschema.xml.in:486
 msgid ""
-"Keyboard shortcut key for making font the normal size. Expressed as a string"
-" in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"Keyboard shortcut key for making font the normal size. Expressed as a string "
+"in the same format used for GTK+ resource files. If you set the option to "
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "Sneltoets voor het instellen op normale grootte van het lettertype. "
-"Uitgevoerd als een tekenreeks in dezelfde opmaak als de "
-"GTK+-resourcebestanden. Als u de optie instelt op ‘disabled’, zal er geen "
+"Uitgevoerd als een tekenreeks in dezelfde opmaak als de GTK+-"
+"resourcebestanden. Als u de optie instelt op ‘disabled’, zal er geen "
 "sneltoets zijn voor deze actie."
 
 #: src/profile-editor.c:44
@@ -1355,14 +1340,12 @@ msgstr "Groen op zwart"
 msgid "White on black"
 msgstr "Wit op zwart"
 
-#. Translators: "Solarized" is the name of a colour scheme, "light" can be
-#. translated
+#. Translators: "Solarized" is the name of a colour scheme, "light" can be translated
 #: src/profile-editor.c:69
 msgid "Solarized light"
 msgstr "Overbelicht-licht"
 
-#. Translators: "Solarized" is the name of a colour scheme, "dark" can be
-#. translated
+#. Translators: "Solarized" is the name of a colour scheme, "dark" can be translated
 #: src/profile-editor.c:74
 msgid "Solarized dark"
 msgstr "Overbelicht-donker"
@@ -1866,13 +1849,13 @@ msgstr "Schuiven"
 msgid ""
 "<small><i><b>Note:</b> These options may cause some applications to behave "
 "incorrectly.  They are only here to allow you to work around certain "
-"applications and operating systems that expect different terminal "
-"behavior.</i></small>"
+"applications and operating systems that expect different terminal behavior.</"
+"i></small>"
 msgstr ""
 "<small><i><b>Note:</b> Door deze opties kunnen sommige toepassingen "
 "incorrect gedrag vertonen. Ze zijn er slechts zodat u om sommige "
-"toepassingen en besturingssystemen, die een ander terminalgedrag verwachten,"
-" heen kunt werken.</i></small>"
+"toepassingen en besturingssystemen, die een ander terminalgedrag verwachten, "
+"heen kunt werken.</i></small>"
 
 #: src/profile-preferences.ui:2250
 msgid "_Delete key generates:"
@@ -2095,55 +2078,55 @@ msgstr "_Actie"
 msgid "Shortcut _Key"
 msgstr "_Sneltoets"
 
-#: src/terminal-app.c:523
+#: src/terminal-app.c:525
 msgid "Click button to choose profile"
 msgstr "Klik op de knop om een profiel te kiezen"
 
-#: src/terminal-app.c:606
+#: src/terminal-app.c:608
 msgid "Profile list"
 msgstr "Profielenlijst"
 
-#: src/terminal-app.c:683
+#: src/terminal-app.c:685
 #, c-format
 msgid "Delete profile “%s”?"
 msgstr "Profiel ‘%s’ verwijderen?"
 
-#: src/terminal-app.c:687
+#: src/terminal-app.c:689
 msgid "_Cancel"
 msgstr "_Annuleren"
 
-#: src/terminal-app.c:692
+#: src/terminal-app.c:694
 msgid "_Delete"
 msgstr "Verwij_deren"
 
-#: src/terminal-app.c:699
+#: src/terminal-app.c:701
 msgid "Delete Profile"
 msgstr "Profiel verwijderen"
 
-#: src/terminal-app.c:1146
+#: src/terminal-app.c:1148
 #, c-format
 msgid ""
 "You already have a profile called “%s”. Do you want to create another "
 "profile with the same name?"
 msgstr ""
-"U heeft al een profiel met de naam ‘%s’. Wilt u nog een profiel aanmaken met"
-" dezelfde naam?"
+"U heeft al een profiel met de naam ‘%s’. Wilt u nog een profiel aanmaken met "
+"dezelfde naam?"
 
-#: src/terminal-app.c:1241
+#: src/terminal-app.c:1243
 msgid "Choose base profile"
 msgstr "Kies basisprofiel"
 
-#: src/terminal-app.c:1828
+#: src/terminal-app.c:1830
 #, c-format
 msgid "No such profile \"%s\", using default profile\n"
 msgstr "Profiel '%s' bestaat niet, standaardprofiel wordt gebruikt\n"
 
-#: src/terminal-app.c:1855
+#: src/terminal-app.c:1857
 #, c-format
 msgid "Invalid geometry string \"%s\"\n"
 msgstr "Ongeldige afmetingen-tekenreeks ‘%s’\n"
 
-#: src/terminal-app.c:2061
+#: src/terminal-app.c:2063
 msgid "User Defined"
 msgstr "Gebruiker-gedefinieerd"
 
@@ -2289,15 +2272,15 @@ msgstr "Vietnamees"
 msgid "Thai"
 msgstr "Thais"
 
-#: src/terminal-encoding.c:506 src/terminal-encoding.c:531
+#: src/terminal-encoding.c:503 src/terminal-encoding.c:528
 msgid "_Description"
 msgstr "Omschrij_ving"
 
-#: src/terminal-encoding.c:515 src/terminal-encoding.c:540
+#: src/terminal-encoding.c:512 src/terminal-encoding.c:537
 msgid "_Encoding"
 msgstr "_Codering"
 
-#: src/terminal-encoding.c:598
+#: src/terminal-encoding.c:595
 msgid "Current Locale"
 msgstr "Huidige lokalisatie (taalinstelling)"
 
@@ -2309,8 +2292,8 @@ msgid ""
 "profile' option\n"
 msgstr ""
 "Optie ‘%s’ optie wordt niet langer ondersteund in deze versie van mate-"
-"terminal; u kunt een profiel creëren met de gewenste instelling en de nieuwe"
-" ‘--window-with-profile’ optie gebruiken.\n"
+"terminal; u kunt een profiel creëren met de gewenste instelling en de nieuwe "
+"‘--window-with-profile’ optie gebruiken.\n"
 
 #: src/terminal-options.c:209
 #, c-format
@@ -2347,8 +2330,8 @@ msgid ""
 "Option \"%s\" requires specifying the command to run on the rest of the "
 "command line"
 msgstr ""
-"Optie ‘%s’ vereist het opgeven van een uit te voeren opdracht op het restant"
-" van de opdrachtregel"
+"Optie ‘%s’ vereist het opgeven van een uit te voeren opdracht op het restant "
+"van de opdrachtregel"
 
 #: src/terminal-options.c:812
 msgid "Not a valid terminal config file."
@@ -2485,8 +2468,8 @@ msgid ""
 "Window options; if used before the first --window or --tab argument, sets "
 "the default for all windows:"
 msgstr ""
-"Vensteropties; wanneer gebruikt voor het eerste ‘--window’- of "
-"‘--tab’-argument, verandert de standaardinstelling voor alle vensters:"
+"Vensteropties; wanneer gebruikt voor het eerste ‘--window’- of ‘--tab’-"
+"argument, verandert de standaardinstelling voor alle vensters:"
 
 #: src/terminal-options.c:1389
 msgid "Show per-window options"
@@ -2497,9 +2480,8 @@ msgid ""
 "Terminal options; if used before the first --window or --tab argument, sets "
 "the default for all terminals:"
 msgstr ""
-"Terminalvensteropties; wanneer gebruikt voor het eerste ‘--window’- of "
-"‘--tab’-argument, verandert de standaardinstelling voor alle "
-"terminalvensters:"
+"Terminalvensteropties; wanneer gebruikt voor het eerste ‘--window’- of ‘--"
+"tab’-argument, verandert de standaardinstelling voor alle terminalvensters:"
 
 #: src/terminal-options.c:1398
 msgid "Show per-terminal options"
@@ -2509,31 +2491,31 @@ msgstr "Per-terminalvenster-opties tonen"
 msgid "Unnamed"
 msgstr "Naamloos"
 
-#: src/terminal-screen.c:1520
+#: src/terminal-screen.c:1521
 msgid "_Profile Preferences"
 msgstr "_Profielvoorkeuren"
 
-#: src/terminal-screen.c:1521 src/terminal-screen.c:1966
+#: src/terminal-screen.c:1522 src/terminal-screen.c:1964
 msgid "_Relaunch"
 msgstr "_Opnieuw starten"
 
-#: src/terminal-screen.c:1524
+#: src/terminal-screen.c:1525
 msgid "There was an error creating the child process for this terminal"
 msgstr ""
 "Er is een fout opgetreden bij het aanmaken van het dochterproces voor dit "
 "terminalvenster"
 
-#: src/terminal-screen.c:1971
+#: src/terminal-screen.c:1969
 #, c-format
 msgid "The child process exited normally with status %d."
 msgstr "Het dochterproces eindigde normaal met status %d."
 
-#: src/terminal-screen.c:1976
+#: src/terminal-screen.c:1974
 #, c-format
 msgid "The child process was terminated by signal %d."
 msgstr "Het dochterproces werd beëindigd door signaal %d."
 
-#: src/terminal-screen.c:1981
+#: src/terminal-screen.c:1979
 msgid "The child process was terminated."
 msgstr "Het dochterproces werd beëindigd."
 
@@ -2561,36 +2543,37 @@ msgid ""
 "Software Foundation; either version 3 of the License, or (at your option) "
 "any later version."
 msgstr ""
-"MATE Terminalvenster is free software; you can redistribute it and/or modify"
-" it under the terms of the GNU General Public License as published by the "
+"MATE Terminalvenster is free software; you can redistribute it and/or modify "
+"it under the terms of the GNU General Public License as published by the "
 "Free Software Foundation; either version 3 of the License, or (at your "
 "option) any later version."
 
 #: src/terminal-util.c:329
 msgid ""
-"MATE Terminal is distributed in the hope that it will be useful, but WITHOUT"
-" ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"MATE Terminal is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
 msgstr ""
-"Mate terminal is distributed in the hope that it will be useful, but WITHOUT"
-" ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"Mate terminal is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
 
 #: src/terminal-util.c:333
 msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
+"You should have received a copy of the GNU General Public License along with "
+"MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
 msgstr ""
-"You should have received a copy of the GNU General Public License along with"
-" Mate terminal; if not, write to the Free Software Foundation, Inc., 51 "
+"You should have received a copy of the GNU General Public License along with "
+"Mate terminal; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
 
 #. Translators: This is the label of a menu item to choose a profile.
 #. * _%d is used as the accelerator (with d between 1 and 9), and
 #. * the %s is the name of the terminal profile.
+#.
 #: src/terminal-window.c:618
 #, c-format
 msgid "_%d. %s"
@@ -2599,6 +2582,7 @@ msgstr "_%d. %s"
 #. Translators: This is the label of a menu item to choose a profile.
 #. * _%c is used as the accelerator (it will be a character between A and Z),
 #. * and the %s is the name of the terminal profile.
+#.
 #: src/terminal-window.c:624
 #, c-format
 msgid "_%c. %s"
@@ -2840,8 +2824,8 @@ msgstr ""
 
 #: src/terminal-window.c:3621
 msgid ""
-"There is still a process running in this terminal. Closing the terminal will"
-" kill it."
+"There is still a process running in this terminal. Closing the terminal will "
+"kill it."
 msgstr ""
 "In een van de terminals draait nog een actief proces. Bij het sluiten van "
 "het terminalvenster zal dit afgebroken worden."
@@ -2874,15 +2858,23 @@ msgstr "Opslaan als…"
 msgid "_Title:"
 msgstr "_Titel:"
 
-#: src/terminal-window.c:4449
+#: src/terminal-window.c:4450
 msgid "Contributors:"
 msgstr "Bijdragers:"
 
-#: src/terminal-window.c:4468
+#: src/terminal-window.c:4466
+#, fuzzy, c-format
+#| msgid "A terminal emulator for the MATE desktop"
+msgid ""
+"A terminal emulator for the MATE desktop\n"
+"Using VTE %d.%d.%d"
+msgstr "Een terminalvenster voor de MATE-werkomgeving"
+
+#: src/terminal-window.c:4472
 msgid "About MATE Terminal"
 msgstr "Over MATE Terminal"
 
-#: src/terminal-window.c:4469
+#: src/terminal-window.c:4473
 msgid ""
 "Copyright © 2002–2004 Havoc Pennington\n"
 "Copyright © 2003–2004, 2007 Mariano Suárez-Alvarez\n"
@@ -2898,11 +2890,7 @@ msgstr ""
 "Auteursrecht © 2011 Perberos\n"
 "Auteursrecht © 2012-2020 MATE-ontwikkelaars"
 
-#: src/terminal-window.c:4475
-msgid "A terminal emulator for the MATE desktop"
-msgstr "Een terminalvenster voor de MATE-werkomgeving"
-
-#: src/terminal-window.c:4481
+#: src/terminal-window.c:4485
 msgid "translator-credits"
 msgstr ""
 "Launchpad-bijdragers:\n"

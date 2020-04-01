@@ -2,7 +2,7 @@
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-terminal package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Дмитрий Михирев, 2018
 # Victor Kukshiev <andrey0bolkonsky@gmail.com>, 2018
@@ -16,23 +16,25 @@
 # Andreï Victorovitch Kostyrka, 2018
 # Dmitriy Kulikov <kulikov@dima.perm.ru>, 2018
 # Alex Putz, 2018
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-terminal 1.23\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-terminal/issues\n"
-"POT-Creation-Date: 2020-01-13 14:52+0100\n"
+"POT-Creation-Date: 2020-04-01 03:44-0400\n"
 "PO-Revision-Date: 2018-03-12 08:42+0000\n"
 "Last-Translator: Alex Putz, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/mate/teams/13566/ru/)\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #: mate-terminal.appdata.xml.in:7 mate-terminal.desktop.in.in:3
-#: src/terminal-options.c:189 src/terminal-window.c:4466
+#: src/terminal-options.c:189 src/terminal-window.c:4470
 msgid "MATE Terminal"
 msgstr "Терминал MATE"
 
@@ -42,8 +44,8 @@ msgstr "Эмулятор терминала для рабочего стола M
 
 #: mate-terminal.appdata.xml.in:10
 msgid ""
-"MATE Terminal is a terminal emulation application that you can use to access"
-" a UNIX shell in the MATE environment. MATE Terminal emulates the xterm "
+"MATE Terminal is a terminal emulation application that you can use to access "
+"a UNIX shell in the MATE environment. MATE Terminal emulates the xterm "
 "program developed by the X Consortium. It supports translucent backgrounds, "
 "opening multiple terminals in a single window (tabs) and clickable URLs."
 msgstr ""
@@ -64,8 +66,7 @@ msgstr "Терминал"
 msgid "Use the command line"
 msgstr "Использовать командную строку"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: mate-terminal.desktop.in.in:9
 msgid "utilities-terminal"
 msgstr ""
@@ -116,8 +117,7 @@ msgstr "Профиль, используемый для новых термин�
 
 #: src/org.mate.terminal.gschema.xml.in:55
 msgid ""
-"Profile to be used when opening a new window or tab. Must be in "
-"profile_list."
+"Profile to be used when opening a new window or tab. Must be in profile_list."
 msgstr ""
 "Профиль, используемый при открытии нового окна или вкладки. Должен быть в "
 "profile_list."
@@ -129,8 +129,8 @@ msgstr "Имеет ли панель меню клавиши доступа"
 #: src/org.mate.terminal.gschema.xml.in:60
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
-"with some applications run inside the terminal so it's possible to turn them"
-" off."
+"with some applications run inside the terminal so it's possible to turn them "
+"off."
 msgstr ""
 "Использовать ли комбинации клавиш Alt+буква для доступа к меню. Эта функция "
 "может мешать работе некоторых приложений внутри терминала, в этом случае ее "
@@ -194,8 +194,8 @@ msgstr "Переключать вкладки [Ctrl]+[Tab]"
 
 #: src/org.mate.terminal.gschema.xml.in:85
 msgid ""
-"If true, it enables the ability to switch tabs using [Ctrl+Tab] and "
-"[Ctrl+Shift+Tab]."
+"If true, it enables the ability to switch tabs using [Ctrl+Tab] and [Ctrl"
+"+Shift+Tab]."
 msgstr ""
 "Если включено, позволяет переключаться между вкладками с помощью комбинации "
 "клавиш [Ctrl+Tab] и [Ctrl+Shift+Tab]."
@@ -231,8 +231,8 @@ msgstr "Цвет текста в терминале по умолчанию"
 
 #: src/org.mate.terminal.gschema.xml.in:104
 msgid ""
-"Default color of text in the terminal, as a color specification (can be "
-"HTML-style hex digits, or a color name such as \"red\")."
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
 msgstr ""
 "Цвет текста в терминале по умолчанию (может быть в шестнадцатеричном HTML-"
 "стиле или названием цвета, например, «red»)."
@@ -255,9 +255,9 @@ msgstr "Цвет полужирного текста в терминале по 
 
 #: src/org.mate.terminal.gschema.xml.in:114
 msgid ""
-"Default color of bold text in the terminal, as a color specification (can be"
-" HTML-style hex digits, or a color name such as \"red\"). This is ignored if"
-" bold_color_same_as_fg is true."
+"Default color of bold text in the terminal, as a color specification (can be "
+"HTML-style hex digits, or a color name such as \"red\"). This is ignored if "
+"bold_color_same_as_fg is true."
 msgstr ""
 "Цвет полужирного текста в терминале по умолчанию (может быть в "
 "шестнадцатеричном HTML-стиле или названием цвета, например, «red»). "
@@ -281,12 +281,12 @@ msgstr "Что делать с динамическим заголовком"
 #: src/org.mate.terminal.gschema.xml.in:124
 msgid ""
 "If the application in the terminal sets the title (most typically people "
-"have their shell set up to do this), the dynamically-set title can erase the"
-" configured title, go before it, go after it, or replace it. The possible "
+"have their shell set up to do this), the dynamically-set title can erase the "
+"configured title, go before it, go after it, or replace it. The possible "
 "values are \"replace\", \"before\", \"after\", and \"ignore\"."
 msgstr ""
-"Если приложение в терминале задаёт заголовок (как правило, у людей командная"
-" оболочка настроена на это), динамически-задаваемый заголовок может стереть "
+"Если приложение в терминале задаёт заголовок (как правило, у людей командная "
+"оболочка настроена на это), динамически-задаваемый заголовок может стереть "
 "настроенный, быть до или после него или заменить. Возможные значения: "
 "\"replace\", \"before\", \"after\", and \"ignore\"."
 
@@ -347,8 +347,8 @@ msgstr "Символы, считающиеся «частью слова»"
 #: src/org.mate.terminal.gschema.xml.in:149
 msgid ""
 "When selecting text by word, sequences of these characters are considered "
-"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing"
-" a range) should be the first character given."
+"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
+"a range) should be the first character given."
 msgstr ""
 "При выборе текста по словам последовательности этих символов воспринимается "
 "как отдельные слова. Диапазоны могут быть указаны как «A-Z». Знак переноса "
@@ -357,8 +357,7 @@ msgstr ""
 #: src/org.mate.terminal.gschema.xml.in:153
 msgid "Whether to use custom terminal size for new windows"
 msgstr ""
-"Использовать ли заданный пользователем размер для создаваемых окон "
-"терминалов"
+"Использовать ли заданный пользователем размер для создаваемых окон терминалов"
 
 #: src/org.mate.terminal.gschema.xml.in:154
 msgid ""
@@ -389,8 +388,8 @@ msgid ""
 "Number of rows in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
 msgstr ""
-"Количество строк в создаваемых окнах терминалов. Используется при включённом"
-" use_custom_default_size."
+"Количество строк в создаваемых окнах терминалов. Используется при включённом "
+"use_custom_default_size."
 
 #: src/org.mate.terminal.gschema.xml.in:168
 msgid "Position of the scrollbar"
@@ -401,8 +400,8 @@ msgid ""
 "Where to put the terminal scrollbar. Possibilities are \"left\", \"right\", "
 "and \"hidden\"."
 msgstr ""
-"Размещение линейки прокрутки терминала. Возможные варианты «left», «right» и"
-" «hidden»."
+"Размещение линейки прокрутки терминала. Возможные варианты «left», «right» и "
+"«hidden»."
 
 #: src/org.mate.terminal.gschema.xml.in:173
 msgid "Number of lines to keep in scrollback"
@@ -411,11 +410,11 @@ msgstr "Количество строк в буфере прокрутки"
 #: src/org.mate.terminal.gschema.xml.in:174
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
-"terminal by this number of lines; lines that don't fit in the scrollback are"
-" discarded. If scrollback_unlimited is true, this value is ignored."
+"terminal by this number of lines; lines that don't fit in the scrollback are "
+"discarded. If scrollback_unlimited is true, this value is ignored."
 msgstr ""
-"Количество строк, сохраняемых в буфере прокрутки. Вы можете прокрутить вывод"
-" терминала назад на это количество строк, при превышении этого количества "
+"Количество строк, сохраняемых в буфере прокрутки. Вы можете прокрутить вывод "
+"терминала назад на это количество строк, при превышении этого количества "
 "самые старые строки отбрасываются. Если scrollback_unlimited равно true, то "
 "это значение игнорируется."
 
@@ -425,9 +424,9 @@ msgstr "Включение в буфере прокрутки бесконечн
 
 #: src/org.mate.terminal.gschema.xml.in:179
 msgid ""
-"If true, scrollback lines will never be discarded. The scrollback history is"
-" stored on disk temporarily, so this may cause the system to run out of disk"
-" space if there is a lot of output to the terminal."
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
 msgstr ""
 "Если включено, то перемотанные строки не будут отбрасываться. Они будут "
 "временно сохраняться на диск, что при большом количестве вывода в терминал "
@@ -529,8 +528,7 @@ msgstr "Значок окна терминала"
 
 #: src/org.mate.terminal.gschema.xml.in:224
 msgid "Icon to use for tabs/windows containing this profile."
-msgstr ""
-"Значок для использования во вкладках/окнах, содержащих данный профиль."
+msgstr "Значок для использования во вкладках/окнах, содержащих данный профиль."
 
 #: src/org.mate.terminal.gschema.xml.in:228
 msgid "Palette for terminal applications"
@@ -587,8 +585,8 @@ msgid ""
 "keep the image in a fixed position and scroll the text above it."
 msgstr ""
 "Если включено, перематывать фоновое изображение вместе с текстом. Если "
-"выключено, оставить изображение в фиксированной позиции и перематывать текст"
-" поверх него."
+"выключено, оставить изображение в фиксированной позиции и перематывать текст "
+"поверх него."
 
 #: src/org.mate.terminal.gschema.xml.in:253
 msgid "How much to darken the background image"
@@ -612,15 +610,15 @@ msgstr "Действие клавиши «Backspace»"
 
 #: src/org.mate.terminal.gschema.xml.in:259
 msgid ""
-"Sets what code the backspace key generates. Possible values are \"ascii-"
-"del\" for the ASCII DEL character, \"control-h\" for Control-H (AKA the "
-"ASCII BS character), \"escape-sequence\" for the escape sequence typically "
-"bound to backspace or delete. \"ascii-del\" is normally considered the "
-"correct setting for the Backspace key."
+"Sets what code the backspace key generates. Possible values are \"ascii-del"
+"\" for the ASCII DEL character, \"control-h\" for Control-H (AKA the ASCII "
+"BS character), \"escape-sequence\" for the escape sequence typically bound "
+"to backspace or delete. \"ascii-del\" is normally considered the correct "
+"setting for the Backspace key."
 msgstr ""
 "Устанавливает, какой код генерирует клавиша «Backspace». Возможные значения "
-"- «ascii-del» (ASCII DEL), «control-h» (ASCII BS), «escape-sequence» "
-"(escape-последовательность, обычно соответствующая клавишам «Backspace» или "
+"- «ascii-del» (ASCII DEL), «control-h» (ASCII BS), «escape-sequence» (escape-"
+"последовательность, обычно соответствующая клавишам «Backspace» или "
 "«Delete»). Рекомендуется установить значение «ascii-del»."
 
 #: src/org.mate.terminal.gschema.xml.in:263
@@ -682,8 +680,8 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:284
 msgid ""
-"If true, URLs under mouse pointer are highlighted and can be opened by mouse"
-" click together with control key or used in context menu."
+"If true, URLs under mouse pointer are highlighted and can be opened by mouse "
+"click together with control key or used in context menu."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:290
@@ -707,8 +705,8 @@ msgstr "Комбинация клавиш для открытия нового �
 
 #: src/org.mate.terminal.gschema.xml.in:296
 msgid ""
-"Keyboard shortcut key for opening a new window. Expressed as a string in the"
-" same format used for GTK+ resource files. If you set the option to the "
+"Keyboard shortcut key for opening a new window. Expressed as a string in the "
+"same format used for GTK+ resource files. If you set the option to the "
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
@@ -724,8 +722,8 @@ msgstr "Комбинация клавиш для создания нового �
 msgid ""
 "Keyboard shortcut key for bringing up the dialog for profile creation. "
 "Expressed as a string in the same format used for GTK+ resource files. If "
-"you set the option to the special string \"disabled\", then there will be no"
-" keyboard shortcut for this action."
+"you set the option to the special string \"disabled\", then there will be no "
+"keyboard shortcut for this action."
 msgstr ""
 "Комбинация клавиш для вызова диалога создания профиля. Указывается в виде "
 "строки в формате файлов ресурсов GTK+. Если установить специальное значение "
@@ -742,8 +740,8 @@ msgid ""
 "option to the special string \"disabled\", then there will be no keyboard "
 "shortcut for this action."
 msgstr ""
-"Комбинация клавиш для записи содержимого текущей вкладки в файл. Указывается"
-" в виде строки в формате файлов ресурсов GTK+. Если установить специальное "
+"Комбинация клавиш для записи содержимого текущей вкладки в файл. Указывается "
+"в виде строки в формате файлов ресурсов GTK+. Если установить специальное "
 "значение «Выключено», для этого действия не будет комбинации клавиш."
 
 #: src/org.mate.terminal.gschema.xml.in:310
@@ -754,8 +752,7 @@ msgstr "Комбинация клавиш для закрытия вкладки
 msgid ""
 "Keyboard shortcut key for closing a tab. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Комбинация клавиш для закрытия вкладки. Указывается в виде строки в формате "
 "файлов ресурсов GTK+. Если установить специальное значение «Выключено», для "
@@ -862,8 +859,8 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:346
 msgid ""
-"Keyboard shortcut key for finding the previous occurrence of the search term"
-" in the terminal. Expressed as a string in the same format used for GTK+ "
+"Keyboard shortcut key for finding the previous occurrence of the search term "
+"in the terminal. Expressed as a string in the same format used for GTK+ "
 "resource files. If you set the option to the special string \"disabled\", "
 "then there will be no keyboard shortcut for this action."
 msgstr ""
@@ -880,12 +877,12 @@ msgstr "Комбинация клавиш для переключения в п�
 msgid ""
 "Keyboard shortcut key for toggling full screen mode. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
-"Комбинация клавиш для переключения полноэкранного режима. Указывается в виде"
-" строки в формате файлов ресурсов GTK+. Если установить специальное значение"
-" «Выключено», для этого действия не будет комбинации клавиш."
+"Комбинация клавиш для переключения полноэкранного режима. Указывается в виде "
+"строки в формате файлов ресурсов GTK+. Если установить специальное значение "
+"«Выключено», для этого действия не будет комбинации клавиш."
 
 #: src/org.mate.terminal.gschema.xml.in:355
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
@@ -898,9 +895,9 @@ msgid ""
 "option to the special string \"disabled\", then there will be no keyboard "
 "shortcut for this action."
 msgstr ""
-"Комбинация клавиш для переключения видимости строки меню. Указывается в виде"
-" строки в формате файлов ресурсов GTK+. Если установить специальное значение"
-" «Выключено», для этого действия не будет комбинации клавиш."
+"Комбинация клавиш для переключения видимости строки меню. Указывается в виде "
+"строки в формате файлов ресурсов GTK+. Если установить специальное значение "
+"«Выключено», для этого действия не будет комбинации клавиш."
 
 #: src/org.mate.terminal.gschema.xml.in:360
 msgid "Keyboard shortcut to set the terminal title"
@@ -938,10 +935,10 @@ msgstr "Комбинация клавиш для сброса и очистки 
 
 #: src/org.mate.terminal.gschema.xml.in:371
 msgid ""
-"Keyboard shortcut key to reset and clear the terminal. Expressed as a string"
-" in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"Keyboard shortcut key to reset and clear the terminal. Expressed as a string "
+"in the same format used for GTK+ resource files. If you set the option to "
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "Комбинация клавиш для сброса и очистки терминала. Указывается в виде строки "
 "в формате файлов ресурсов GTK+. Если установить специальное значение "
@@ -955,12 +952,12 @@ msgstr "Комбинация клавиш для переключения на �
 msgid ""
 "Keyboard shortcut key to switch to the previous tab. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
-"Комбинация клавиш для переключения на предыдущую вкладку. Указывается в виде"
-" строки в формате файлов ресурсов GTK+. Если установить специальное значение"
-" «Выключено», для этого действия не будет комбинации клавиш."
+"Комбинация клавиш для переключения на предыдущую вкладку. Указывается в виде "
+"строки в формате файлов ресурсов GTK+. Если установить специальное значение "
+"«Выключено», для этого действия не будет комбинации клавиш."
 
 #: src/org.mate.terminal.gschema.xml.in:380
 msgid "Keyboard shortcut to switch to the next tab"
@@ -988,9 +985,9 @@ msgid ""
 "option to the special string \"disabled\", then there will be no keyboard "
 "shortcut for this action."
 msgstr ""
-"Комбинация клавиш для переключения на предыдущий профиль. Указывается в виде"
-" строки в формате файлов ресурсов GTK+. Если установить специальное значение"
-" «Выключено», для этого действия не будет комбинации клавиш."
+"Комбинация клавиш для переключения на предыдущий профиль. Указывается в виде "
+"строки в формате файлов ресурсов GTK+. Если установить специальное значение "
+"«Выключено», для этого действия не будет комбинации клавиш."
 
 #: src/org.mate.terminal.gschema.xml.in:390
 msgid "Keyboard shortcut to switch to the next profile"
@@ -1000,8 +997,8 @@ msgstr "Комбинация клавиш для переключения на �
 msgid ""
 "Keyboard shortcut key to switch to the next profile. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "Комбинация клавиш для переключения на следующий профиль. Указывается в виде "
 "строки в формате файлов ресурсов GTK+. Если установить специальное значение "
@@ -1033,9 +1030,9 @@ msgid ""
 "the special string \"disabled\", then there will be no keybinding for this "
 "action."
 msgstr ""
-"Комбинация клавиш для перемещения текущей вкладки вправо. Указывается в виде"
-" строки в формате файлов ресурсов GTK+. Если установить специальное значение"
-" «Выключено», то для этого действия не будет комбинации клавиш."
+"Комбинация клавиш для перемещения текущей вкладки вправо. Указывается в виде "
+"строки в формате файлов ресурсов GTK+. Если установить специальное значение "
+"«Выключено», то для этого действия не будет комбинации клавиш."
 
 #: src/org.mate.terminal.gschema.xml.in:405
 msgid "Accelerator to detach current tab."
@@ -1047,8 +1044,8 @@ msgid ""
 "format used for GTK+ resource files. If you set the option to the special "
 "string \"disabled\", then there will be no keybinding for this action."
 msgstr ""
-"Комбинация клавиш для отделения текущей вкладки. Указывается в виде строки в"
-" формате файлов ресурсов GTK+. Если установить специальное значение "
+"Комбинация клавиш для отделения текущей вкладки. Указывается в виде строки в "
+"формате файлов ресурсов GTK+. Если установить специальное значение "
 "«Выключено», то для этого действия не будет комбинации клавиш."
 
 #: src/org.mate.terminal.gschema.xml.in:410
@@ -1057,13 +1054,12 @@ msgstr "Комбинация клавиш для переключения на �
 
 #: src/org.mate.terminal.gschema.xml.in:411
 msgid ""
-"Keyboard shortcut key for switch to tab 1. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 1. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Комбинация клавиш для переключения на вкладку 1. Указывается в виде строки в"
-" формате файлов ресурсов GTK+. Если установить специальное значение "
+"Комбинация клавиш для переключения на вкладку 1. Указывается в виде строки в "
+"формате файлов ресурсов GTK+. Если установить специальное значение "
 "«Выключено», для этого действия не будет комбинации клавиш."
 
 #: src/org.mate.terminal.gschema.xml.in:415
@@ -1072,13 +1068,12 @@ msgstr "Комбинация клавиш для переключения на �
 
 #: src/org.mate.terminal.gschema.xml.in:416
 msgid ""
-"Keyboard shortcut key for switch to tab 2. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 2. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Комбинация клавиш для переключения на вкладку 2. Указывается в виде строки в"
-" формате файлов ресурсов GTK+. Если установить специальное значение "
+"Комбинация клавиш для переключения на вкладку 2. Указывается в виде строки в "
+"формате файлов ресурсов GTK+. Если установить специальное значение "
 "«Выключено», для этого действия не будет комбинации клавиш."
 
 #: src/org.mate.terminal.gschema.xml.in:420
@@ -1087,13 +1082,12 @@ msgstr "Комбинация клавиш для переключения на �
 
 #: src/org.mate.terminal.gschema.xml.in:421
 msgid ""
-"Keyboard shortcut key for switch to tab 3. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 3. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Комбинация клавиш для переключения на вкладку 3. Указывается в виде строки в"
-" формате файлов ресурсов GTK+. Если установить специальное значение "
+"Комбинация клавиш для переключения на вкладку 3. Указывается в виде строки в "
+"формате файлов ресурсов GTK+. Если установить специальное значение "
 "«Выключено», для этого действия не будет комбинации клавиш."
 
 #: src/org.mate.terminal.gschema.xml.in:425
@@ -1102,13 +1096,12 @@ msgstr "Комбинация клавиш для переключения на �
 
 #: src/org.mate.terminal.gschema.xml.in:426
 msgid ""
-"Keyboard shortcut key for switch to tab 4. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 4. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Комбинация клавиш для переключения на вкладку 4. Указывается в виде строки в"
-" формате файлов ресурсов GTK+. Если установить специальное значение "
+"Комбинация клавиш для переключения на вкладку 4. Указывается в виде строки в "
+"формате файлов ресурсов GTK+. Если установить специальное значение "
 "«Выключено», для этого действия не будет комбинации клавиш."
 
 #: src/org.mate.terminal.gschema.xml.in:430
@@ -1117,13 +1110,12 @@ msgstr "Комбинация клавиш для переключения на �
 
 #: src/org.mate.terminal.gschema.xml.in:431
 msgid ""
-"Keyboard shortcut key for switch to tab 5. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 5. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Комбинация клавиш для переключения на вкладку 5. Указывается в виде строки в"
-" формате файлов ресурсов GTK+. Если установить специальное значение "
+"Комбинация клавиш для переключения на вкладку 5. Указывается в виде строки в "
+"формате файлов ресурсов GTK+. Если установить специальное значение "
 "«Выключено», для этого действия не будет комбинации клавиш."
 
 #: src/org.mate.terminal.gschema.xml.in:435
@@ -1132,13 +1124,12 @@ msgstr "Комбинация клавиш для переключения на �
 
 #: src/org.mate.terminal.gschema.xml.in:436
 msgid ""
-"Keyboard shortcut key for switch to tab 6. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 6. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Комбинация клавиш для переключения на вкладку 6. Указывается в виде строки в"
-" формате файлов ресурсов GTK+. Если установить специальное значение "
+"Комбинация клавиш для переключения на вкладку 6. Указывается в виде строки в "
+"формате файлов ресурсов GTK+. Если установить специальное значение "
 "«Выключено», для этого действия не будет комбинации клавиш."
 
 #: src/org.mate.terminal.gschema.xml.in:440
@@ -1147,13 +1138,12 @@ msgstr "Комбинация клавиш для переключения на �
 
 #: src/org.mate.terminal.gschema.xml.in:441
 msgid ""
-"Keyboard shortcut key for switch to tab 7. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 7. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Комбинация клавиш для переключения на вкладку 7. Указывается в виде строки в"
-" формате файлов ресурсов GTK+. Если установить специальное значение "
+"Комбинация клавиш для переключения на вкладку 7. Указывается в виде строки в "
+"формате файлов ресурсов GTK+. Если установить специальное значение "
 "«Выключено», для этого действия не будет комбинации клавиш."
 
 #: src/org.mate.terminal.gschema.xml.in:445
@@ -1162,13 +1152,12 @@ msgstr "Комбинация клавиш для переключения на �
 
 #: src/org.mate.terminal.gschema.xml.in:446
 msgid ""
-"Keyboard shortcut key for switch to tab 8. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 8. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Комбинация клавиш для переключения на вкладку 8. Указывается в виде строки в"
-" формате файлов ресурсов GTK+. Если установить специальное значение "
+"Комбинация клавиш для переключения на вкладку 8. Указывается в виде строки в "
+"формате файлов ресурсов GTK+. Если установить специальное значение "
 "«Выключено», для этого действия не будет комбинации клавиш."
 
 #: src/org.mate.terminal.gschema.xml.in:450
@@ -1177,13 +1166,12 @@ msgstr "Комбинация клавиш для переключения на �
 
 #: src/org.mate.terminal.gschema.xml.in:451
 msgid ""
-"Keyboard shortcut key for switch to tab 9. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 9. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"Комбинация клавиш для переключения на вкладку 9. Указывается в виде строки в"
-" формате файлов ресурсов GTK+. Если установить специальное значение "
+"Комбинация клавиш для переключения на вкладку 9. Указывается в виде строки в "
+"формате файлов ресурсов GTK+. Если установить специальное значение "
 "«Выключено», для этого действия не будет комбинации клавиш."
 
 #: src/org.mate.terminal.gschema.xml.in:455
@@ -1239,8 +1227,7 @@ msgstr "Комбинация клавиш для открытия справки
 msgid ""
 "Keyboard shortcut key for launching help. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Комбинация клавиш для открытия справки. Указывается в виде строки в формате "
 "файлов ресурсов GTK+. Если установить специальное значение «Выключено», для "
@@ -1257,9 +1244,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"Комбинация клавиш для увеличения шрифта. Указывается в виде строки в формате"
-" файлов ресурсов GTK+. Если установить специальное значение «Выключено», для"
-" этого действия не будет комбинации клавиш."
+"Комбинация клавиш для увеличения шрифта. Указывается в виде строки в формате "
+"файлов ресурсов GTK+. Если установить специальное значение «Выключено», для "
+"этого действия не будет комбинации клавиш."
 
 #: src/org.mate.terminal.gschema.xml.in:480
 msgid "Keyboard shortcut to make font smaller"
@@ -1272,9 +1259,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"Комбинация клавиш для уменьшения шрифта. Указывается в виде строки в формате"
-" файлов ресурсов GTK+. Если установить специальное значение «Выключено», для"
-" этого действия не будет комбинации клавиш."
+"Комбинация клавиш для уменьшения шрифта. Указывается в виде строки в формате "
+"файлов ресурсов GTK+. Если установить специальное значение «Выключено», для "
+"этого действия не будет комбинации клавиш."
 
 #: src/org.mate.terminal.gschema.xml.in:485
 msgid "Keyboard shortcut to make font normal-size"
@@ -1282,10 +1269,10 @@ msgstr "Комбинация клавиш для установки нормал
 
 #: src/org.mate.terminal.gschema.xml.in:486
 msgid ""
-"Keyboard shortcut key for making font the normal size. Expressed as a string"
-" in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"Keyboard shortcut key for making font the normal size. Expressed as a string "
+"in the same format used for GTK+ resource files. If you set the option to "
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 "Комбинация клавиш для установки обычного размера шрифта. Указывается в виде "
 "строки в формате файлов ресурсов GTK+. Если установить специальное значение "
@@ -1311,14 +1298,12 @@ msgstr "зелёный на чёрном"
 msgid "White on black"
 msgstr "белый на чёрном"
 
-#. Translators: "Solarized" is the name of a colour scheme, "light" can be
-#. translated
+#. Translators: "Solarized" is the name of a colour scheme, "light" can be translated
 #: src/profile-editor.c:69
 msgid "Solarized light"
 msgstr "Solarized light"
 
-#. Translators: "Solarized" is the name of a colour scheme, "dark" can be
-#. translated
+#. Translators: "Solarized" is the name of a colour scheme, "dark" can be translated
 #: src/profile-editor.c:74
 msgid "Solarized dark"
 msgstr "Solarized dark"
@@ -1823,8 +1808,8 @@ msgstr "Прокрутка"
 msgid ""
 "<small><i><b>Note:</b> These options may cause some applications to behave "
 "incorrectly.  They are only here to allow you to work around certain "
-"applications and operating systems that expect different terminal "
-"behavior.</i></small>"
+"applications and operating systems that expect different terminal behavior.</"
+"i></small>"
 msgstr ""
 "<small><i><b>Замечание:</b> Эти параметры могут вызвать некорректную работу "
 "некоторых приложений. Они представлены только для того, чтобы позволить "
@@ -1857,8 +1842,7 @@ msgstr "_Пароль:"
 
 #: src/skey-popup.c:165
 msgid "The text you clicked on doesn't seem to be a valid S/Key challenge."
-msgstr ""
-"Текст, по которому вы щелкнули, не является правильным запросом S/Key."
+msgstr "Текст, по которому вы щелкнули, не является правильным запросом S/Key."
 
 #: src/skey-popup.c:176
 msgid "The text you clicked on doesn't seem to be a valid OTP challenge."
@@ -2053,55 +2037,55 @@ msgstr "_Действие"
 msgid "Shortcut _Key"
 msgstr "_Комбинация клавиш"
 
-#: src/terminal-app.c:523
+#: src/terminal-app.c:525
 msgid "Click button to choose profile"
 msgstr "Нажать кнопку, чтобы выбрать профиль"
 
-#: src/terminal-app.c:606
+#: src/terminal-app.c:608
 msgid "Profile list"
 msgstr "Список профилей"
 
-#: src/terminal-app.c:683
+#: src/terminal-app.c:685
 #, c-format
 msgid "Delete profile “%s”?"
 msgstr "Удалить профиль «%s»?"
 
-#: src/terminal-app.c:687
+#: src/terminal-app.c:689
 msgid "_Cancel"
 msgstr "О_тмена"
 
-#: src/terminal-app.c:692
+#: src/terminal-app.c:694
 msgid "_Delete"
 msgstr "_Удалить"
 
-#: src/terminal-app.c:699
+#: src/terminal-app.c:701
 msgid "Delete Profile"
 msgstr "Удаление профиля"
 
-#: src/terminal-app.c:1146
+#: src/terminal-app.c:1148
 #, c-format
 msgid ""
 "You already have a profile called “%s”. Do you want to create another "
 "profile with the same name?"
 msgstr ""
-"Профиль с именем «%s» уже существует. Вы действительно хотите создать другой"
-" профиль с таким же именем?"
+"Профиль с именем «%s» уже существует. Вы действительно хотите создать другой "
+"профиль с таким же именем?"
 
-#: src/terminal-app.c:1241
+#: src/terminal-app.c:1243
 msgid "Choose base profile"
 msgstr "Выберите основной профиль"
 
-#: src/terminal-app.c:1828
+#: src/terminal-app.c:1830
 #, c-format
 msgid "No such profile \"%s\", using default profile\n"
 msgstr "Профиль «%s» не существует, используется профиль по умолчанию\n"
 
-#: src/terminal-app.c:1855
+#: src/terminal-app.c:1857
 #, c-format
 msgid "Invalid geometry string \"%s\"\n"
 msgstr "Строка размера «%s» недопустима\n"
 
-#: src/terminal-app.c:2061
+#: src/terminal-app.c:2063
 msgid "User Defined"
 msgstr "Определённая пользователем"
 
@@ -2247,15 +2231,15 @@ msgstr "Вьетнамская"
 msgid "Thai"
 msgstr "Тайский"
 
-#: src/terminal-encoding.c:506 src/terminal-encoding.c:531
+#: src/terminal-encoding.c:503 src/terminal-encoding.c:528
 msgid "_Description"
 msgstr "_Описание"
 
-#: src/terminal-encoding.c:515 src/terminal-encoding.c:540
+#: src/terminal-encoding.c:512 src/terminal-encoding.c:537
 msgid "_Encoding"
 msgstr "_Кодировка"
 
-#: src/terminal-encoding.c:598
+#: src/terminal-encoding.c:595
 msgid "Current Locale"
 msgstr "Текущей локали"
 
@@ -2266,8 +2250,8 @@ msgid ""
 "might want to create a profile with the desired setting, and use the new '--"
 "profile' option\n"
 msgstr ""
-"Параметр «%s» больше не поддерживается этой версией программы mate-terminal;"
-" вы можете создать профиль с желаемыми параметрами и использовать новый "
+"Параметр «%s» больше не поддерживается этой версией программы mate-terminal; "
+"вы можете создать профиль с желаемыми параметрами и использовать новый "
 "параметр «--profile»\n"
 
 #: src/terminal-options.c:209
@@ -2321,8 +2305,8 @@ msgid ""
 "Do not register with the activation nameserver, do not re-use an active "
 "terminal"
 msgstr ""
-"Не регистрировать с помощью сервера имён активации, не использовать повторно"
-" терминал"
+"Не регистрировать с помощью сервера имён активации, не использовать повторно "
+"терминал"
 
 #: src/terminal-options.c:962
 msgid "Load a terminal configuration file"
@@ -2428,8 +2412,8 @@ msgid ""
 "Options to open new windows or terminal tabs; more than one of these may be "
 "specified:"
 msgstr ""
-"Параметры для открытия новых окон или вкладов терминала; эти параметры могут"
-" быть использованы несколько раз:"
+"Параметры для открытия новых окон или вкладов терминала; эти параметры могут "
+"быть использованы несколько раз:"
 
 #: src/terminal-options.c:1380
 msgid "Show terminal options"
@@ -2452,8 +2436,8 @@ msgid ""
 "Terminal options; if used before the first --window or --tab argument, sets "
 "the default for all terminals:"
 msgstr ""
-"Параметры терминала; Если используются до первого аргумента --window или "
-"--tab, устанавливаются по умолчанию для всех терминалов:"
+"Параметры терминала; Если используются до первого аргумента --window или --"
+"tab, устанавливаются по умолчанию для всех терминалов:"
 
 #: src/terminal-options.c:1398
 msgid "Show per-terminal options"
@@ -2463,29 +2447,29 @@ msgstr "Показать параметры, применяемые к терм�
 msgid "Unnamed"
 msgstr "Безымянный"
 
-#: src/terminal-screen.c:1520
+#: src/terminal-screen.c:1521
 msgid "_Profile Preferences"
 msgstr "Параметры п_рофиля"
 
-#: src/terminal-screen.c:1521 src/terminal-screen.c:1966
+#: src/terminal-screen.c:1522 src/terminal-screen.c:1964
 msgid "_Relaunch"
 msgstr "Перезапуск"
 
-#: src/terminal-screen.c:1524
+#: src/terminal-screen.c:1525
 msgid "There was an error creating the child process for this terminal"
 msgstr "Произошла ошибка при создании дочернего процесса для этого терминала"
 
-#: src/terminal-screen.c:1971
+#: src/terminal-screen.c:1969
 #, c-format
 msgid "The child process exited normally with status %d."
 msgstr "Дочерний процесс корректно завершился с кодом %d."
 
-#: src/terminal-screen.c:1976
+#: src/terminal-screen.c:1974
 #, c-format
 msgid "The child process was terminated by signal %d."
 msgstr "Работа дочернего процесса прервана по сигналу %d."
 
-#: src/terminal-screen.c:1981
+#: src/terminal-screen.c:1979
 msgid "The child process was terminated."
 msgstr "Работа дочернего процесса прервана."
 
@@ -2520,8 +2504,8 @@ msgstr ""
 
 #: src/terminal-util.c:329
 msgid ""
-"MATE Terminal is distributed in the hope that it will be useful, but WITHOUT"
-" ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"MATE Terminal is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
 msgstr ""
@@ -2533,18 +2517,19 @@ msgstr ""
 
 #: src/terminal-util.c:333
 msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
+"You should have received a copy of the GNU General Public License along with "
+"MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
 msgstr ""
 "Вы должны были получить копию лицензии GNU General Public License c "
-"программой MATE Terminal. Если это не так, известите об этом Фонд свободного"
-" программного обеспечения по адресу Free Software Foundation, Inc., 51 "
+"программой MATE Terminal. Если это не так, известите об этом Фонд свободного "
+"программного обеспечения по адресу Free Software Foundation, Inc., 51 "
 "Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
 
 #. Translators: This is the label of a menu item to choose a profile.
 #. * _%d is used as the accelerator (with d between 1 and 9), and
 #. * the %s is the name of the terminal profile.
+#.
 #: src/terminal-window.c:618
 #, c-format
 msgid "_%d. %s"
@@ -2553,6 +2538,7 @@ msgstr "_%d. %s"
 #. Translators: This is the label of a menu item to choose a profile.
 #. * _%c is used as the accelerator (it will be a character between A and Z),
 #. * and the %s is the name of the terminal profile.
+#.
 #: src/terminal-window.c:624
 #, c-format
 msgid "_%c. %s"
@@ -2794,11 +2780,10 @@ msgstr ""
 
 #: src/terminal-window.c:3621
 msgid ""
-"There is still a process running in this terminal. Closing the terminal will"
-" kill it."
+"There is still a process running in this terminal. Closing the terminal will "
+"kill it."
 msgstr ""
-"В терминале запущен процесс.  Закрытие терминала прервёт выполнение "
-"процесса."
+"В терминале запущен процесс.  Закрытие терминала прервёт выполнение процесса."
 
 #: src/terminal-window.c:3624
 msgid "There are multiple tabs open in this window."
@@ -2828,15 +2813,23 @@ msgstr "Сохранить как…"
 msgid "_Title:"
 msgstr "_Заголовок:"
 
-#: src/terminal-window.c:4449
+#: src/terminal-window.c:4450
 msgid "Contributors:"
 msgstr "Помощники:"
 
-#: src/terminal-window.c:4468
+#: src/terminal-window.c:4466
+#, fuzzy, c-format
+#| msgid "A terminal emulator for the MATE desktop"
+msgid ""
+"A terminal emulator for the MATE desktop\n"
+"Using VTE %d.%d.%d"
+msgstr "Эмулятор терминала для рабочего стола MATE"
+
+#: src/terminal-window.c:4472
 msgid "About MATE Terminal"
 msgstr ""
 
-#: src/terminal-window.c:4469
+#: src/terminal-window.c:4473
 msgid ""
 "Copyright © 2002–2004 Havoc Pennington\n"
 "Copyright © 2003–2004, 2007 Mariano Suárez-Alvarez\n"
@@ -2846,11 +2839,7 @@ msgid ""
 "Copyright © 2012-2020 MATE developers"
 msgstr ""
 
-#: src/terminal-window.c:4475
-msgid "A terminal emulator for the MATE desktop"
-msgstr "Эмулятор терминала для рабочего стола MATE"
-
-#: src/terminal-window.c:4481
+#: src/terminal-window.c:4485
 msgid "translator-credits"
 msgstr ""
 "Александр Сапрыкин <xelfium@gmail.com>\n"

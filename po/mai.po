@@ -2,26 +2,26 @@
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-terminal package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-terminal 1.23\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-terminal/issues\n"
-"POT-Creation-Date: 2020-01-13 14:52+0100\n"
+"POT-Creation-Date: 2020-04-01 03:44-0400\n"
 "PO-Revision-Date: 2018-03-12 08:42+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
 "Language-Team: Maithili (https://www.transifex.com/mate/teams/13566/mai/)\n"
+"Language: mai\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: mai\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: mate-terminal.appdata.xml.in:7 mate-terminal.desktop.in.in:3
-#: src/terminal-options.c:189 src/terminal-window.c:4466
+#: src/terminal-options.c:189 src/terminal-window.c:4470
 msgid "MATE Terminal"
 msgstr "गनोम टर्मिनल"
 
@@ -31,8 +31,8 @@ msgstr ""
 
 #: mate-terminal.appdata.xml.in:10
 msgid ""
-"MATE Terminal is a terminal emulation application that you can use to access"
-" a UNIX shell in the MATE environment. MATE Terminal emulates the xterm "
+"MATE Terminal is a terminal emulation application that you can use to access "
+"a UNIX shell in the MATE environment. MATE Terminal emulates the xterm "
 "program developed by the X Consortium. It supports translucent backgrounds, "
 "opening multiple terminals in a single window (tabs) and clickable URLs."
 msgstr ""
@@ -53,8 +53,7 @@ msgstr "टर्मिनल"
 msgid "Use the command line"
 msgstr "कमांड लाइन क' प्रयोग करू"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: mate-terminal.desktop.in.in:9
 msgid "utilities-terminal"
 msgstr ""
@@ -103,11 +102,10 @@ msgstr "नवीन टर्मिनल्स क' उपयोग लेल 
 
 #: src/org.mate.terminal.gschema.xml.in:55
 msgid ""
-"Profile to be used when opening a new window or tab. Must be in "
-"profile_list."
+"Profile to be used when opening a new window or tab. Must be in profile_list."
 msgstr ""
-"जखन नवीन विंडो अथवा टैब खोलल जाए तँ उपयोगमे प्रोफ़ाइल. एकर प्रोफ़ाइल सूचीमे "
-"होनाइ आवश्यक अछि. (_l)"
+"जखन नवीन विंडो अथवा टैब खोलल जाए तँ उपयोगमे प्रोफ़ाइल. एकर प्रोफ़ाइल सूचीमे होनाइ "
+"आवश्यक अछि. (_l)"
 
 #: src/org.mate.terminal.gschema.xml.in:59
 msgid "Whether the menubar has access keys"
@@ -116,11 +114,11 @@ msgstr "की मेनू -पट्टीमे पहुँच कुंज�
 #: src/org.mate.terminal.gschema.xml.in:60
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
-"with some applications run inside the terminal so it's possible to turn them"
-" off."
+"with some applications run inside the terminal so it's possible to turn them "
+"off."
 msgstr ""
-"की मेनू बार क'लेल Alt+letter अभिगम कुँजी रखनाइ अछि ओ टर्मिनल क' अंदर "
-"चलाबैबला अनुप्रयोगमे व्यवधान कए सकैत छी एहिलेल ओकरा ऑफ कए चलओनाइ संभव अछि."
+"की मेनू बार क'लेल Alt+letter अभिगम कुँजी रखनाइ अछि ओ टर्मिनल क' अंदर चलाबैबला "
+"अनुप्रयोगमे व्यवधान कए सकैत छी एहिलेल ओकरा ऑफ कए चलओनाइ संभव अछि."
 
 #: src/org.mate.terminal.gschema.xml.in:64
 msgid "Whether the standard GTK+ shortcut for menubar access is enabled"
@@ -132,9 +130,9 @@ msgid ""
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
 "standard menubar accelerator to be disabled."
 msgstr ""
-"सामान्यतः अहाँ मेनू बारकेँ F10 सँ अभिगम कए सकैत अछि. एकरा gtkrc (gtk-menu-"
-"bar-accel = \"whatever\") सँ भ' कए पसंदीदा कएल जाए सकैत अछि ई विकल्प मानक "
-"मेनू बार त्वरककेँ निष्क्रिय करबाक अनुमति देत अछि."
+"सामान्यतः अहाँ मेनू बारकेँ F10 सँ अभिगम कए सकैत अछि. एकरा gtkrc (gtk-menu-bar-accel "
+"= \"whatever\") सँ भ' कए पसंदीदा कएल जाए सकैत अछि ई विकल्प मानक मेनू बार त्वरककेँ "
+"निष्क्रिय करबाक अनुमति देत अछि."
 
 #: src/org.mate.terminal.gschema.xml.in:68
 msgctxt "active-encodings"
@@ -176,8 +174,8 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:85
 msgid ""
-"If true, it enables the ability to switch tabs using [Ctrl+Tab] and "
-"[Ctrl+Shift+Tab]."
+"If true, it enables the ability to switch tabs using [Ctrl+Tab] and [Ctrl"
+"+Shift+Tab]."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:92
@@ -201,8 +199,7 @@ msgstr "की नवीन विंडोज़/टैबमे मेनू -
 msgid ""
 "True if the menubar should be shown in new windows, for windows/tabs with "
 "this profile."
-msgstr ""
-"सही जँ मेनू बार नवीन विंडोमे देखाओल जाएत अछि, एहि प्रोफाइल क' सँग विंडो/टैब."
+msgstr "सही जँ मेनू बार नवीन विंडोमे देखाओल जाएत अछि, एहि प्रोफाइल क' सँग विंडो/टैब."
 
 #: src/org.mate.terminal.gschema.xml.in:103
 msgid "Default color of text in the terminal"
@@ -210,11 +207,11 @@ msgstr "टर्मिनलमे पाठ क' मूलभूत रँग"
 
 #: src/org.mate.terminal.gschema.xml.in:104
 msgid ""
-"Default color of text in the terminal, as a color specification (can be "
-"HTML-style hex digits, or a color name such as \"red\")."
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
 msgstr ""
-"टर्मिनल पृष्ठभूमि क' मूलभूत रँग, रँग विशिष्टता क' रूपमे (HTML-style hex "
-"digits भ' सकैत अछि, अथवा जे रँग नाम जहिना जे \"red\")."
+"टर्मिनल पृष्ठभूमि क' मूलभूत रँग, रँग विशिष्टता क' रूपमे (HTML-style hex digits भ' सकैत "
+"अछि, अथवा जे रँग नाम जहिना जे \"red\")."
 
 #: src/org.mate.terminal.gschema.xml.in:108
 msgid "Default color of terminal background"
@@ -225,8 +222,8 @@ msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
 msgstr ""
-"टर्मिनल पृष्ठभूमि क' मूलभूत रँग, रँग विशिष्टता क' रूपमे (HTML-style hex "
-"digits, अथवा रँग नाम जहिना जे \"red\")."
+"टर्मिनल पृष्ठभूमि क' मूलभूत रँग, रँग विशिष्टता क' रूपमे (HTML-style hex digits, अथवा रँग "
+"नाम जहिना जे \"red\")."
 
 #: src/org.mate.terminal.gschema.xml.in:113
 msgid "Default color of bold text in the terminal"
@@ -234,9 +231,9 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:114
 msgid ""
-"Default color of bold text in the terminal, as a color specification (can be"
-" HTML-style hex digits, or a color name such as \"red\"). This is ignored if"
-" bold_color_same_as_fg is true."
+"Default color of bold text in the terminal, as a color specification (can be "
+"HTML-style hex digits, or a color name such as \"red\"). This is ignored if "
+"bold_color_same_as_fg is true."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:118
@@ -255,14 +252,14 @@ msgstr "गतिमय शीर्षक क' सँग की कएल ज�
 #: src/org.mate.terminal.gschema.xml.in:124
 msgid ""
 "If the application in the terminal sets the title (most typically people "
-"have their shell set up to do this), the dynamically-set title can erase the"
-" configured title, go before it, go after it, or replace it. The possible "
+"have their shell set up to do this), the dynamically-set title can erase the "
+"configured title, go before it, go after it, or replace it. The possible "
 "values are \"replace\", \"before\", \"after\", and \"ignore\"."
 msgstr ""
-"टर्मिनलमे जँ अनुप्रयोग शीर्षक सेट करैत अछि (व्यक्ति क' पास अपन शेल अछि एकरा "
-"करबाकलेल ), गतिशील सेट शीर्षक विन्यस्त शीर्षककेँ मेटाए सकैत अछि एकरा पहिले "
-"जाए क'लेल , एकर बाद जाए  क'लेल , अथवा एकरा हटाबै क'लेल . संभावित मान अछि "
-"\"replace\", \"before\", \"after\", आओर \"ignore\"."
+"टर्मिनलमे जँ अनुप्रयोग शीर्षक सेट करैत अछि (व्यक्ति क' पास अपन शेल अछि एकरा करबाकलेल ), "
+"गतिशील सेट शीर्षक विन्यस्त शीर्षककेँ मेटाए सकैत अछि एकरा पहिले जाए क'लेल , एकर बाद जाए  "
+"क'लेल , अथवा एकरा हटाबै क'लेल . संभावित मान अछि \"replace\", \"before\", \"after"
+"\", आओर \"ignore\"."
 
 #: src/org.mate.terminal.gschema.xml.in:127
 msgctxt "title"
@@ -279,9 +276,9 @@ msgid ""
 "by or combined with the title set by the application inside the terminal, "
 "depending on the title_mode setting."
 msgstr ""
-"टर्मिनल विंडो अथवा टैब क' देखाबै क'लेल शीर्षक. ई शीर्षककेँ प्रतिस्थापित कएल "
-"जाएत अछि अथवा शीर्षक क' द्वारा सेट कएल जाएत अछि टर्मिनल क' अंदर अनुप्रयोग, "
-"title_mode जमावट पर निर्भर करैत."
+"टर्मिनल विंडो अथवा टैब क' देखाबै क'लेल शीर्षक. ई शीर्षककेँ प्रतिस्थापित कएल जाएत अछि "
+"अथवा शीर्षक क' द्वारा सेट कएल जाएत अछि टर्मिनल क' अंदर अनुप्रयोग, title_mode जमावट "
+"पर निर्भर करैत."
 
 #: src/org.mate.terminal.gschema.xml.in:133
 msgid "Whether to allow bold text"
@@ -316,12 +313,12 @@ msgstr "संप्रतीक क' जे \"शब्द क' भाग\" ब
 #: src/org.mate.terminal.gschema.xml.in:149
 msgid ""
 "When selecting text by word, sequences of these characters are considered "
-"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing"
-" a range) should be the first character given."
+"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
+"a range) should be the first character given."
 msgstr ""
-"जखन पाठकेँ शब्द सँ चुनल जाएत अछि, एहि संप्रतीक क' श्रृंखलाकेँ एकटा शब्द मानल"
-" जाए सकैत अछि परिसरकेँ \"A-Z\" क' रूपमे देल जाएत अछि. शाब्दिक हाइफन "
-"(परिसरकेँ अभिव्यक्त नहि करत) देल गेल पहला संप्रतीक होनाइ चाही."
+"जखन पाठकेँ शब्द सँ चुनल जाएत अछि, एहि संप्रतीक क' श्रृंखलाकेँ एकटा शब्द मानल जाए सकैत अछि "
+"परिसरकेँ \"A-Z\" क' रूपमे देल जाएत अछि. शाब्दिक हाइफन (परिसरकेँ अभिव्यक्त नहि करत) देल "
+"गेल पहला संप्रतीक होनाइ चाही."
 
 #: src/org.mate.terminal.gschema.xml.in:153
 msgid "Whether to use custom terminal size for new windows"
@@ -370,8 +367,8 @@ msgstr "स्क्रॉलबैकमे राखब लेल पंक्
 #: src/org.mate.terminal.gschema.xml.in:174
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
-"terminal by this number of lines; lines that don't fit in the scrollback are"
-" discarded. If scrollback_unlimited is true, this value is ignored."
+"terminal by this number of lines; lines that don't fit in the scrollback are "
+"discarded. If scrollback_unlimited is true, this value is ignored."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:178
@@ -380,9 +377,9 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:179
 msgid ""
-"If true, scrollback lines will never be discarded. The scrollback history is"
-" stored on disk temporarily, so this may cause the system to run out of disk"
-" space if there is a lot of output to the terminal."
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:183
@@ -400,8 +397,7 @@ msgstr "जखन नवीन आउटपुट हुए तँ की तल
 #: src/org.mate.terminal.gschema.xml.in:189
 msgid ""
 "If true, whenever there's new output the terminal will scroll to the bottom."
-msgstr ""
-"जँ सत्य अछि, जखनो ओतए एकटा नवीन आउटपुट हाएत, टर्मिनल तल पर स्क्रॉल करताह."
+msgstr "जँ सत्य अछि, जखनो ओतए एकटा नवीन आउटपुट हाएत, टर्मिनल तल पर स्क्रॉल करताह."
 
 #: src/org.mate.terminal.gschema.xml.in:193
 msgid "What to do with the terminal when the child command exits"
@@ -412,8 +408,8 @@ msgid ""
 "Possible values are \"close\" to close the terminal, and \"restart\" to "
 "restart the command."
 msgstr ""
-"संभावित मान \"close\" अछि टर्मिनल बन्न करबाक लेल , आओर \"restart\" कमांड "
-"फिनु आरंभ करब  क'लेल ."
+"संभावित मान \"close\" अछि टर्मिनल बन्न करबाक लेल , आओर \"restart\" कमांड फिनु आरंभ "
+"करब  क'लेल ."
 
 #: src/org.mate.terminal.gschema.xml.in:198
 msgid "Whether to launch the command in the terminal as a login shell"
@@ -424,8 +420,8 @@ msgid ""
 "If true, the command inside the terminal will be launched as a login shell. "
 "(argv[0] will have a hyphen in front of it.)"
 msgstr ""
-"जँ सही अछि टर्मिनल क' अंदर क' कमांड एकटा लॉगिन शेल क' रूपमे लाँच हाएत. "
-"(argv[0] एकरा सामना एकटा हाइफन रखताह.)"
+"जँ सही अछि टर्मिनल क' अंदर क' कमांड एकटा लॉगिन शेल क' रूपमे लाँच हाएत. (argv[0] एकरा "
+"सामना एकटा हाइफन रखताह.)"
 
 #: src/org.mate.terminal.gschema.xml.in:203
 msgid "Whether to run a custom command instead of the shell"
@@ -435,8 +431,7 @@ msgstr "की शैल क' बदला अनुकूलित कमां
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
-msgstr ""
-"जँ सही अछि custom_command जमावट क' मान शेल क' चलाबै क' बजाय प्रयुक्त हाएत."
+msgstr "जँ सही अछि custom_command जमावट क' मान शेल क' चलाबै क' बजाय प्रयुक्त हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:208
 msgid "Whether to blink the cursor"
@@ -484,9 +479,8 @@ msgid ""
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. \"#FF00FF\""
 msgstr ""
-"टर्मिनलमे 16-रँग पैलेट अछि जे अनुप्रयोग ट्रमिनल क' अंदर प्रयोग करैत अछि. ई ओ"
-" पैलेट अछि रँग नाम क' कॉलन सँ अलग क' रूपमें. रँग क' नाम हेक्स प्रारूपमे "
-"रहनाइ चाही उदा. \"#FF00FF\""
+"टर्मिनलमे 16-रँग पैलेट अछि जे अनुप्रयोग ट्रमिनल क' अंदर प्रयोग करैत अछि. ई ओ पैलेट अछि रँग "
+"नाम क' कॉलन सँ अलग क' रूपमें. रँग क' नाम हेक्स प्रारूपमे रहनाइ चाही उदा. \"#FF00FF\""
 
 #: src/org.mate.terminal.gschema.xml.in:233
 msgid "Font"
@@ -524,8 +518,8 @@ msgid ""
 "If true, scroll the background image with the foreground text; if false, "
 "keep the image in a fixed position and scroll the text above it."
 msgstr ""
-"जँ सही अछि पृष्ठभूमि विंबकेँ अग्रभूमि पाठ सँ स्क्रॉल करू; जँ गलत अछि विंबकेँ"
-" स्थिर स्थितिमे राखू आओर पाठकेँ उप्पर स्क्रॉल करू."
+"जँ सही अछि पृष्ठभूमि विंबकेँ अग्रभूमि पाठ सँ स्क्रॉल करू; जँ गलत अछि विंबकेँ स्थिर स्थितिमे राखू "
+"आओर पाठकेँ उप्पर स्क्रॉल करू."
 
 #: src/org.mate.terminal.gschema.xml.in:253
 msgid "How much to darken the background image"
@@ -538,10 +532,9 @@ msgid ""
 "implementation, there are only two levels of darkness possible, so the "
 "setting behaves as a boolean, where 0.0 disables the darkening effect."
 msgstr ""
-"0.0 आओर 1.0 क' बीच क' मान बतबैत अछि जे पृष्ठभूमि चित्रकेँ कतेक गहिर कएनाइ "
-"अछि 0.0 कोनो गहिरपन नहि, 1.0 पूरी तरह सँ गहिर. वर्तमान कार्यान्वयनमे, दुइ "
-"स्तर क' गहिरपन संभव अछि ताकि जमावट बुलियन क' रूपमे आचरण करै, जतए 0.0 गहिरपन "
-"प्रभावकेँ निष्क्रिय करैत अछि."
+"0.0 आओर 1.0 क' बीच क' मान बतबैत अछि जे पृष्ठभूमि चित्रकेँ कतेक गहिर कएनाइ अछि 0.0 "
+"कोनो गहिरपन नहि, 1.0 पूरी तरह सँ गहिर. वर्तमान कार्यान्वयनमे, दुइ स्तर क' गहिरपन संभव "
+"अछि ताकि जमावट बुलियन क' रूपमे आचरण करै, जतए 0.0 गहिरपन प्रभावकेँ निष्क्रिय करैत अछि."
 
 #: src/org.mate.terminal.gschema.xml.in:258
 msgid "Effect of the Backspace key"
@@ -549,16 +542,16 @@ msgstr "बैकस्पेस कुँजी क' प्रभाव"
 
 #: src/org.mate.terminal.gschema.xml.in:259
 msgid ""
-"Sets what code the backspace key generates. Possible values are \"ascii-"
-"del\" for the ASCII DEL character, \"control-h\" for Control-H (AKA the "
-"ASCII BS character), \"escape-sequence\" for the escape sequence typically "
-"bound to backspace or delete. \"ascii-del\" is normally considered the "
-"correct setting for the Backspace key."
+"Sets what code the backspace key generates. Possible values are \"ascii-del"
+"\" for the ASCII DEL character, \"control-h\" for Control-H (AKA the ASCII "
+"BS character), \"escape-sequence\" for the escape sequence typically bound "
+"to backspace or delete. \"ascii-del\" is normally considered the correct "
+"setting for the Backspace key."
 msgstr ""
-"देखू जे कओन कोड बैकस्पेस उत्पन्न करैत अछि. संभावित मान अछि \"ascii-del\" "
-"ASCII DEL संप्रतीक क'लेल , \"control-h\" for Control-H (AKA the ASCII BS "
-"character), \"escape-sequence\" escape श्रृंखला backspace अथवा delete मे "
-"बान्हल रहैत अछि \"ascii-del\" Backspace कुँजी क'लेल सामान्य देखल गेल ."
+"देखू जे कओन कोड बैकस्पेस उत्पन्न करैत अछि. संभावित मान अछि \"ascii-del\" ASCII DEL "
+"संप्रतीक क'लेल , \"control-h\" for Control-H (AKA the ASCII BS character), "
+"\"escape-sequence\" escape श्रृंखला backspace अथवा delete मे बान्हल रहैत अछि "
+"\"ascii-del\" Backspace कुँजी क'लेल सामान्य देखल गेल ."
 
 #: src/org.mate.terminal.gschema.xml.in:263
 msgid "Effect of the Delete key"
@@ -572,11 +565,10 @@ msgid ""
 "backspace or delete. \"escape-sequence\" is normally considered the correct "
 "setting for the Delete key."
 msgstr ""
-"सेट करैत अछि जे कओन delete कुँजी उत्पन्न करैत अछि. संभावित मान अछि \"ascii-"
-"del\" ASCII DEL संप्रतीक क'लेल , \"control-h\" Control-H (AKA the ASCII BS "
-"character) क' लेल, \"escape-sequence\" escape श्रृंखला क'लेल backspace अथवा "
-"deleteमें. \"escape-sequence\" सामान्यतः Delete कुँजी क'लेल सही जमावट मानल "
-"जाएत अछि."
+"सेट करैत अछि जे कओन delete कुँजी उत्पन्न करैत अछि. संभावित मान अछि \"ascii-del\" "
+"ASCII DEL संप्रतीक क'लेल , \"control-h\" Control-H (AKA the ASCII BS character) "
+"क' लेल, \"escape-sequence\" escape श्रृंखला क'लेल backspace अथवा deleteमें. "
+"\"escape-sequence\" सामान्यतः Delete कुँजी क'लेल सही जमावट मानल जाएत अछि."
 
 #: src/org.mate.terminal.gschema.xml.in:268
 msgid "Whether to use the colors from the theme for the terminal widget"
@@ -587,8 +579,8 @@ msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
 msgstr ""
-"जँ सही अछि थीम रँग स्कीम पाठ प्रविष्टि बाक्स क'लेल प्रयुक्त टर्मिनल क' "
-"प्रयुक्त हाएत, प्रयोक्ता द्वारा देल गेल रँग क' बजाय."
+"जँ सही अछि थीम रँग स्कीम पाठ प्रविष्टि बाक्स क'लेल प्रयुक्त टर्मिनल क' प्रयुक्त हाएत, "
+"प्रयोक्ता द्वारा देल गेल रँग क' बजाय."
 
 #: src/org.mate.terminal.gschema.xml.in:273
 msgid "Whether to use the system font"
@@ -599,8 +591,8 @@ msgid ""
 "If true, the terminal will use the desktop-global standard font if it's "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
-"जँ सही अछि टर्मिनल डेस्कटाप वैश्विक मानक फोन्ट क' प्रयोग करताह जँ ई "
-"मोनोस्पेस अछि (आओर बेसी समान फोन्ट ई जकरा सँग आबि सकैत अछि अन्यथा)."
+"जँ सही अछि टर्मिनल डेस्कटाप वैश्विक मानक फोन्ट क' प्रयोग करताह जँ ई मोनोस्पेस अछि (आओर "
+"बेसी समान फोन्ट ई जकरा सँग आबि सकैत अछि अन्यथा)."
 
 #: src/org.mate.terminal.gschema.xml.in:278
 msgid "Highlight S/Key challenges"
@@ -611,9 +603,8 @@ msgid ""
 "Popup a dialog when an S/Key challenge response query is detected and "
 "clicked on. Typing a password into the dialog will send it to the terminal."
 msgstr ""
-"एकटा समाद पॉपअप करू जखन एकटा S/key चुनौती अनुक्रिया प्रश्न जाँचल जाएत अछि "
-"आओर क्लिक कएल जाएत अछि. समाद पेटीमे शब्दकूट टाइप कएनाइ  एकरा टर्मिनलमे "
-"भेजताह."
+"एकटा समाद पॉपअप करू जखन एकटा S/key चुनौती अनुक्रिया प्रश्न जाँचल जाएत अछि आओर क्लिक "
+"कएल जाएत अछि. समाद पेटीमे शब्दकूट टाइप कएनाइ  एकरा टर्मिनलमे भेजताह."
 
 #: src/org.mate.terminal.gschema.xml.in:283
 msgid "Highlight URLs under mouse pointer"
@@ -621,8 +612,8 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:284
 msgid ""
-"If true, URLs under mouse pointer are highlighted and can be opened by mouse"
-" click together with control key or used in context menu."
+"If true, URLs under mouse pointer are highlighted and can be opened by mouse "
+"click together with control key or used in context menu."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:290
@@ -636,10 +627,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"नवीन टैब खोलब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे लेल जाए"
-" बला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट "
-"स्ट्रिंग \"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल "
-"शॉर्टकट नहि हाएत."
+"नवीन टैब खोलब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे लेल जाए बला स्ट्रिंग "
+"क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत "
+"छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:295
 msgid "Keyboard shortcut to open a new window"
@@ -647,15 +637,14 @@ msgstr "एकटा नवीन विंडो खोलब लेल कु�
 
 #: src/org.mate.terminal.gschema.xml.in:296
 msgid ""
-"Keyboard shortcut key for opening a new window. Expressed as a string in the"
-" same format used for GTK+ resource files. If you set the option to the "
+"Keyboard shortcut key for opening a new window. Expressed as a string in the "
+"same format used for GTK+ resource files. If you set the option to the "
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"नवीन विंडो खोलब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे लेल "
-"जाए बला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ "
-"विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो "
-"कुँजीपटल शॉर्टकट नहि हाएत."
+"नवीन विंडो खोलब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे लेल जाए बला "
+"स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर "
+"नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:300
 msgid "Keyboard shortcut to create a new profile"
@@ -665,13 +654,12 @@ msgstr "नवीन प्रोफ़ाइल बनाबै लेल क�
 msgid ""
 "Keyboard shortcut key for bringing up the dialog for profile creation. "
 "Expressed as a string in the same format used for GTK+ resource files. If "
-"you set the option to the special string \"disabled\", then there will be no"
-" keyboard shortcut for this action."
+"you set the option to the special string \"disabled\", then there will be no "
+"keyboard shortcut for this action."
 msgstr ""
-"प्रोफ़ाइल बनाबै लेल समाद लाबै लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स "
-"फ़ाइलसभमे उपयोगमे लेल जाएबला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ "
-"अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया"
-" लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
+"प्रोफ़ाइल बनाबै लेल समाद लाबै लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फ़ाइलसभमे उपयोगमे लेल "
+"जाएबला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" "
+"पर नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:305
 msgid "Keyboard shortcut to save the current tab contents to file"
@@ -693,13 +681,11 @@ msgstr "टैब बन्न करब लेल कुँजीपटल श�
 msgid ""
 "Keyboard shortcut key for closing a tab. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"टैब बन्न करब लेल कुँजीपटल शार्टकट कुँजी. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे "
-"लेल जाए बला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ "
-"विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत अछि तँ फिनु एहि क्रिया लेल कोनो "
-"कुँजीपटल शॉर्टकट नहि हाएत."
+"टैब बन्न करब लेल कुँजीपटल शार्टकट कुँजी. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे लेल जाए बला "
+"स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर "
+"नियत करैत अछि तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:315
 msgid "Keyboard shortcut to close a window"
@@ -712,10 +698,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"विंडो बन्न करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे लेल "
-"जाए बला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ "
-"विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो "
-"कुँजीपटल शॉर्टकट नहि हाएत."
+"विंडो बन्न करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे लेल जाए बला स्ट्रिंग "
+"क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत "
+"छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:320
 msgid "Keyboard shortcut to copy text"
@@ -728,10 +713,9 @@ msgid ""
 "option to the special string \"disabled\", then there will be no keyboard "
 "shortcut for this action."
 msgstr ""
-"चयनित पाठ क्लिपबोर्ड पर कॉपी करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स "
-"फाइलसभमे उपयोगमे लेल जाए बला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ "
-"अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया"
-" लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
+"चयनित पाठ क्लिपबोर्ड पर कॉपी करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे "
+"उपयोगमे लेल जाए बला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट "
+"स्ट्रिंग \"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:325
 msgid "Keyboard shortcut to paste text"
@@ -787,8 +771,8 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:346
 msgid ""
-"Keyboard shortcut key for finding the previous occurrence of the search term"
-" in the terminal. Expressed as a string in the same format used for GTK+ "
+"Keyboard shortcut key for finding the previous occurrence of the search term "
+"in the terminal. Expressed as a string in the same format used for GTK+ "
 "resource files. If you set the option to the special string \"disabled\", "
 "then there will be no keyboard shortcut for this action."
 msgstr ""
@@ -801,13 +785,12 @@ msgstr "पूर्ण स्क्रीन मोड टॉगल करब �
 msgid ""
 "Keyboard shortcut key for toggling full screen mode. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
-"पूर्ण स्क्रीन मोड टॉगल करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे "
-"उपयोगमे लेलजाएबला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ "
-"विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल "
-"कोनो कुँजीपटल शॉर्टकट नहि हाएत."
+"पूर्ण स्क्रीन मोड टॉगल करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे "
+"लेलजाएबला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम"
+"\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:355
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
@@ -820,10 +803,9 @@ msgid ""
 "option to the special string \"disabled\", then there will be no keyboard "
 "shortcut for this action."
 msgstr ""
-"मेनू -पट्टी क' दृश्यता टॉगल करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स "
-"फाइलसभमे उपयोगमे लेल जाए बला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ "
-"अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया"
-" लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
+"मेनू -पट्टी क' दृश्यता टॉगल करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे लेल "
+"जाए बला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम"
+"\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:360
 msgid "Keyboard shortcut to set the terminal title"
@@ -836,10 +818,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"टर्मिनल शीर्षक नियत करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे "
-"उपयोगमे लेलजाएबला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ "
-"विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल "
-"कोनो कुँजीपटल शॉर्टकट नहि हाएत."
+"टर्मिनल शीर्षक नियत करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे "
+"लेलजाएबला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम"
+"\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:365
 msgid "Keyboard shortcut to reset the terminal"
@@ -852,10 +833,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"टर्मिनल रिसेट करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे लेल"
-" जाए बला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ "
-"विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो "
-"कुँजीपटल शॉर्टकट नहि हाएत."
+"टर्मिनल रिसेट करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे लेल जाए बला "
+"स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर "
+"नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:370
 msgid "Keyboard shortcut to reset and clear the terminal"
@@ -863,15 +843,14 @@ msgstr "टर्मिनल रिसेट करब आओर साफ क�
 
 #: src/org.mate.terminal.gschema.xml.in:371
 msgid ""
-"Keyboard shortcut key to reset and clear the terminal. Expressed as a string"
-" in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"Keyboard shortcut key to reset and clear the terminal. Expressed as a string "
+"in the same format used for GTK+ resource files. If you set the option to "
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
-"टर्मिनलकेँ रीसेट करब तथा साफ़ करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स "
-"फाइलसभमे उपयोगमे लेल जाए बला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ "
-"अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया"
-" लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
+"टर्मिनलकेँ रीसेट करब तथा साफ़ करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे "
+"लेल जाए बला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग "
+"\"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:375
 msgid "Keyboard shortcut to switch to the previous tab"
@@ -881,13 +860,12 @@ msgstr "पछिला टैबमे स्विच करब लेल क�
 msgid ""
 "Keyboard shortcut key to switch to the previous tab. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
-"पछिला टैबमे स्विच करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे"
-" लेलजाएबला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ "
-"विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो "
-"कुँजीपटल शॉर्टकट नहि हाएत."
+"पछिला टैबमे स्विच करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे लेलजाएबला "
+"स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर "
+"नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:380
 msgid "Keyboard shortcut to switch to the next tab"
@@ -900,10 +878,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"अगिला टैबमे स्विच लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे लेल"
-" जाए बला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ "
-"विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो "
-"कुँजीपटल शॉर्टकट नहि हाएत."
+"अगिला टैबमे स्विच लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे लेल जाए बला "
+"स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर "
+"नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:385
 msgid "Keyboard shortcut to switch to the previous profile"
@@ -925,8 +902,8 @@ msgstr ""
 msgid ""
 "Keyboard shortcut key to switch to the next profile. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:395
@@ -940,10 +917,9 @@ msgid ""
 "the special string \"disabled\", then there will be no keybinding for this "
 "action."
 msgstr ""
-"बामाँ तरफ मोजुदा टैब चलाबै क'लेल त्वरक चलाबू. जीटीके+ संसाधन फाइलसभमे "
-"उपयोगमे लेल जाए बला स्ट्रिंग क' रूपमे अभिव्यक्त कएल जाएत अछि. जँ अहाँ "
-"विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल "
-"कोनो कुँजीपटल शॉर्टकट नहि हाएत."
+"बामाँ तरफ मोजुदा टैब चलाबै क'लेल त्वरक चलाबू. जीटीके+ संसाधन फाइलसभमे उपयोगमे लेल जाए "
+"बला स्ट्रिंग क' रूपमे अभिव्यक्त कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर "
+"नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:400
 msgid "Accelerator to move the current tab to the right."
@@ -956,10 +932,9 @@ msgid ""
 "the special string \"disabled\", then there will be no keybinding for this "
 "action."
 msgstr ""
-"दहिन्ना तरफ मोजुदा टैब चलाबै क'लेल त्वरक चलाबू. जीटीके+ संसाधन फ़ाइलमे "
-"उपयोगमे लेल जाए बला स्ट्रिंग क' रूपमे अभिव्यक्त कएल जाएत अछि. जँ अहाँ "
-"विकल्पकेँ विशिष्ट स्ट्रिंग \"निष्क्रिय\" पर नियत करैत छी तँ फिनु एहि क्रिया "
-"लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
+"दहिन्ना तरफ मोजुदा टैब चलाबै क'लेल त्वरक चलाबू. जीटीके+ संसाधन फ़ाइलमे उपयोगमे लेल जाए "
+"बला स्ट्रिंग क' रूपमे अभिव्यक्त कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"निष्क्रिय\" "
+"पर नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:405
 msgid "Accelerator to detach current tab."
@@ -971,10 +946,9 @@ msgid ""
 "format used for GTK+ resource files. If you set the option to the special "
 "string \"disabled\", then there will be no keybinding for this action."
 msgstr ""
-"मोजुदा टैब सँ अलग करबाक लेल त्वरक. जीटीके+ संसाधन फ़ाइलसभमे उपयोगमे लेल जाए "
-"बला स्ट्रिंग क' रूपमे अभिव्यक्त कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट "
-"स्ट्रिंग \"निष्क्रिय\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल "
-"शॉर्टकट नहि हाएत."
+"मोजुदा टैब सँ अलग करबाक लेल त्वरक. जीटीके+ संसाधन फ़ाइलसभमे उपयोगमे लेल जाए बला स्ट्रिंग "
+"क' रूपमे अभिव्यक्त कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"निष्क्रिय\" पर नियत "
+"करैत छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:410
 msgid "Keyboard shortcut to switch to tab 1"
@@ -982,10 +956,9 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:411
 msgid ""
-"Keyboard shortcut key for switch to tab 1. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 1. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:415
@@ -994,10 +967,9 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:416
 msgid ""
-"Keyboard shortcut key for switch to tab 2. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 2. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:420
@@ -1006,10 +978,9 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:421
 msgid ""
-"Keyboard shortcut key for switch to tab 3. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 3. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:425
@@ -1018,10 +989,9 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:426
 msgid ""
-"Keyboard shortcut key for switch to tab 4. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 4. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:430
@@ -1030,10 +1000,9 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:431
 msgid ""
-"Keyboard shortcut key for switch to tab 5. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 5. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:435
@@ -1042,10 +1011,9 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:436
 msgid ""
-"Keyboard shortcut key for switch to tab 6. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 6. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:440
@@ -1054,10 +1022,9 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:441
 msgid ""
-"Keyboard shortcut key for switch to tab 7. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 7. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:445
@@ -1066,10 +1033,9 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:446
 msgid ""
-"Keyboard shortcut key for switch to tab 8. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 8. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:450
@@ -1078,10 +1044,9 @@ msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:451
 msgid ""
-"Keyboard shortcut key for switch to tab 9. Expressed as a string in the same"
-" format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"Keyboard shortcut key for switch to tab 9. Expressed as a string in the same "
+"format used for GTK+ resource files. If you set the option to the special "
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 
 #: src/org.mate.terminal.gschema.xml.in:455
@@ -1128,13 +1093,11 @@ msgstr "मद्दति प्रारंभ करब लेल कुँ�
 msgid ""
 "Keyboard shortcut key for launching help. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
-"string \"disabled\", then there will be no keyboard shortcut for this "
-"action."
+"string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
-"मद्दति प्रारंभ करब लेल कुँजीपटल शार्टकट कुँजी. जीटीके+ रिसोर्स फाइलसभमे "
-"उपयोगमे लेल जाए बला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ "
-"विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल "
-"कोनो कुँजीपटल शॉर्टकट नहि हाएत."
+"मद्दति प्रारंभ करब लेल कुँजीपटल शार्टकट कुँजी. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे लेल जाए "
+"बला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर "
+"नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:475
 msgid "Keyboard shortcut to make font larger"
@@ -1147,10 +1110,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"फ़ॉन्ट पैघ करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे लेल "
-"जाए बला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ "
-"विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो "
-"कुँजीपटल शॉर्टकट नहि हाएत."
+"फ़ॉन्ट पैघ करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे लेल जाए बला स्ट्रिंग "
+"क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत "
+"छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:480
 msgid "Keyboard shortcut to make font smaller"
@@ -1163,10 +1125,9 @@ msgid ""
 "special string \"disabled\", then there will be no keyboard shortcut for "
 "this action."
 msgstr ""
-"फ़ॉन्ट छोट करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे लेल "
-"जाए बला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ "
-"विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो "
-"कुँजीपटल शॉर्टकट नहि हाएत."
+"फ़ॉन्ट छोट करब लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे लेल जाए बला स्ट्रिंग "
+"क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत "
+"छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/org.mate.terminal.gschema.xml.in:485
 msgid "Keyboard shortcut to make font normal-size"
@@ -1174,15 +1135,14 @@ msgstr "फ़ॉन्टकेँ सामान्य-आकार बना
 
 #: src/org.mate.terminal.gschema.xml.in:486
 msgid ""
-"Keyboard shortcut key for making font the normal size. Expressed as a string"
-" in the same format used for GTK+ resource files. If you set the option to "
-"the special string \"disabled\", then there will be no keyboard shortcut for"
-" this action."
+"Keyboard shortcut key for making font the normal size. Expressed as a string "
+"in the same format used for GTK+ resource files. If you set the option to "
+"the special string \"disabled\", then there will be no keyboard shortcut for "
+"this action."
 msgstr ""
-"फ़ॉन्ट आकार सामान्य बनाबै लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे "
-"उपयोगमे लेलजाएबला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ "
-"विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल "
-"कोनो कुँजीपटल शॉर्टकट नहि हाएत."
+"फ़ॉन्ट आकार सामान्य बनाबै लेल कुँजीपटल शॉर्टकट. जीटीके+ रिसोर्स फाइलसभमे उपयोगमे "
+"लेलजाएबला स्ट्रिंग क' रूपमे एक्सप्रेस्ड कएल जाएत अछि. जँ अहाँ विकल्पकेँ विशिष्ट स्ट्रिंग \"अक्षम"
+"\" पर नियत करैत छी तँ फिनु एहि क्रिया लेल कोनो कुँजीपटल शॉर्टकट नहि हाएत."
 
 #: src/profile-editor.c:44
 msgid "Black on light yellow"
@@ -1204,14 +1164,12 @@ msgstr "करिया पर हरिअर"
 msgid "White on black"
 msgstr "करिया पर उज्जर"
 
-#. Translators: "Solarized" is the name of a colour scheme, "light" can be
-#. translated
+#. Translators: "Solarized" is the name of a colour scheme, "light" can be translated
 #: src/profile-editor.c:69
 msgid "Solarized light"
 msgstr ""
 
-#. Translators: "Solarized" is the name of a colour scheme, "dark" can be
-#. translated
+#. Translators: "Solarized" is the name of a colour scheme, "dark" can be translated
 #: src/profile-editor.c:74
 msgid "Solarized dark"
 msgstr ""
@@ -1630,8 +1588,7 @@ msgstr ""
 msgid ""
 "<small><i><b>Note:</b> Terminal applications have these colors available to "
 "them.</i></small>"
-msgstr ""
-"<small><i><b>नोट:</b> ई रँग टर्मिनल अनुप्रयोगमे उपलब्ध हएताह.</i></small>"
+msgstr "<small><i><b>नोट:</b> ई रँग टर्मिनल अनुप्रयोगमे उपलब्ध हएताह.</i></small>"
 
 #: src/profile-preferences.ui:1761
 msgid "Colors"
@@ -1713,8 +1670,8 @@ msgstr "स्क्रॉल कए रहल अछि"
 msgid ""
 "<small><i><b>Note:</b> These options may cause some applications to behave "
 "incorrectly.  They are only here to allow you to work around certain "
-"applications and operating systems that expect different terminal "
-"behavior.</i></small>"
+"applications and operating systems that expect different terminal behavior.</"
+"i></small>"
 msgstr ""
 
 #: src/profile-preferences.ui:2250
@@ -1938,53 +1895,53 @@ msgstr "क्रिया (_A)"
 msgid "Shortcut _Key"
 msgstr "शॉर्टकट कुँजी (_K)"
 
-#: src/terminal-app.c:523
+#: src/terminal-app.c:525
 msgid "Click button to choose profile"
 msgstr "प्रोफ़ाइल चुनए लेल बटन क्लिक करू"
 
-#: src/terminal-app.c:606
+#: src/terminal-app.c:608
 msgid "Profile list"
 msgstr "प्रोफ़ाइल सूची"
 
-#: src/terminal-app.c:683
+#: src/terminal-app.c:685
 #, c-format
 msgid "Delete profile “%s”?"
 msgstr ""
 
-#: src/terminal-app.c:687
+#: src/terminal-app.c:689
 msgid "_Cancel"
 msgstr "रद्द करू (_C)"
 
-#: src/terminal-app.c:692
+#: src/terminal-app.c:694
 msgid "_Delete"
 msgstr "मेटाबू (_D)"
 
-#: src/terminal-app.c:699
+#: src/terminal-app.c:701
 msgid "Delete Profile"
 msgstr "प्रोफाइल मेटाबू"
 
-#: src/terminal-app.c:1146
+#: src/terminal-app.c:1148
 #, c-format
 msgid ""
 "You already have a profile called “%s”. Do you want to create another "
 "profile with the same name?"
 msgstr ""
 
-#: src/terminal-app.c:1241
+#: src/terminal-app.c:1243
 msgid "Choose base profile"
 msgstr "मूल प्रोफ़ाइल चुनू"
 
-#: src/terminal-app.c:1828
+#: src/terminal-app.c:1830
 #, c-format
 msgid "No such profile \"%s\", using default profile\n"
 msgstr ""
 
-#: src/terminal-app.c:1855
+#: src/terminal-app.c:1857
 #, c-format
 msgid "Invalid geometry string \"%s\"\n"
 msgstr "अवैध ज्यामिति स्ट्रिंग \"%s\"\n"
 
-#: src/terminal-app.c:2061
+#: src/terminal-app.c:2063
 msgid "User Defined"
 msgstr "प्रयोक्ता पारिभाषित"
 
@@ -2130,15 +2087,15 @@ msgstr "विएतनामी"
 msgid "Thai"
 msgstr "थाइ"
 
-#: src/terminal-encoding.c:506 src/terminal-encoding.c:531
+#: src/terminal-encoding.c:503 src/terminal-encoding.c:528
 msgid "_Description"
 msgstr "वर्णन (_D)"
 
-#: src/terminal-encoding.c:515 src/terminal-encoding.c:540
+#: src/terminal-encoding.c:512 src/terminal-encoding.c:537
 msgid "_Encoding"
 msgstr "एनकोडिंग (_E)"
 
-#: src/terminal-encoding.c:598
+#: src/terminal-encoding.c:595
 msgid "Current Locale"
 msgstr "वर्तमान लोकेल"
 
@@ -2199,8 +2156,7 @@ msgid ""
 "Do not register with the activation nameserver, do not re-use an active "
 "terminal"
 msgstr ""
-"सक्रियण नाम-सर्वर क' सँग पंजीकृत नहि होउ, कोनो सक्रिय टर्मिनलकेँ पुनः उपयोग "
-"नहि करू"
+"सक्रियण नाम-सर्वर क' सँग पंजीकृत नहि होउ, कोनो सक्रिय टर्मिनलकेँ पुनः उपयोग नहि करू"
 
 #: src/terminal-options.c:962
 msgid "Load a terminal configuration file"
@@ -2333,29 +2289,29 @@ msgstr ""
 msgid "Unnamed"
 msgstr "बेनाम"
 
-#: src/terminal-screen.c:1520
+#: src/terminal-screen.c:1521
 msgid "_Profile Preferences"
 msgstr ""
 
-#: src/terminal-screen.c:1521 src/terminal-screen.c:1966
+#: src/terminal-screen.c:1522 src/terminal-screen.c:1964
 msgid "_Relaunch"
 msgstr ""
 
-#: src/terminal-screen.c:1524
+#: src/terminal-screen.c:1525
 msgid "There was an error creating the child process for this terminal"
 msgstr "एहि टर्मिनल लेल शिशु प्रक्रिया सृजित करबमे त्रुटि"
 
-#: src/terminal-screen.c:1971
+#: src/terminal-screen.c:1969
 #, c-format
 msgid "The child process exited normally with status %d."
 msgstr ""
 
-#: src/terminal-screen.c:1976
+#: src/terminal-screen.c:1974
 #, c-format
 msgid "The child process was terminated by signal %d."
 msgstr ""
 
-#: src/terminal-screen.c:1981
+#: src/terminal-screen.c:1979
 msgid "The child process was terminated."
 msgstr ""
 
@@ -2386,22 +2342,23 @@ msgstr ""
 
 #: src/terminal-util.c:329
 msgid ""
-"MATE Terminal is distributed in the hope that it will be useful, but WITHOUT"
-" ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"MATE Terminal is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
 msgstr ""
 
 #: src/terminal-util.c:333
 msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
+"You should have received a copy of the GNU General Public License along with "
+"MATE Terminal; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
 msgstr ""
 
 #. Translators: This is the label of a menu item to choose a profile.
 #. * _%d is used as the accelerator (with d between 1 and 9), and
 #. * the %s is the name of the terminal profile.
+#.
 #: src/terminal-window.c:618
 #, c-format
 msgid "_%d. %s"
@@ -2410,6 +2367,7 @@ msgstr "_%d. %s"
 #. Translators: This is the label of a menu item to choose a profile.
 #. * _%c is used as the accelerator (it will be a character between A and Z),
 #. * and the %s is the name of the terminal profile.
+#.
 #: src/terminal-window.c:624
 #, c-format
 msgid "_%c. %s"
@@ -2649,8 +2607,8 @@ msgstr ""
 
 #: src/terminal-window.c:3621
 msgid ""
-"There is still a process running in this terminal. Closing the terminal will"
-" kill it."
+"There is still a process running in this terminal. Closing the terminal will "
+"kill it."
 msgstr ""
 
 #: src/terminal-window.c:3624
@@ -2681,15 +2639,23 @@ msgstr ""
 msgid "_Title:"
 msgstr "शीर्षक (_T):"
 
-#: src/terminal-window.c:4449
+#: src/terminal-window.c:4450
 msgid "Contributors:"
 msgstr ""
 
-#: src/terminal-window.c:4468
+#: src/terminal-window.c:4466
+#, fuzzy, c-format
+#| msgid "A terminal emulator for the MATE desktop"
+msgid ""
+"A terminal emulator for the MATE desktop\n"
+"Using VTE %d.%d.%d"
+msgstr "MATE डेस्कटाप क'लेल टर्मिनल एमुलेटर"
+
+#: src/terminal-window.c:4472
 msgid "About MATE Terminal"
 msgstr ""
 
-#: src/terminal-window.c:4469
+#: src/terminal-window.c:4473
 msgid ""
 "Copyright © 2002–2004 Havoc Pennington\n"
 "Copyright © 2003–2004, 2007 Mariano Suárez-Alvarez\n"
@@ -2699,10 +2665,6 @@ msgid ""
 "Copyright © 2012-2020 MATE developers"
 msgstr ""
 
-#: src/terminal-window.c:4475
-msgid "A terminal emulator for the MATE desktop"
-msgstr "MATE डेस्कटाप क'लेल टर्मिनल एमुलेटर"
-
-#: src/terminal-window.c:4481
+#: src/terminal-window.c:4485
 msgid "translator-credits"
 msgstr "संगीता कुमारी (sangeeta09@gmail.com)"

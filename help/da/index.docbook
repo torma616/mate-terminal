@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?db.chunk.max_depth 2?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:db="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0" xml:id="index" xml:lang="da">
+  <info>
+     <title>Manual for MATE-terminalen</title>
+
+     <copyright><year>2015-2020</year> <holder>MATE-dokumentationsprojektet</holder></copyright>
+     <copyright><year>2009</year> <year>2010</year> <holder>Paul Cutler</holder></copyright> 
+     <copyright><year>2008</year> <holder>Christian Persch</holder></copyright>
+     <copyright><year>2002</year> <year>2003</year> <year>2004</year> <holder>Sun Microsystems</holder></copyright> 
+     <copyright><year>2000</year> <holder>Miguel de Icaza</holder></copyright> 
+     <copyright><year>2000</year> <holder>Michael Zucchi</holder></copyright>
+     <copyright><year>2000</year> <holder>Alexander Kirillov</holder></copyright>
+     <publisher> 
+        <publishername>MATE-dokumentationsprojektet</publishername> 
+     </publisher>
+
+     <xi:include href="legal.xml"/>
+  
+     <authorgroup> 
+        <author><personname><surname>MATE-dokumentationsholdet</surname></personname><affiliation> <orgname>MATE DESKTOP</orgname> </affiliation></author> 
+        <author><personname><firstname>Sun</firstname><surname>GNOME-dokumentationsholdet</surname></personname><affiliation> <orgname>Sun Microsystems</orgname> </affiliation></author> 
+        <author><personname><firstname>Miguel</firstname><surname>de Icaza</surname></personname><affiliation> <orgname>GNOME-dokumentationsprojektet</orgname> </affiliation></author> 
+        <author><personname><firstname>Michael</firstname><surname>Zucchi</surname></personname><affiliation> <orgname>GNOME-dokumentationsprojektet</orgname> </affiliation></author> 
+        <author><personname><firstname>Alexander</firstname><surname>Kirillov</surname></personname><affiliation> <orgname>GNOME-dokumentationsprojektet</orgname> </affiliation></author> 
+     </authorgroup> 
+
+     <publisher role="maintainer">
+       <publishername>GNOME-dokumentationsprojektet</publishername>
+     </publisher>
+
+     <revhistory>
+	<revision><revnumber>2.9</revnumber> <date>Januar 2010</date> <revdescription> 
+             <para role="author">Paul Cutler <email>pcutler@gnome.org</email></para>
+             <para role="publisher">GNOME-dokumentationsprojektet</para>
+          </revdescription></revision> 
+	<revision><revnumber>2.8</revnumber> <date>Marts 2009</date> <revdescription> 
+             <para role="author">Paul Cutler</para>
+             <para role="publisher">GNOME-dokumentationsprojektet</para>
+          </revdescription></revision>
+	<revision><revnumber>2.7</revnumber> <date>November 2003</date> <revdescription> 
+             <para role="author">Sun GNOME-dokumentationsholdet</para>
+             <para role="publisher">GNOME-dokumentationsprojektet</para>
+          </revdescription></revision>
+	<revision><revnumber>2.6</revnumber> <date>September 2003</date> <revdescription> 
+             <para role="author">Sun GNOME-dokumentationsholdet</para>
+             <para role="publisher">GNOME-dokumentationsprojektet</para>
+          </revdescription></revision>
+	<revision><revnumber>2.5</revnumber> <date>Maj 2003</date> <revdescription> 
+             <para role="author">Sun GNOME-dokumentationsholdet</para>
+             <para role="publisher">GNOME-dokumentationsprojektet</para>
+          </revdescription></revision>
+        <revision><revnumber>2.4</revnumber> <date>Januar 2003</date> <revdescription> 
+             <para role="author">Sun GNOME-dokumentationsholdet</para>
+             <para role="publisher">GNOME-dokumentationsprojektet</para>
+          </revdescription></revision>
+        <revision><revnumber>2.3</revnumber> <date>August 2002</date> <revdescription> 
+             <para role="author">Sun GNOME-dokumentationsholdet</para>
+             <para role="publisher">GNOME-dokumentationsprojektet</para>
+          </revdescription></revision>
+        <revision><revnumber>2.2</revnumber> <date>August 2002</date> <revdescription> 
+             <para role="author">Sun GNOME-dokumentationsholdet</para>
+             <para role="publisher">GNOME-dokumentationsprojektet</para>
+          </revdescription></revision>
+        <revision><revnumber>2.1</revnumber> <date>August 2002</date> <revdescription> 
+             <para role="author">Sun GNOME-dokumentationsholdet</para>
+             <para role="publisher">GNOME-dokumentationsprojektet</para>
+          </revdescription></revision>
+        <revision><revnumber>2.0</revnumber> <date>April 2002</date> <revdescription> 
+             <para role="author">Sun GNOME-dokumentationsholdet</para>
+             <para role="publisher">GNOME-dokumentationsprojektet</para>
+          </revdescription></revision> 
+        <revision><revnumber>1.0</revnumber> <date>Maj 2000</date> <revdescription> 
+             <para role="author">Miguel de Icaza, Michael Zucchi, Alexander Kirollov <email>docs@gnome.org</email></para>
+             <para role="publisher">GNOME-dokumentationsprojektet</para>
+          </revdescription></revision> 
+     </revhistory> 
+
+     <releaseinfo>Denne manual beskriver version 1.22 af MATE-terminalen.</releaseinfo>
+
+  </info> 
+
+  <indexterm><primary>MATE-terminalen</primary></indexterm> 
+  <indexterm><primary>terminalprogram</primary></indexterm> 
+  
+  <!-- ============= Introduction ============================== -->
+  <section xml:id="mate-terminal-introduction"><info><title>Introduktion</title></info> 
+     <para><application>MATE-terminalen</application> er et terminalemuleringsprogram, som du kan bruge til at udføre de følgende opgaver:</para>
+     <variablelist> 
+        <varlistentry> 
+          <term>Tilgå en UNIX-skal i et MATE-miljø</term> 
+          <listitem> 
+             <para>En skal er et program, som fortolker og kører kommandoerne du taster på kommandolinjen. Når du starter <application>MATE-terminalen</application> starter programmet standardskallen, som er angivet i din systemkonto. Du kan skifte til en anden skal på ethvert tidspunkt.</para>
+          </listitem> 
+        </varlistentry> 
+        <varlistentry> 
+          <term>Kør ethvert program som er designet til at køre på VT102-, VT220- og <application>xterm</application>-terminaler</term> 
+          <listitem> 
+             <para><application>MATE-terminalen</application> emulerer <application>xterm</application>-programmet udviklet af X Consortium. Til gengæld emulerer <application>xterm</application>-programmet DEC VT102-terminalen og understøtter også  DEC VT220-undvigesekvenserne. En undvigesekvens er en serie af tegn, som starter med <keycap>Esc</keycap>-tegnet. <application>MATE-terminalen</application> accepterer alle de undvigesekvenser som VT102-  VT220-terminalerne bruger til funktioner såsom placering af markøren og rydning af skærmen.</para>
+          </listitem> 
+        </varlistentry> 
+     </variablelist> 
+  </section> 
+
+  <!--=========== Getting Started ============================== -->
+  
+  <section xml:id="mate-terminal-get-started"><info><title>Kom i gang</title></info> 
+     <para>De følgende afsnit beskriver hvordan <application>MATE-terminalen</application> startes.</para>
+
+     <section xml:id="mate-terminal-to-start"><info><title>Start af MATE-terminalen</title></info> 
+        <para>Du kan starte <application>MATE-terminalen</application> på de følgende måder:</para>
+        <variablelist> 
+          <varlistentry> 
+             <term><guimenu>Programmenuen</guimenu></term> 
+             <listitem>
+                <para>Vælg <menuchoice><guimenu>Tilbehør</guimenu><guimenuitem>Terminal</guimenuitem></menuchoice>.</para>
+             </listitem>
+          </varlistentry> 
+          <varlistentry> 
+             <term>Kommandolinje</term> 
+             <listitem> 
+                <para>Kør den følgende kommando: <command>mate-terminal</command></para>
+                <para>Du kan bruge tilvalg på kommandolinjen til at ændre måden hvorpå du afvikler <application>MATE-terminalen</application>. For at se tilvalg for kommandolinjen, kør den følgende kommando: <command>mate-terminal --help</command></para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section> 
+
+     <section xml:id="mate-terminal-first-start"><info><title>Når du for første gang starter MATE-terminalen</title></info> 
+        <para>Når du starter <application>MATE-terminalen</application> for første gang, så åbner programmet et terminalvindue med en gruppe af standardindstillinger. Gruppen med standardindstillinger kaldes for standardprofilen.</para>
+        <figure xml:id="mate-terminal_default"><info><title>Eksempel på MATE-terminalens vindue</title></info> 
+          <screenshot>
+             <info><abstract><para>MATE-terminalens standardvindue</para></abstract></info>
+             <mediaobject><imageobject> <imagedata fileref="figures/mate-terminal-default.png" format="PNG"/> </imageobject> <textobject> <phrase>MATE-terminalens standardvindue</phrase> </textobject></mediaobject> 
+          </screenshot> 
+        </figure> 
+        <para>Terminalvinduet viser en kommandoprompt hvor du kan taste UNIX-kommandoer. Kommandoprompten kan være et %, #,  &gt;, $ eller et andet specielt tegn. Markøren er positioneret på kommandoprompten. Når du taster en UNIX-kommando og trykker <keycap>Retur</keycap>, så kører computeren kommandoen. Som standard bruger <application>MATE-terminalen</application> standardskallen angivet for brugeren, som starter programmet.</para>
+        <para><application>MATE -terminalen</application> sætter også de følgende miljøvariabler:</para>
+        <variablelist> 
+          <varlistentry> 
+             <term><varname>TERM</varname></term> 
+             <listitem> 
+                <para>Angiv som <literal>xterm-256color</literal> som standard.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><varname>WINDOWID</varname></term> 
+             <listitem> 
+                <para>Angiv som X11-vinduesidentifikatoren som standard.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section> 
+
+     <section xml:id="mate-terminal-profiles"><info><title>Terminalprofiler</title></info> 
+        <para>Du kan oprette en ny profil, og anvende den nye profil på terminalen til at ændre karakteristika såsom skrifttype, farve og effekter, opførsel for rul, vinduestitel og kompatibilitet. Du kan også angive en kommando, som kører automatisk når du starter <application>MATE-terminalen</application> i profilen.</para>
+          <para>Du definerer hver terminalprofil i dialogen <guilabel>Profiler</guilabel>, som du kan tilgå fra menuen <guimenu>Rediger</guimenu>. Du kan definere så mange forskellige profiler du skal bruge. Når du starter en terminal, så kan du vælge profilen, som du ønsker at bruge for terminalen. Alternativt kan du ændre terminalprofilen, mens du bruger terminalen. For at angive en opstartsprofil for en terminal, når du starter programmet fra en kommandolinje, brug den følgende kommando:</para>
+        <para><command>mate-terminal --window-with-profile=<replaceable>profilnavn</replaceable></command></para>
+        <para>Navnet på den nuværende profil fremgår af titellinjen i <application>MATE-terminalen</application>, med mindre at du angiver et andet navn i dialogen <guilabel>Rediger profil</guilabel>. </para>
+        <para>Se <xref linkend="mate-terminal-manage-profiles"/> for information om hvordan en ny terminalprofil defineres og bruges.</para>
+     </section> 
+
+     <section xml:id="mate-terminal-more-windows"><info><title>Arbejde med flere terminaler</title></info> 
+        <para><application>MATE-terminalen</application> tilbyder en fanebladsfunktion, som gør at du kan åbne flere terminale i et vindue. Hver terminal åbner i et separat faneblad. Klik på det passende faneblad for at vise terminalen i vinduet. Hvert faneopedelt terminal i et vindue er en separat underproces, så du kan bruge hver terminal til forskellige opgaver. Du kan anvende en anden profil for hver faneopdelt terminal i vinduet.</para>
+       <para>Titellinjen på terminalvinduet viser enten navnet på den nuværende profil, eller navnet angivet af den nuværende profil. <xref linkend="mate-terminal-tabbed"/> viser et vindue for <application>MATE-terminalen</application> med fire faneblade. I dette tilfælde, har hver af de fire faneblade en forskellig profil. Navnet på profilen i det aktive faneblad, Profil 1, fremgår af titellinjen.</para>
+        <figure xml:id="mate-terminal-tabbed"><info><title>Eksempel på et terminalvindue med faneblade</title></info> 
+          <screenshot> 
+             <info><abstract><para>MATE-terminalens standardvindue</para></abstract></info> 
+             <mediaobject><imageobject> <imagedata fileref="figures/mate-terminal-tabbed.png" format="PNG"/> </imageobject> <textobject> <phrase>MATE-terminalvindue med fire faneblade</phrase> </textobject></mediaobject> 
+          </screenshot> 
+        </figure> 
+        <para>Se <xref linkend="mate-terminal-windows"/> for information om hvordan en ny faneopdelt terminal åbnes.</para>
+     </section> 
+
+  </section> 
+  
+  <!--=========== Usage ============================== -->  
+
+  <section xml:id="mate-terminal-usage"><info><title>Forbrug</title></info> 
+
+     <section xml:id="mate-terminal-windows"><info><title>Åbne og lukke terminaler</title></info> 
+        <variablelist> 
+          <varlistentry> 
+             <term>For at åbne et nyt terminalvindue:</term> 
+             <listitem> 
+                <para>Vælg <menuchoice><guimenu>Fil</guimenu><guimenuitem>Åbn terminal</guimenuitem></menuchoice>.</para>
+                <para>Den nye terminal arver programindstillinger og standardskal fra overterminalen.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>For at lukke et terminalvindue:</term> 
+             <listitem> 
+                <para>Vælg <menuchoice><guimenu>Fil</guimenu><guimenuitem>Luk vindue</guimenuitem></menuchoice>.</para>
+                <para>Denne handling lukker terminalen og alle underprocesser, som du har åbnet fra terminalen. Hvis du lukker det seneste terminalvindue, så afsluttes programmet <application>MATE-terminalen</application>.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>For at tilføje en ny faneopdelt terminal til et vindue:</term> 
+             <listitem> 
+                <para>Vælg <menuchoice><guimenu>Fil</guimenu><guisubmenu>Åbn faneblad</guisubmenu><guimenuitem>Standard</guimenuitem></menuchoice> eller bare <menuchoice><guimenu>Fil</guimenu><guimenuitem>Åbn faneblad</guimenuitem></menuchoice> hvis der ikke er en undermenu.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>At vise en faneopdelt terminal:</term> 
+             <listitem> 
+                <para>Klik på fanebladet for den faneopdelte terminal, som du ønsker at vise, eller vælg en fanebladstitel fra menuen <guimenu>Taneblade</guimenu>.</para>
+                <para>Alternativt, vælg <menuchoice><guimenu>Faneblade</guimenu><guimenuitem>Næste faneblad</guimenuitem></menuchoice> eller <menuchoice><guimenu>Faneblade</guimenu><guimenuitem>Forrige faneblad</guimenuitem></menuchoice> for at navigere mellem faneblade.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>At lukke en faneopdelt terminal:</term> 
+             <listitem> 
+                <para>
+                  <orderedlist inheritnum="ignore" continuation="restarts"> 
+                     <listitem> 
+                        <para>Vis den faneopdelte terminal du ønsker at lukke.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Vælg <menuchoice><guimenu>Fil</guimenu><guimenuitem>Luk faneblad</guimenuitem></menuchoice>.</para>
+                     </listitem> 
+                  </orderedlist> 
+                </para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section> 
+
+     <section xml:id="mate-terminal-manage-profiles"><info><title>Håndtering af profiler</title></info> 
+        <variablelist> 
+          <varlistentry> 
+             <term>For at tilføje en ny profil:</term> 
+             <listitem> 
+                <para>
+                  <orderedlist inheritnum="ignore" continuation="restarts"> 
+                     <listitem> 
+                        <para>Vælg <menuchoice><guimenu>Fil</guimenu><guimenuitem>Ny profil</guimenuitem></menuchoice> for at vise dialogen <guilabel>Ny profil</guilabel>.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Skriv det nye profilnavn i tekstboksen <guilabel>Profilnavn</guilabel>.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Brug rullegardinet <guilabel>Baser på</guilabel> til at vælge profilen hvormed du ønsker at basere den nye profil.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Klik <guibutton>Opret</guibutton> for at vise dialogen <guilabel>Redigering af profil</guilabel>.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Klik <guibutton>Luk</guibutton>. <application>MATE-terminalen</application> tilføjer profilen til undermenuen <menuchoice><guimenu>Terminal</guimenu><guisubmenu>Ændr profil</guisubmenu></menuchoice>.</para>
+                     </listitem> 
+                  </orderedlist> 
+                </para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>For at ændre profilen for en faneopdelt terminal:</term> 
+             <listitem> 
+                <para>
+                  <orderedlist inheritnum="ignore" continuation="restarts"> 
+                     <listitem> 
+                        <para>Klik på fanebladet for den faneopdelte terminal, som du ønsker at ændre profilen for.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Vælg <menuchoice><guimenu>Terminal</guimenu><guisubmenu>Ændr profil</guisubmenu><guimenuitem><replaceable>profilnavn</replaceable></guimenuitem></menuchoice>.</para>
+                     </listitem> 
+                  </orderedlist> 
+                </para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>For at redigere en profil:</term> 
+             <listitem> 
+                <para>Du redigerer profiler i dialogen <guilabel>Redigering af profil</guilabel>. Du kan tilgå dialogen <guilabel>Redigering af profil</guilabel> på følgende måder:</para>
+                <itemizedlist> 
+                  <listitem> 
+                     <para>Vælg <menuchoice><guimenu>Rediger</guimenu><guisubmenu>Nuværende profil</guisubmenu></menuchoice>.</para>
+                  </listitem> 
+                  <listitem> 
+                     <para>Højreklik i terminalvinduet, vælg så <menuchoice><guimenuitem>Profiler</guimenuitem> <guimenuitem>Profilpræferencer</guimenuitem></menuchoice> fra pop op-menuen.</para>
+                  </listitem> 
+                  <listitem> 
+                     <para>Vælg <menuchoice><guimenu>Rediger</guimenu><guisubmenu>Profiler</guisubmenu></menuchoice>, vælg profilen du ønsker at redigere, klik så  <guibutton>Rediger</guibutton>. For information om indstillingerne du kan angive for profiler, se <xref linkend="mate-terminal-prefs"/>.</para>
+                  </listitem> 
+                </itemizedlist> 
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>For at slette en profil:</term> 
+             <listitem> 
+                <para>
+                  <orderedlist inheritnum="ignore" continuation="restarts"> 
+                     <listitem> 
+                        <para>Vælg <menuchoice><guimenu>Rediger</guimenu><guimenuitem>Profiler</guimenuitem></menuchoice>.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Vælg navnet på profilen du ønsker at slette i listen <guilabel>Profiler</guilabel>, klik <guibutton>Slet</guibutton>. Dialogen <guilabel>Slet profil</guilabel> vises.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Klik <guibutton>Slet</guibutton> for at bekræfte sletningen.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Klik <guibutton>Luk</guibutton> for at lukke dialogen <guilabel>Rediger profiler</guilabel>.</para>
+                     </listitem> 
+                  </orderedlist> 
+                </para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section> 
+
+     <section xml:id="mate-terminal-tabs"><info><title>Ændring af et terminalvindue</title></info> 
+        <variablelist> 
+          <varlistentry> 
+             <term>For at skjule menulinjen:</term> 
+             <listitem> 
+                <para>Vælg <menuchoice><guimenu>Vis</guimenu><guimenuitem>Vis menulinje</guimenuitem></menuchoice>.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>For at vise en skjult menulinje:</term> 
+             <listitem> 
+                <para>Højreklik på terminalvinduet, vælg så <guimenuitem>Vis menulinje</guimenuitem> fra pop op-menuen.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry><term>For at vise <application>MATE-terminalens</application> vindue i tilstanden fuldskærm.</term>
+            <listitem>
+              <para>Vælg <menuchoice><guimenu>Vis</guimenu><guimenuitem>Fuld  skærm</guimenuitem></menuchoice>. Fuldskærm tilstand viser teksten i et vindue som fylder den fulde skærm. Vinduet indeholder ikke en vinduesramme eller titellinje. For at afslutte denne tilstand, vælg <menuchoice><guimenu>Vis</guimenu><guimenuitem>Fuld skærm</guimenuitem></menuchoice> igen.</para>
+            </listitem>     
+          </varlistentry>
+          <varlistentry> 
+             <term>For at ændre udseendet på terminalvinduet:</term> 
+             <listitem> 
+                <para>Se <xref linkend="mate-terminal-prefs"/> for information om indstillingerne du kan vælge i dialogen <guilabel>Redigering af profil</guilabel> for at ændre udseende for terminalvinduet. For eksempel kan du ændre baggrundsfarven eller placeringen af rullebjælken.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section>
+
+     <section xml:id="mate-terminal-contents"><info><title>Arbejde med indholdet af terminalvinduer</title></info> 
+        <variablelist> 
+          <varlistentry> 
+             <term>For at rulle igennem tidligere kommandoer og resultater:</term> 
+             <listitem> 
+                <para>Udfør en af de følgende handlinger:</para>
+                <itemizedlist> 
+                  <listitem> 
+                     <para>Brug rullebjælken, som normalt vises til højre i terminalvinduet.</para>
+                  </listitem> 
+                  <listitem> 
+                     <para>Tryk på tasterne <keycombo><keycap>Skift</keycap><keycap>Side op</keycap></keycombo>, <keycombo><keycap>Skift</keycap><keycap>Side ned</keycap></keycombo>, <keycombo><keycap>Skift</keycap><keycap>Hjem</keycap></keycombo>, eller <keycombo><keycap>Skift</keycap><keycap>End</keycap></keycombo>.</para>
+                  </listitem> 
+                </itemizedlist> 
+                <para>Antallet af linjer du kan gå baglæns til i terminalvinduet bestemmes af indstillingen <guilabel>Tilbagerulning</guilabel> i fanebladet <guilabel>Rulning</guilabel> i dialogen <guilabel>Redigering af profil</guilabel>. Du kan også rulle op eller ned en linje ad gangen ved at trykke på <keycombo><keycap>Control</keycap><keycap>Skift</keycap><keycap>Op</keycap></keycombo> eller <keycombo><keycap>Control</keycap><keycap>Skift</keycap><keycap>Ned</keycap></keycombo>.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>For at vælge og kopiere tekst</term> 
+             <listitem> 
+                <para>Du kan vælge tekst i enhver af de følgende måder:</para>
+                <itemizedlist> 
+                  <listitem> 
+                     <para>For at vælge et tegn ad gangen, klik på det første tegn, du ønsker at vælge og træk musen til det sidste tegn, du ønsker at vælge.</para>
+                  </listitem> 
+                  <listitem> 
+                     <para>For at vælge et ord ad gangen, klik på det første ord, du ønsker at vælge og træk musen til det sidste ord, du ønsker at vælge. Symboler vælges individuelt.</para>
+                  </listitem> 
+                  <listitem> 
+                     <para>For at vælge en linje ad gangen, klik tre gange på den første linje, som du ønsker at vælge og træk musen til den sidste linje, du ønsker at vælge.</para>
+                  </listitem> 
+                </itemizedlist> 
+                <para>Disse handlinger vælger al tekst mellem det første og sidste element. For alle tekstmarkeringer kopierer <application>MATE-terminalen</application> den markerede tekst ind i udklipsholderen når du frigiver musetasten. For eksplicit at kopiere den valgte tekst, vælg <menuchoice><guimenu>Rediger</guimenu><guimenuitem>Kopier</guimenuitem></menuchoice>.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>For at indsætte tekst i en terminal:</term> 
+             <listitem> 
+                <para>Hvis du tidligere kopierede tekst ind i udklipsholderen, så kan du indsætte teksten i en terminal ved at udføre en af de følgende handlinger:</para>
+                <itemizedlist> 
+                  <listitem> 
+                     <para>For at indsætte tekst som du kun kopierede med markering, brug et midterklik på kommandoprompten. Hvis du ikke har den midterste knap på din mus, så se X-serverdokumentationen for information om hvordan du emulerer denne knap.</para>
+                  </listitem> 
+                  <listitem> 
+                     <para>For at indsætte tekst som du eksplicit har kopieret, vælg <menuchoice><guimenu>Rediger</guimenu><guimenuitem>Indsæt</guimenuitem></menuchoice>.</para>
+                  </listitem> 
+                </itemizedlist> 
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>For at trække et filnavn ind i et terminalvindue:</term> 
+             <listitem> 
+                <para>Du kan trække et filnavn til en terminal fra et andet program såsom en filhåndtering. Terminalen viser stien og det fulde navn på filen.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>For at tilgå en henvisning:</term> 
+             <listitem> 
+                <para>For at tilgå en Uniform Resource Locator (URL) som vises i en terminal, udfør de følgende trin:</para>
+                  <orderedlist inheritnum="ignore" continuation="restarts"> 
+                     <listitem> 
+                        <para>Flyt musen over adressen (URL) indtil adressen er understreget.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Højreklik på adressen for at åben en pop op-menu.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Vælg <guimenuitem>Åbn henvisning</guimenuitem> for at starte et henvisningsprogram og vis filen placeret på adressen.</para>
+                     </listitem> 
+                  </orderedlist>                
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section> 
+     
+     <section xml:id="mate-terminal-shortcuts"><info><title>Vis indstillingerne for tastaturgenveje</title></info> 
+        <para>For at vise indstillinger for tastaturgenveje, der er defineret for <application>MATE-terminalen</application>, vælg <menuchoice><guimenu>Rediger</guimenu><guimenuitem>Genvejstaster</guimenuitem></menuchoice>. Dialogen <guilabel>Genvejstater</guilabel> indeholder de følgende elementer:</para>
+        <variablelist> 
+          <varlistentry> 
+             <term><guilabel>Deaktiver alle menuadgangstaster (såsom Alt+f til at åbne filmenuen)</guilabel></term> 
+             <listitem> 
+                <para>Fravælg denne indstilling for at deaktivere adgangstasterne, som er defineret for at du kan bruge tastaturet i stedet for musen til at vælge et menuelement. Hver adgangstast er identificeret af et understreget bogstav på menuen eller dialogmuligheden. I nogle tilfælde skal du trykke på tasten <keycap>Alt</keycap> i kombination med adgangstasten for at udføre handlingen.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Deaktiver menus genvejstast (F10 som standard)</guilabel></term> 
+             <listitem> 
+                <para>Fravælg denne indstilling for at deaktivere genvejstasten, der er defineret for at give dig adgang til <application>MATE-terminalens</application> menuer. Standardgenvejen for adgang til menuerne er <keycap>F10</keycap>.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Genvejstaster</guilabel></term> 
+             <listitem> 
+                <para>Afsnittet <guilabel>Genvejstaster</guilabel> i dialogen viser genvejstasterne, der er defineret for hvert menuelement.</para>
+                <note><para>Ikke alle taster kan bruges som genvejstast, såsom <keycap>Indryk</keycap> (Tab).</para></note>
+             </listitem> 
+          </varlistentry>
+        </variablelist> 
+     </section>
+     
+	<section xml:id="mate-terminal-resize"><info><title>Tekststørrelse</title></info>
+		<para>Du kan bruge de følgende metoder til at ændre størrelse på teksten i MATE-terminalvinduet:</para>
+		<itemizedlist>
+			<listitem><para>For at øge tekststørrelsen, vælg <menuchoice><guimenu>Visning</guimenu><guimenuitem>Zoom ind</guimenuitem></menuchoice>.</para>
+			</listitem>
+			<listitem><para>For at mindske tekststørrelsen, vælg <menuchoice><guimenu>Vis</guimenu><guimenuitem>Zoom ud</guimenuitem></menuchoice>.</para>
+			</listitem>
+			<listitem><para>For at vise teksten med faktisk størrelse, vælg <menuchoice><guimenu>Vis</guimenu><guimenuitem>Normal størrelse</guimenuitem></menuchoice>.</para>
+			</listitem>
+		</itemizedlist>
+	</section>	
+
+     <section xml:id="mate-terminal-title"><info><title>For at ændre terminaltitlen</title></info> 
+        <para>For at ændre titlen for den nuværende viste terminal, udfør de følgende trin:</para>
+        <orderedlist inheritnum="ignore" continuation="restarts">
+          <listitem>
+            <para>Vælg <menuchoice><guimenu>Terminal</guimenu><guimenuitem>Angiv titel</guimenuitem></menuchoice>.</para>
+          </listitem>
+          <listitem>
+            <para>Tast den nye titel i tekstboksen <guilabel>Titel</guilabel>. <application>MATE-terminalen</application> anvender ændringerne umiddelbart.</para>
+          </listitem>
+          <listitem>
+            <para>Klik <guibutton>Luk</guibutton> for at lukke dialogen <guilabel>Angiv titel</guilabel>.</para>
+          </listitem>
+        </orderedlist>
+	</section>	
+
+     <section xml:id="mate-terminal-encoding"><info><title>For at ændre tegnkodningen</title></info> 
+        <para>For at ændre tegnkodningen, vælg <menuchoice><guimenu>Terminal</guimenu><guisubmenu>Angiv tegnkodning</guisubmenu></menuchoice>, vælg så den passende kodning.</para>
+
+        <section xml:id="mate-terminal-encoding-add"><info><title>For at ændre listen over tegnkodninger</title></info> 
+           <para>For at ændre listen over tegnkodninger vist i menuen <guisubmenu>Angiv tegnkodning</guisubmenu>, udfør de følgende trin:</para>
+           <orderedlist inheritnum="ignore" continuation="restarts">
+             <listitem>
+               <para>Vælg <menuchoice><guimenu>Terminal</guimenu><guisubmenu>Angiv tegnkodning</guisubmenu><guimenuitem>Tilføj eller fjern</guimenuitem></menuchoice>.</para>
+             </listitem>
+             <listitem>
+               <para>For at tilføje en kodning til menuen <guisubmenu>Angiv tegnkodning</guisubmenu>, vælg kodningen i boksen med <guilabel>Tilgængelige kodninger</guilabel>, klik så på den højre piletast.</para>
+             </listitem>
+             <listitem>
+               <para>For at fjerne en kodning til menuen <guisubmenu>Angiv tegnkodning</guisubmenu>, vælg kodningen i boksen med <guilabel>Kodninger vist i menuen</guilabel>, klik så på den venstre piletast.</para>
+             </listitem>
+             <listitem>
+               <para>Klik <guibutton>Luk</guibutton> for at lukke dialogen <guilabel>Tilføj eller fjern terminalkodninger</guilabel>.</para>
+             </listitem>
+           </orderedlist>
+	</section>	
+
+     </section>	
+
+     <section xml:id="mate-terminal-reset"><info><title>For at gendanne din terminal</title></info> 
+        <para>Dette afsnit tilbyder nogle råd, hvis du har problemer med terminaler.</para>
+        <variablelist> 
+          <varlistentry> 
+             <term>For at nulstille tilstanden for terminalen:</term> 
+             <listitem> 
+                <para>Vælg <menuchoice><guimenu>Terminal</guimenu><guimenuitem>Nulstil</guimenuitem></menuchoice>.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+        <variablelist> 
+          <varlistentry> 
+             <term>For at nulstille terminalen og rydde skærmen:</term> 
+             <listitem> 
+                <para>Vælg <menuchoice><guimenu>Terminal</guimenu><guimenuitem>Nulstil og ryd</guimenuitem></menuchoice>.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section>   
+
+  </section> 
+  
+  <!--=========== Preferences ============================== -->  
+
+  <section xml:id="mate-terminal-prefs"><info><title>Præferencer</title></info> 
+     <para>For at konfigurere  <application>MATE-terminalen</application>, vælg <menuchoice><guimenu>Rediger</guimenu><guimenuitem>Nuværende profil</guimenuitem></menuchoice>. For at konfigurere en anden profil, du er ved at sætte op, vælg <menuchoice><guimenu>Rediger</guimenu><guimenuitem>Profiler</guimenuitem></menuchoice>, vælg profilen du ønsker at redigere, klik så <guibutton>Rediger</guibutton>.</para>
+     <para>Dialogen <guilabel>Rediger profil</guilabel> indeholder de følgende faneblade, som du kan bruge til at konfigurere <application>MATE-terminalen</application>:</para>
+     <itemizedlist> 
+		<listitem><para><xref linkend="mate-terminal-prefs-general"/></para>
+		</listitem>
+		<listitem><para><xref linkend="mate-terminal-prefs-title"/></para>
+		</listitem>
+		<listitem><para><xref linkend="mate-terminal-prefs-colors"/></para>
+		</listitem>
+		<listitem><para><xref linkend="mate-terminal-prefs-effects"/></para>
+		</listitem>
+		<listitem><para><xref linkend="mate-terminal-prefs-scrolling"/></para>
+		</listitem>
+		<listitem><para><xref linkend="mate-terminal-prefs-compatibility"/></para>
+		</listitem>
+	 </itemizedlist>
+
+     <section xml:id="mate-terminal-prefs-general"><info><title>Generelt</title></info> 
+        <variablelist> 
+          <varlistentry> 
+             <term><guilabel>Profilnavn</guilabel></term> 
+             <listitem> 
+                <para>Brug denne tekstboks til at angive navnet på den aktuelle profil.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Brug systemets skrifttype med fast bredde</guilabel></term>
+             <listitem> 
+                <para>Vælg denne indstilling for at bruge skrifttypen med fast bredde angivet i fanebladet <guilabel>Skrifttype</guilabel> i præferenceværktøjet <application>Udseende</application>.</para>
+             </listitem> 
+          </varlistentry>
+          <varlistentry> 
+             <term><guilabel>Skrifttype</guilabel></term> 
+             <listitem> 
+                <para>Klik på denne knap for at vælge en skrifttype og skriftstørrelse for terminalen. Denne knap er kun aktiveret hvis indstillingen <guilabel>Brug systemets terminalskrifttype</guilabel> er fravalgt.</para>
+             </listitem> 
+          </varlistentry>
+          <varlistentry>
+             <term><guilabel>Tillad fed tekst</guilabel></term> 
+             <listitem> 
+                <para>Vælg denne indstilling for at aktivere at terminalen kan vise fed tekst.</para>
+             </listitem> 
+          </varlistentry>
+          <varlistentry>
+             <term><guilabel>Vis menulinjen som standard i nye terminaler</guilabel></term> 
+             <listitem> 
+                <para>Vælg denne indstilling for at vise menulinjen på nye terminalvinduer.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Terminalklokke</guilabel></term> 
+             <listitem> 
+                <para>Vælg denne indstilling for at aktivere terminalklokken.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Vælg efter ord-tegn</guilabel></term> 
+             <listitem> 
+                <para>Brug denne tekstboks til at angive tegn eller tegngrupper, som <application>MATE-terminalen</application> anser for at være ord, når du vælger tekst efter ord. Se <xref linkend="mate-terminal-contents"/> for yderligere information om hvordan tekst efter ord vælges.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section> 
+
+     <section xml:id="mate-terminal-prefs-title"><info><title>Titel og kommando</title></info> 
+        <variablelist> 
+          <varlistentry> 
+             <term><guilabel>Opstartstitel</guilabel></term> 
+             <listitem> 
+                <para>Brug denne tekstboks til at angive opstartstitlen for terminaler, der bruger profilen. Nye terminale  der startes fra den nuværende terminal har den nye opstartstitel.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Når terminalkommandoer angiver deres egne titler</guilabel></term>
+             <listitem> 
+                <para>Brug dette rullegardin til at angive hvordan dynamisk angivne titler skal håndteres, det vil sige, terminaltitler angivet af kommander, der afvikles i terminalen.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Afvikl kommando som en logindskal</guilabel></term> 
+             <listitem> 
+                <para>Vælg denne indstilling for at tvinge kommandoen, der lige nu afvikles inden i terminalen, til at blive afviklet som en logindskal. Hvis kommnadoen ikke er en skal, har indstillingen ingen effekt.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Opdater log ind-opførsler når kommandoen køres</guilabel></term> 
+             <listitem> 
+                <para>Vælg denne indstilling for at indsætte et nyt element i log ind-opførslerne ,når en ny skal åbnes.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Kør en brugerdefineret kommando i stedet for min skal</guilabel></term> 
+             <listitem> 
+                <para>Vælg denne indstilling for at afvikle en angivet kommando, udover den normale skal, i terminalen. Angiv brugerkommandoen i tekstboksen <guilabel>Brugerkommando</guilabel>.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Når kommandoer afsluttes</guilabel></term> 
+             <listitem> 
+                <para>Brug dette rullegardin til at angive hvilken handling, der skal udføres, når kommandoen afsluttes.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section> 
+
+     <section xml:id="mate-terminal-prefs-colors"><info><title>Farver</title></info> 
+        <variablelist> 
+          <varlistentry> 
+             <term><guilabel>Forgrund og baggrund</guilabel></term> 
+             <listitem> 
+                <para>Brug indstillingen <guilabel>Brug farver fra systemtema</guilabel> til at bruge farverne, der er angivet i MATE-skrivebordstemaet, der er valgt i fanebladet <guilabel>Tema</guilabel> for <link xlink:href="help:mate-user-guide/prefs-theme"><application>Udseende</application>-præferenceværktøjet</link>.</para>
+                <para>Brug rullegardinlisten <guilabel>Indbyggede skemaer</guilabel> til at specificere forgrunds- og baggrundsfarver for terminalen. <application>MATE Terminal</application> understøtter de følgende forgrunds- og baggrundsfarvekombinationer:</para>
+                <itemizedlist> 
+                  <listitem> 
+                     <para><guilabel>Sort på lys gul</guilabel></para>
+                  </listitem>
+                  <listitem> 
+                     <para><guilabel>Sort på hvid</guilabel></para>
+                  </listitem> 
+                  <listitem> 
+                     <para><guilabel>Grå på sort</guilabel></para>
+                  </listitem>             
+                  <listitem> 
+                     <para><guilabel>Grøn på sort</guilabel></para>
+                  </listitem>             
+                  <listitem> 
+                     <para><guilabel>Hvid på sort</guilabel></para>
+                  </listitem> 
+                  <listitem> 
+                     <para><guilabel>Tilpasset</guilabel></para>
+                     <para>Denne indstilling gør det muligt at vælge farver, der ikke er i det valgte farveskema.</para>
+                  </listitem> 
+                </itemizedlist> 
+                <para>Den faktiske visning af forgrunds- og baggrundsfarver kan variere afhængig af valgt farveskema. For eksempel, hvis du vælger farveskemaet <guilabel>Hvid på sort</guilabel> og <guilabel>Linuxkonsollen</guilabel> viser programmet forgrunds- og baggrundsfarverne som lysegrå på sort. Rullegardinet <guilabel>Indbyggede skemaer</guilabel> er kun aktiveret hvis indstillingen <guilabel>Brug farver fra systemtema</guilabel> er fravalgt.</para>
+                <para>Klik på <guibutton>Tekstfarve</guibutton> for at vise dialogen <guilabel>Vælg tekstfarve for terminalen</guilabel>. Brug farvehjulet eller rulleboksene til at tilpasse farven, du ønsker at bruge som tekstfarve, klik så <guibutton>O.k.</guibutton>. Knappen <guibutton>Tekstfarve</guibutton> er kun aktiveret hvis indstillingen <guilabel>Brug farver fra systemtema</guilabel> er fravalgt.</para>
+                <para>Klik på knappen <guibutton>Baggrundsfarve</guibutton> for at vise dialogen <guilabel>Vælg terminalens baggrundsfarve</guilabel>. Brug farvehjulet eller rulleboksene til at tilpasse farven du ønsker at bruge som baggrundsfarve, klik så <guibutton>O.k.</guibutton>. Knappen <guibutton>Baggrundsfarve</guibutton> er kun aktiveret hvis indstillingen <guilabel>Brug farver fra systemtema</guilabel> er fravalgt.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Palet</guilabel></term> 
+             <listitem> 
+                <para>Terminalemuleringen kan kun bruge 16 farver på engang til at tegne tekst. Farvepaletten angiver disse 16 farver. Programmer, der afvikles i terminalen, bruger et indeksnummer til at angive en farve fra denne palet.</para>
+               <para>Brug rullegardinlisten <guilabel>Indbyggede skemaer</guilabel> til at vælge et forudfyldt farveskema. Farvepaletten nedenfor og indholdet af terminalvinduet opdateres for at vise skemaet.</para>
+               <para>Brug <guilabel>Farvepaletten</guilabel> til at tilpasse de 16 standardfarver i brugerfarvepaletten. For at tilpasse en farve, klik på farven for at vise dialogen <guilabel>Palet-element</guilabel>. Brug farvehjulet eller rulleboksene til at tilpasse farven, klik så <guibutton>O.k.</guibutton>.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section>
+
+     <section xml:id="mate-terminal-prefs-effects"><info><title>Effekter</title></info> 
+        <variablelist> 
+          <varlistentry> 
+             <term><guilabel>Baggrund</guilabel></term> 
+             <listitem> 
+                <para>Vælg en baggrund for terminalvinduet. Indstillingerne er som følgende:</para>
+                <itemizedlist> 
+                  <listitem> 
+                     <para><guilabel>Fast farve</guilabel></para>
+                     <para>Vælg denne indstilling for at bruge baggrundsfarven, der er angivet i fanebladet <guilabel>Farver</guilabel> som baggrundsfarven for terminalen.</para>
+                  </listitem> 
+                  <listitem> 
+                     <para><guilabel>Baggrundsbillede</guilabel></para>
+                     <para>Vælg denne indstilling for at bruge en billedfil som baggrund for terminalen. Brug rullegardinboksen <guilabel>Billedfil</guilabel> til at angive placeringen og navnet på billedfilen. Alternativt klikkes på <guibutton>Gennemse</guibutton> for at søge efter og vælge billedfilen.</para>
+                     <para>Vælg indstillingen <guilabel>Baggrundsbillede ruller</guilabel> for at aktivere at baggrundsbilledet ruller med tekst, når du ruller igennem terminalen. Hvis du ikke vælger denne indstilling, er baggrundsbilledet fast på terminalbaggrunden og kun tekst ruller. Denne indstilling er kun aktiveret hvis du vælger indstillingen <guilabel>Baggrundsbillede</guilabel>.</para>
+                  </listitem> 
+                  <listitem> 
+                     <para><guilabel>Gennemsigtig baggrund</guilabel></para>
+                     <para>Vælg denne indstilling for at bruge en gennemsigtig baggrund for terminalen.</para>
+                  </listitem> 
+                </itemizedlist> 
+             </listitem> 
+          </varlistentry>
+          <varlistentry> 
+             <term><guilabel>Skyg gennemsigtig baggrund eller billedbaggrund</guilabel></term> 
+             <listitem> 
+                <para>Brug denne skyder til at dæmpe eller skygge baggrunden i terminalen. Denne indstilling er kun aktiveret, hvis du vælger indstillingerne <guilabel>Baggrundsbillede</guilabel> eller <guilabel>Gennemsigtig baggrund</guilabel>.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section> 
+     
+     <section xml:id="mate-terminal-prefs-scrolling"><info><title>Rulning</title></info>
+        <variablelist>
+          <varlistentry> 
+             <term><guilabel>Rullebjælke er</guilabel></term> 
+             <listitem> 
+                <para>Brug dette rullegardin til at angive positionen på rullebjælken på terminalvinduet.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Rul tilbage ... linjer</guilabel></term> 
+             <listitem> 
+                <para>Brug denne rulleboks til at angive antallet af linjer, som du kan rulle tilbage via rullebjælken. For eksempel, hvis du vælger 100 så kan du rulle tilbage igennem de sidste 100 linjer vist i terminalen.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry>
+             <term><guilabel>Rul ved flere data</guilabel></term> 
+             <listitem> 
+                <para>Vælg denne indstilling for at aktivere at du kan rulle igennem informationen på terminalen mens terminalen fortsætter med at vise mere information fra en kommando.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Rul ved tastetryk</guilabel></term> 
+             <listitem> 
+                <para>Vælg denne indstilling for at aktivere at et ryk på en tast på tastaturet medføre at man rulle ned igennem terminalvinduet til kommandoprompten. Denne handling er kun gældende hvis du rullede op igennem vinduet og du ønsker at returnere til kommandoprompten.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist>
+     </section>
+     
+     <section xml:id="mate-terminal-prefs-compatibility"><info><title>Kompatibilitet</title></info>
+        <variablelist> 
+          <varlistentry> 
+             <term><guilabel>Slet tilbage-tast opretter</guilabel></term> 
+             <listitem> 
+                <para>Brug rullegardinet til at vælge funktionen du ønsker, at tasten <keycap>Slet tilbage</keycap>skal udføre.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Slet-tast opretter</guilabel></term> 
+             <listitem> 
+                <para>Brug rullegardinet til at vælge funktioner du ønsker, at tasten <keycap>Slet</keycap> skal udføre.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guibutton>Nulstil kompatibilitetsindstillingerne til deres standard</guibutton></term> 
+             <listitem> 
+                <para>Klik på denne knap for at nulstille indstillingerne på fanebladet <guilabel>Kompatibilitet</guilabel> til standardindstillingerne.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section> 
+  </section> 
+</article>

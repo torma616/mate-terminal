@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?db.chunk.max_depth 2?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:db="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0" xml:id="index" xml:lang="ms">
+  <info>
+     <title>Panduan Terminal MATE</title>
+
+     <copyright xml:lang="en"> 
+        <year>2015-2020</year> 
+        <holder>MATE Documentation Project</holder>
+     </copyright>
+     <copyright><year>2009</year> <year>2010</year> <holder>Paul Cutler</holder></copyright> 
+     <copyright><year>2008</year> <holder>Christian Persch</holder></copyright>
+     <copyright><year>2002</year> <year>2003</year> <year>2004</year> <holder>Sun Microsystems</holder></copyright> 
+     <copyright><year>2000</year> <holder>Miguel de Icaza</holder></copyright> 
+     <copyright><year>2000</year> <holder>Michael Zucchi</holder></copyright>
+     <copyright><year>2000</year> <holder>Alexander Kirillov</holder></copyright>
+     <publisher> 
+        <publishername>Projek Dokumentasi MATE</publishername> 
+     </publisher>
+
+     <xi:include href="legal.xml"/>
+  
+     <authorgroup> 
+        <author><personname><surname>Pasukan Dokumentasi MATE</surname></personname><affiliation> <orgname>DESKTOP MATE</orgname> </affiliation></author> 
+        <author><personname><firstname>Sun</firstname><surname>Pasukan Dokumentasi GNOME</surname></personname><affiliation> <orgname>Sun Microsystems</orgname> </affiliation></author> 
+        <author><personname><firstname>Miguel</firstname><surname>de Icaza</surname></personname><affiliation> <orgname>Projek Dokumentasi GNOME</orgname> </affiliation></author> 
+        <author><personname><firstname>Michael</firstname><surname>Zucchi</surname></personname><affiliation> <orgname>Projek Dokumentasi GNOME</orgname> </affiliation></author> 
+        <author><personname><firstname>Alexander</firstname><surname>Kirillov</surname></personname><affiliation> <orgname>Projek Dokumentasi GNOME</orgname> </affiliation></author> 
+     </authorgroup> 
+
+     <publisher role="maintainer">
+       <publishername>Projek Dokumentasi GNOME</publishername>
+     </publisher>
+
+     <revhistory>
+	<revision><revnumber>2.9</revnumber> <date>Januari 2010</date> <revdescription> 
+             <para role="author">Paul Cutler <email>pcutler@gnome.org</email></para>
+             <para role="publisher">Projek Dokumentasi GNOME</para>
+          </revdescription></revision> 
+	<revision><revnumber>2.8</revnumber> <date>Mac 2009</date> <revdescription> 
+             <para role="author">Paul Cutler</para>
+             <para role="publisher">Projek Dokumentasi GNOME</para>
+          </revdescription></revision>
+	<revision><revnumber>2.7</revnumber> <date>November 2003</date> <revdescription> 
+             <para role="author">Pasukan Dokumentasi Sun GNOME</para>
+             <para role="publisher">Projek Dokumentasi GNOME</para>
+          </revdescription></revision>
+	<revision><revnumber>2.6</revnumber> <date>September 2003</date> <revdescription> 
+             <para role="author">Pasukan Dokumentasi Sun GNOME</para>
+             <para role="publisher">Projek Dokumentasi GNOME</para>
+          </revdescription></revision>
+	<revision><revnumber>2.5</revnumber> <date>Mei 2003</date> <revdescription> 
+             <para role="author">Pasukan Dokumentasi Sun GNOME</para>
+             <para role="publisher">Projek Dokumentasi GNOME</para>
+          </revdescription></revision>
+        <revision><revnumber>2.4</revnumber> <date>Januari 2003</date> <revdescription> 
+             <para role="author">Pasukan Dokumentasi Sun GNOME</para>
+             <para role="publisher">Projek Dokumentasi GNOME</para>
+          </revdescription></revision>
+        <revision><revnumber>2.3</revnumber> <date>Ogos 2002</date> <revdescription> 
+             <para role="author">Pasukan Dokumentasi Sun GNOME</para>
+             <para role="publisher">Projek Dokumentasi GNOME</para>
+          </revdescription></revision>
+        <revision><revnumber>2.2</revnumber> <date>Ogos 2002</date> <revdescription> 
+             <para role="author">Pasukan Dokumentasi Sun GNOME</para>
+             <para role="publisher">Projek Dokumentasi GNOME</para>
+          </revdescription></revision>
+        <revision><revnumber>2.1</revnumber> <date>Ogos 2002</date> <revdescription> 
+             <para role="author">Pasukan Dokumentasi Sun GNOME</para>
+             <para role="publisher">Projek Dokumentasi GNOME</para>
+          </revdescription></revision>
+        <revision><revnumber>2.0</revnumber> <date>April 2002</date> <revdescription> 
+             <para role="author">Pasukan Dokumentasi Sun GNOME</para>
+             <para role="publisher">Projek Dokumentasi GNOME</para>
+          </revdescription></revision> 
+        <revision><revnumber>1.0</revnumber> <date>Mei 2000</date> <revdescription> 
+             <para role="author">Miguel de Icaza, Michael Zucchi, Alexander Kirollov <email>docs@gnome.org</email></para>
+             <para role="publisher">Projek Dokumentasi GNOME</para>
+          </revdescription></revision> 
+     </revhistory> 
+
+     <releaseinfo>Panduan ini menerangkan versi 1.22 bagi Terminal MATE</releaseinfo>
+
+  </info> 
+
+  <indexterm><primary>Terminal MATE</primary></indexterm> 
+  <indexterm><primary>aplikasi terminal</primary></indexterm> 
+  
+  <!-- ============= Introduction ============================== -->
+  <section xml:id="mate-terminal-introduction"><info><title>Pengenalan</title></info> 
+     <para><application>Terminal MATE</application> ialah aplikasi emulasi terminal yang anda boleh guna untuk membuat tugas-tugas berikut:</para>
+     <variablelist> 
+        <varlistentry> 
+          <term>Capai shell UNIX dalam persekitaran MATE</term> 
+          <listitem> 
+             <para>Shell merupakan sebuah program yang tafsir dan lakukan perintah yang anda taip pada promp baris perintah. Ketika anda mulakan <application>Terminal MATE</application>, aplikasi memulakan shell lalai yang telah ditentukan dalam akaun sistem anda. Anda boleh beralih ke shell lain pada bila-bila masa.</para>
+          </listitem> 
+        </varlistentry> 
+        <varlistentry> 
+          <term>Jalankan mana-mana aplikasi yang direka untuk berjalan dalam terminal VT102, VT220, dan <application>xterm</application>.</term> 
+          <listitem> 
+             <para><application>Terminal MATE</application> emulasikan aplikasi <application>xterm</application> yang dibangunkan oleh X Consortium. Selain itu, aplikasi <application>xterm</application> emulasikan terminal DEC VT102 dan juga menyokong jujukan escape DEC VT220. Jujukan escape merupakan satu siri aksara yang bermula dengan aksara <keycap>Esc</keycap>. <application>Terminal MATE</application> menerima semua jujukan escape yang mana terminal VT102 dan VT220 gunakan untuk fungsi seperti kedudukan kursor dan untuk kosongkan skrin.</para>
+          </listitem> 
+        </varlistentry> 
+     </variablelist> 
+  </section> 
+
+  <!--=========== Getting Started ============================== -->
+  
+  <section xml:id="mate-terminal-get-started"><info><title>Membiasakan Diri</title></info> 
+     <para>Seksyen berikut menjelaskan bagaimana hendak memulakan <application>Terminal MATE</application>.</para>
+
+     <section xml:id="mate-terminal-to-start"><info><title>Memulakan Terminal MATE</title></info> 
+        <para>Anda boleh memulakan <application>Terminal MATE</application> dengan cara berikut:</para>
+        <variablelist> 
+          <varlistentry> 
+             <term>Menu <guimenu>Aplikasi</guimenu></term> 
+             <listitem>
+                <para>Pilih <menuchoice><guimenu>Aksesori</guimenu><guimenuitem>Terminal</guimenuitem></menuchoice>.</para>
+             </listitem>
+          </varlistentry> 
+          <varlistentry> 
+             <term>Baris perintah</term> 
+             <listitem> 
+                <para>Lakukan perintah berikut: <command>mate-terminal</command></para>
+                <para>Anda boleh gunakan pilihan baris perintah untuk mengubahsuai cara menjalankan <application>Terminal MATE</application>. Untuk melihat pilihan baris perintah, lakukan perintah berikut: <command>mate-terminal --help</command></para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section> 
+
+     <section xml:id="mate-terminal-first-start"><info><title>Bila Kali Pertama Memulakan Terminal MATE</title></info> 
+        <para>Bila anda memulakan <application>Terminal MATE</application> buat kali pertama, aplikasi akan membuka tetingkap terminal dengan sekumpulan tetapan lalai. Kumpulan tetapan lalai ini dikenali sebagai profil Lalai.</para>
+        <figure xml:id="mate-terminal_default"><info><title>Contoh Tetingkap Terminal MATE Lalai</title></info> 
+          <screenshot>
+             <info><abstract><para>Tetingkap lalai Terminal MATE</para></abstract></info>
+             <mediaobject><imageobject> <imagedata fileref="figures/mate-terminal-default.png" format="PNG"/> </imageobject> <textobject> <phrase>Tetingkap lalai Terminal MATE</phrase> </textobject></mediaobject> 
+          </screenshot> 
+        </figure> 
+        <para>Tetingkap terminal memaparkan promp perintah yang mana anda boleh taip perintah UNIX. Promp perintah boleh jadi %, #, &gt;, $, atau apa-apa aksara khas. Kursusr akan diletak pada promp perintah. Ketika anda menaip satu perintah UNIX dan ketik <keycap>Return</keycap>, komputer melakukan perintah itu. Secara lalai, <application>Terminal MATE</application> menggunakan shell lalai yang dinyatakan untuk pengguna yang mahu memulakan aplikasi.</para>
+        <para><application>Terminal MATE</application> juga tetapkan pembolehubah persekitaran berikut berikut:</para>
+        <variablelist> 
+          <varlistentry> 
+             <term><varname>TERM</varname></term> 
+             <listitem> 
+                <para>Tetapkan ke <literal>xterm-256color</literal> secara lalai.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><varname>WINDOWID</varname></term> 
+             <listitem> 
+                <para>Tetapkan ke pengecam tetingkap X11 secara lalai.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section> 
+
+     <section xml:id="mate-terminal-profiles"><info><title>Profil Terminal</title></info> 
+        <para>Anda boleh cipta satu profil baharu, dan laksanakan profil baharu itu ke terminal untuk mengubahsuai ciri-cirinya seperti fon, warna dan kesan, kelakuan tatal, tajuk tetingkap, serta keserasian. Anda juga boleh nyatakan satu perintah yang dapat dijalankan secara automatik ketika anda memulakan <application>Terminal MATE</application> di dalam profil.</para>
+          <para>Anda boleh takrifkan setiap profil terminal di dalam dialog <guilabel>Profil</guilabel>, yang anda dapat capai menerusi menu <guimenu>Sunting</guimenu>. Anda juga boleh takrifkan sebanyak mana profil berlainan yang diperlukan. Ketika memulakan terminal, anda boleh pilih profil yang mahu digunakan. Selain itu, anda boleh mengubah profil terminal ketika guna terminal tersebut. Untuk nyatakan profil awalan bagi terminal ketika memulakan aplikasi melalui baris perintah, guna perintah berikut:</para>
+        <para><command>mate-terminal --window-with-profile=<replaceable>profilename</replaceable></command></para>
+        <para>Nama bagi profil semasa muncul dalam palang tajuk <application>Terminal MATE</application>, melainkan anda nyatakan satu nama tajuk palang yang lain dalam dialog <guilabel>Menyunting Profil</guilabel>.</para>
+        <para>Rujuk <xref linkend="mate-terminal-manage-profiles"/> untuk maklumat bagaimana hendak takrif dan guna satu profil terminal baharu.</para>
+     </section> 
+
+     <section xml:id="mate-terminal-more-windows"><info><title>Mengendalikan Terminal Berbilang</title></info> 
+        <para><application>Terminal MATE</application> menyediakan satu fitur tab yang membolehkan anda buka beberapa terminal dalam satu tetingkap. Setiap terminal dibuka dalam tab berlainan. Klik pada tab berkenaan untuk paparkan terminal di dalam tetingkap. Setiap terminal bertab dalam tetingkap mempunyai subproses yang berasingan, supaya anda boleh guna setiap terminal untuk tugasan berbeza. Anda boleh laksanakan profil berlainan bagi setiap terminal bertab di dalam tetingkap.</para>
+       <para>Palang tajuk bagi tetingkap terminal menunjukkan sama ada nama profil semasa, atau nama yang dinyatakan oleh profil semasa. <xref linkend="mate-terminal-tabbed"/> menunjukkan satu tetingkap <application>Terminal MATE</application> dengan empat tab. Dalam situasi ini, keempat-empat tab mempunyai profil yang berbeza. Nama bagi profil dalam tab aktif, Profil 1 kelihatan di dalam palang tajuk.</para>
+        <figure xml:id="mate-terminal-tabbed"><info><title>Contoh Tetingkap Terminal Dengan Tab</title></info> 
+          <screenshot> 
+             <info><abstract><para>Tetingkap lalai Terminal MATE</para></abstract></info> 
+             <mediaobject><imageobject> <imagedata fileref="figures/mate-terminal-tabbed.png" format="PNG"/> </imageobject> <textobject> <phrase>Tetingkap Terminal MATE dengan empat tab</phrase> </textobject></mediaobject> 
+          </screenshot> 
+        </figure> 
+        <para>Rujuk <xref linkend="mate-terminal-windows"/> untuk maklumat bagaimana hendak membuka terminal bertab baharu.</para>
+     </section> 
+
+  </section> 
+  
+  <!--=========== Usage ============================== -->  
+
+  <section xml:id="mate-terminal-usage"><info><title>Penggunaan</title></info> 
+
+     <section xml:id="mate-terminal-windows"><info><title>Membuka dan Menutup Terminal</title></info> 
+        <variablelist> 
+          <varlistentry> 
+             <term>Untuk membuka satu tetingkap terminal baharu:</term> 
+             <listitem> 
+                <para>Pilih <menuchoice><guimenu>Fail</guimenu><guimenuitem>Buka Terminal</guimenuitem></menuchoice>.</para>
+                <para>Terminal baharu mewarisi tetapan aplikasi dan shell lalai dari terminal induk.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>Untuk menutup satu tetingkap terminal:</term> 
+             <listitem> 
+                <para>Pilih <menuchoice><guimenu>Fail</guimenu><guimenuitem>Tutup Tetingkap</guimenuitem></menuchoice>.</para>
+                <para>Tindakan ini menutup terminal dan mana-mana subproses yang anda buka melalui terminal tersebut. Jika anda menutup tetingkap terminal terakhir, aplikasi <application>Terminal MATE</application> akan ditutup.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>Untuk menambah satu terminal bertab baharu dalam satu tetingkap:</term> 
+             <listitem> 
+                <para>Pilih <menuchoice><guimenu>Fail</guimenu><guisubmenu>Buka Tab</guisubmenu><guimenuitem>Lalai</guimenuitem></menuchoice> atau hanya <menuchoice><guimenu>Fail</guimenu><guimenuitem>Buka Tab</guimenuitem></menuchoice> jika tiada submenu.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>Untuk paparkan terminal bertab:</term> 
+             <listitem> 
+                <para>Klik pada tab bagi terminal bertab yang mahu dipaparkan, atau pilih satu tajuk tab melalui menu <guimenu>Tab</guimenu>.</para>
+                <para>Atau pun, pilih <menuchoice><guimenu>Tab</guimenu><guimenuitem>Tab Berikutnya</guimenuitem></menuchoice> atau <menuchoice><guimenu>Tab</guimenu><guimenuitem>Tab Terahulu</guimenuitem></menuchoice> untuk menavigasi antara tab-tab.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>Untuk menutup terminal bertab:</term> 
+             <listitem> 
+                <para>
+                  <orderedlist inheritnum="ignore" continuation="restarts"> 
+                     <listitem> 
+                        <para>Papar terminal bertab yang mahu ditutup.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Pilih <menuchoice><guimenu>Fail</guimenu><guimenuitem>Tutup Tab</guimenuitem></menuchoice>.</para>
+                     </listitem> 
+                  </orderedlist> 
+                </para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section> 
+
+     <section xml:id="mate-terminal-manage-profiles"><info><title>Mengurus Profil</title></info> 
+        <variablelist> 
+          <varlistentry> 
+             <term>Untuk menambah satu profil baharu:</term> 
+             <listitem> 
+                <para>
+                  <orderedlist inheritnum="ignore" continuation="restarts"> 
+                     <listitem> 
+                        <para>Pilih <menuchoice><guimenu>Fail</guimenu><guimenuitem>Profil Baharu</guimenuitem></menuchoice> untuk paparkan dialog <guilabel>Profil Baharu</guilabel>.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Taip nama profil baharu dalam kotak teks <guilabel>Nama Profil</guilabel>.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Gunakan senarai <guilabel>Berasaskan</guilabel> tarik-turun untuk memilih profil yang mahu dijadikan tapak bagi profil baharu.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Klik <guibutton>Cipta</guibutton> untuk memaparkan dialog <guilabel>Menyunting Profil</guilabel>.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Klik <guibutton>Tutup</guibutton>. <application>Terminal MATE</application> menambah profil ke dalma submenu <menuchoice><guimenu>Terminal</guimenu><guisubmenu>Ubah Profil</guisubmenu></menuchoice>.</para>
+                     </listitem> 
+                  </orderedlist> 
+                </para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>Untuk mengubah profil bagi terminal bertab:</term> 
+             <listitem> 
+                <para>
+                  <orderedlist inheritnum="ignore" continuation="restarts"> 
+                     <listitem> 
+                        <para>Klik pada tab bagi terminal bertab yang mahu diubah profilnya.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Pilih <menuchoice><guimenu>Terminal</guimenu><guisubmenu>Ubah Profil</guisubmenu><guimenuitem><replaceable>namaprofil</replaceable></guimenuitem></menuchoice>.</para>
+                     </listitem> 
+                  </orderedlist> 
+                </para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>Untuk menyunting satu profil:</term> 
+             <listitem> 
+                <para>Anda boleh menyunting profil di dalam dialog <guilabel>Menyunting Profil</guilabel>. Anda juga boleh mencapai dialog <guilabel>Menyunting Profil</guilabel> dengan cara berikut:</para>
+                <itemizedlist> 
+                  <listitem> 
+                     <para>Pilih <menuchoice><guimenu>Sunting</guimenu><guisubmenu>Profil Semasa</guisubmenu></menuchoice>.</para>
+                  </listitem> 
+                  <listitem> 
+                     <para>Klik-kanan dalam tetingkap terminal, kemudian pilih <menuchoice><guimenuitem>Profil</guimenuitem> <guimenuitem>Keutamaan Profil</guimenuitem></menuchoice> dari menu timbul.</para>
+                  </listitem> 
+                  <listitem> 
+                     <para>Pilih <menuchoice><guimenu>Sunting</guimenu><guisubmenu>Profil</guisubmenu></menuchoice>, pilih profil yang mahu disunting, kemudian klik <guibutton>Sunting</guibutton>. Untuk maklumat pada pilihan anda boleh tetapkannya, sila rujuk <xref linkend="mate-terminal-prefs"/>.</para>
+                  </listitem> 
+                </itemizedlist> 
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>Untuk memadam satu profil:</term> 
+             <listitem> 
+                <para>
+                  <orderedlist inheritnum="ignore" continuation="restarts"> 
+                     <listitem> 
+                        <para>Pilih <menuchoice><guimenu>Sunting</guimenu><guimenuitem>Profil</guimenuitem></menuchoice>.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Pilih nama profil yang anda mahu padam di dalam senarai <guilabel>Profil</guilabel>, kemudian klik <guibutton>Padam</guibutton>. Dialog <guilabel>Padam Profil</guilabel> dipaparkan.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Klikk <guibutton>Padam</guibutton> untuk mengesahkan pemadaman.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Klik <guibutton>Tutup</guibutton> untuk menutup dialog <guilabel>Sunting Profil</guilabel>.</para>
+                     </listitem> 
+                  </orderedlist> 
+                </para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section> 
+
+     <section xml:id="mate-terminal-tabs"><info><title>Mengubahsuai Tetingkap Terminal</title></info> 
+        <variablelist> 
+          <varlistentry> 
+             <term>Untuk menyembunyikan palang menu:</term> 
+             <listitem> 
+                <para>Pilih <menuchoice><guimenu>Lihat</guimenu><guimenuitem>Tunjuk Palang Menu</guimenuitem></menuchoice>.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>Untuk memaparkan palang menu yang tersembunyi:</term> 
+             <listitem> 
+                <para>Klik-kanan pada tetingkap terminal, kemudian pilih <guimenuitem>Tunjuk Palang Menu</guimenuitem> menerusi menu timbul.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry><term>Untuk memaparkan tetingkap <application>Terminal MATE</application> dalam mod skrin-penuh:</term>
+            <listitem>
+              <para>Pilih <menuchoice><guimenu>Lihat</guimenu><guimenuitem>Skrin Penuh</guimenuitem></menuchoice>. Mod skrin-penuh paparkan teks dalam tetingkap yang memenuhi skrin penuh. Tetingkap tidak mengandungi bingkai tetingkap atau palang tajuk. Untuk keluar dari mod ini, pilih <menuchoice><guimenu>Lihat</guimenu><guimenuitem>Skrin Penuh</guimenuitem></menuchoice> sekali lagi.</para>
+            </listitem>     
+          </varlistentry>
+          <varlistentry> 
+             <term>Untuk mengubah penampilan tetingkap terminal:</term> 
+             <listitem> 
+                <para>Lihat <xref linkend="mate-terminal-prefs"/> maklumat berkenaan pilihan yang anda boleh pilih di dalam dialog <guilabel>Profil Penyuntingan</guilabel> untuk mengubah penampilan tetingkap teminal. Sebagai contoh, anda boleh mengubah warna latar belakang, atau lokasi palang tatal.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section>
+
+     <section xml:id="mate-terminal-contents"><info><title>Mengendalikan Kandungan Tetingkap Terminal</title></info> 
+        <variablelist> 
+          <varlistentry> 
+             <term>Menatal perintah dan output terdahulu:</term> 
+             <listitem> 
+                <para>Lakukan salah satu tindakan-tindakan berikut:</para>
+                <itemizedlist> 
+                  <listitem> 
+                     <para>Guna palang tatal, yang biasanya dipapar di sebelah kanan tetingkap terminal.</para>
+                  </listitem> 
+                  <listitem> 
+                     <para>Ketik kekunci <keycombo><keycap>Shift</keycap><keycap>Page Up</keycap></keycombo>, <keycombo><keycap>Shift</keycap><keycap>Page Down</keycap></keycombo>, <keycombo><keycap>Shift</keycap><keycap>Home</keycap></keycombo>, atau <keycombo><keycap>Shift</keycap><keycap>End</keycap></keycombo>.</para>
+                  </listitem> 
+                </itemizedlist> 
+                <para>Bilangan baris yang anda boleh tatal balik dalam tetingkap terminal adalah ditentukan oleh tetapan <guilabel>Tatal Balik</guilabel> pada seksyen bertab <guilabel>Penatalan</guilabel> dalam dialog <guilabel>Menyunting Profil</guilabel>. Anda juga boleh menatal ke atas dan ke bawah satu baris dengan menekan gabungan kekunci <keycombo><keycap>Control</keycap><keycap>Shift</keycap><keycap>Up</keycap></keycombo> atau <keycombo><keycap>Control</keycap><keycap>Shift</keycap><keycap>Down</keycap></keycombo>.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>Untuk memilih dan menyalin teks:</term> 
+             <listitem> 
+                <para>Anda boleh memilih teks berdasarkan mana-mana langkah berikut:</para>
+                <itemizedlist> 
+                  <listitem> 
+                     <para>Untuk memilih satu aksara pada satu masa, klik pada aksara pertama yang mahu dipilih kemudian seret tetikus ke aksara terakhir yang dikehendaki.</para>
+                  </listitem> 
+                  <listitem> 
+                     <para>Untuk memilih satu perkataan pada satu masa, dwi-klik pada aksara pertama yang mahu dipilih kemudian seret tetikus ke aksara terakhir yang dikehendaki. Simbol dipilih secara berasingan.</para>
+                  </listitem> 
+                  <listitem> 
+                     <para>Untuk memilih satu baris pada satu masa, klik pada baris pertama yang mahu dipilih kemudian seret tetikus ke baris terakhir yang dikehendaki.</para>
+                  </listitem> 
+                </itemizedlist> 
+                <para>Tindakan-tindakan ini dapat memilih semua teks yang ada pada item pertama hingga yang terakhir. Untuk memilih semua teks, <application>Terminal MATE</application> menyalin teks terpilih ke dalam papan keratan setelah anda melepaskan butang tetikus. Untuk menyalin teks terpilih secara eksplisit, pilih <menuchoice><guimenu>Sunting</guimenu><guimenuitem>Salin</guimenuitem></menuchoice>.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>Menampal teks ke dalam terminal:</term> 
+             <listitem> 
+                <para>Sebelum ini anda menyalin teks ke dalam papan keratan, anda juga boleh menampal teks ke dalam terminal dengan membuat langkah-langkah berikut:</para>
+                <itemizedlist> 
+                  <listitem> 
+                     <para>Untuk menampal teks yang telah disalin, klik-tengah pada bisikan perintah. Jika tetikus anda tiada butang tengah, sila rujuk dokumentasi X Server untuk maklumat lanjut bagaimana hendak emulasikan butang tetikus tengah.</para>
+                  </listitem> 
+                  <listitem> 
+                     <para>Untuk menampal teks yang telah disalin secara eksplisit, pilih <menuchoice><guimenu>Sunting</guimenu><guimenuitem>Tampal</guimenuitem></menuchoice>.</para>
+                  </listitem> 
+                </itemizedlist> 
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>Menyeret satu nama fail ke dalam tetingkap terminal:</term> 
+             <listitem> 
+                <para>Anda boleh menyeret satu nama fail ke dalam terminal daripada aplikasi lain seperti pengurus fail. Terminal dapat memaparkan laluan dan juga nama penuh fail tersebut.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term>Mencapai satu pautan:</term> 
+             <listitem> 
+                <para>Untuk mencapai Pelokasi Sumber Seragam (URL) yang terpapar di dalam terminal, buat langkah-langkah berikut:</para>
+                  <orderedlist inheritnum="ignore" continuation="restarts"> 
+                     <listitem> 
+                        <para>Alih penuding tetikus ke atas URL sehinggalah URL bergaris bawah.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Klik-kanan pada URL tersebut untuk membuka satu menu timbul.</para>
+                     </listitem> 
+                     <listitem> 
+                        <para>Pilih <guimenuitem>Buka Pautan</guimenuitem> untuk memulakan aplikasi pautan dan paparkan lokasi fail berdasarkan URL itu.</para>
+                     </listitem> 
+                  </orderedlist>                
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section> 
+     
+     <section xml:id="mate-terminal-shortcuts"><info><title>Melihat Tetapan Pintasan Papan Kekunci</title></info> 
+        <para>Untuk melihat tetapan pintasan papan kekunci yang telah ditakrif untuk <application>Terminal MATE</application>, pilih <menuchoice><guimenu>Sunting</guimenu><guimenuitem>Pintasan Papan Kekunci</guimenuitem></menuchoice>. Dialog <guilabel>Pintasan Papan Kekunci</guilabel> mengandungi item-item berikut:</para>
+        <variablelist> 
+          <varlistentry> 
+             <term><guilabel>Lumpuhkan semua kekunci capaian menu (seperti Alt+f untuk membuka menu Fail)</guilabel></term> 
+             <listitem> 
+                <para>Nyahpilih pilihan ini untuk melumpuhkan kekunci capaian yang telah ditakrif supaya anda boleh guna papan kekunci selain dari tetikus untuk memilih satu item menu. Setiap kekunci capaian telah dikenalpasti oleh satu abjad bergaris bawah pada pilhan menu atau dialog. Dalam sesetengah kes, anda mesti tekan kekunci <keycap>Alt</keycap> yang digabungkan dengan kekunci capaian untuk melakukan sesebuah tindakan.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Lumpuhksn kekunci pintasan menu (F10 secara lalai)</guilabel></term> 
+             <listitem> 
+                <para>Nyahpilih pilihan ini untuk melumpuhkan kekunci pintasan yang telah ditakrif supaya anda dapat mencapai menu <application>Terminal MATE</application>. Kekunci pintasan lalai untuk mencapai menu ialah <keycap>F10</keycap>.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Kekunci Pintasan</guilabel></term> 
+             <listitem> 
+                <para>Seksyen <guilabel>Kekunci Pintasan</guilabel> bagi dialog menyenaraikan kekunci-kekunci pintasan yang telah ditakrif bagi setiap item menu.</para>
+                <note><para>Bukan semua kekunci boleh digunakan sebagai kekunci pintasan, contohnya kekunci <keycap>Tab</keycap>.</para></note>
+             </listitem> 
+          </varlistentry>
+        </variablelist> 
+     </section>
+     
+	<section xml:id="mate-terminal-resize"><info><title>Saiz Teks</title></info>
+		<para>Anda boleh menggunakan kaedah berikut untuk saizkan semula teks di dalam tetingkap Terminal MATE:</para>
+		<itemizedlist>
+			<listitem><para>Untuk besarkan saiz teks, pilih <menuchoice><guimenu>Lihat</guimenu><guimenuitem>Zum Masuk</guimenuitem></menuchoice>./</para>
+			</listitem>
+			<listitem><para>Untuk kecilkan saiz teks, pilih <menuchoice><guimenu>Lihat</guimenu><guimenuitem>Zum Keluar</guimenuitem></menuchoice>.</para>
+			</listitem>
+			<listitem><para>Untuk kembali ke saiz asal, pilih <menuchoice> <guimenu>Lihat</guimenu> <guimenuitem>Saiz Biasa</guimenuitem> </menuchoice>.</para>
+			</listitem>
+		</itemizedlist>
+	</section>	
+
+     <section xml:id="mate-terminal-title"><info><title>Mengubah Tajuk Terminal</title></info> 
+        <para>Untuk mengubah tajuk terminal semasa, buat langkah-langkah berikut:</para>
+        <orderedlist inheritnum="ignore" continuation="restarts">
+          <listitem>
+            <para>Pilih <menuchoice><guimenu>Terminal</guimenu><guimenuitem>Tetapkan Tajuk</guimenuitem></menuchoice>.</para>
+          </listitem>
+          <listitem>
+            <para>Taip tajuk baharu di dalam kotak teks <guilabel>Tajuk</guilabel>. <application>Terminal MATE</application> akan menerapkan perubahan tersebut serta-merta.</para>
+          </listitem>
+          <listitem>
+            <para>Klik <guibutton>Tutup</guibutton> untuk menutup dialog <guilabel>Tetapkan Tajuk</guilabel>.</para>
+          </listitem>
+        </orderedlist>
+	</section>	
+
+     <section xml:id="mate-terminal-encoding"><info><title>Mengubah Pengekodan Aksara</title></info> 
+        <para>Untuk mengubah pengekodan aksara, pilih <menuchoice><guimenu>Terminal</guimenu><guisubmenu>Tetapkan Pengekodan Aksara</guisubmenu></menuchoice>, kemudian pilih pengekodan yang sesuai.</para>
+
+        <section xml:id="mate-terminal-encoding-add"><info><title>Mengubah Senarai Pengekodan Aksara</title></info> 
+           <para>Untuk mengubah senarai pengekodan aksara yang terpapar di dalam menu <guisubmenu>Tetapkan Pengekodan Aksara</guisubmenu>, buat langkah-langkah berikut:</para>
+           <orderedlist inheritnum="ignore" continuation="restarts">
+             <listitem>
+               <para>Pilih <menuchoice><guimenu>Terminal</guimenu><guisubmenu>Tetapkan Pengekodan Aksara</guisubmenu><guimenuitem>Tambah atau Buang</guimenuitem></menuchoice>.</para>
+             </listitem>
+             <listitem>
+               <para>Untuk menambah pengekodan ke dalam menu <guisubmenu>Tetapkan Pengekodan Aksara</guisubmenu>, pilih pengekodan di dalam kotak senarai <guilabel>Pengekodan tersedia</guilabel>, kemudian klik butang anak panah kanan.</para>
+             </listitem>
+             <listitem>
+               <para>Untuk membuang pengekodan daripada menu <guisubmenu>Tetapkan Pengekodan Aksara</guisubmenu>, pilih pengekodan di dalam kotak senarai <guilabel>Pengekodan ditunjukkan dalam menu</guilabel>, kemudian klik butang anak panah kiri.</para>
+             </listitem>
+             <listitem>
+               <para>Klik <guibutton>Tutup</guibutton> untuk menutup dialog <guilabel>Tambah atau Buang Pengekodan Terminal</guilabel>.</para>
+             </listitem>
+           </orderedlist>
+	</section>	
+
+     </section>	
+
+     <section xml:id="mate-terminal-reset"><info><title>Memulih Kembali Terminal Anda</title></info> 
+        <para>Seksyen ini menyediakan beberapa nasihat sekiranya anda menghadapi masalah ketika mengendalikan terminal.</para>
+        <variablelist> 
+          <varlistentry> 
+             <term>Menetap semula keadaan terminal:</term> 
+             <listitem> 
+                <para>Pilih <menuchoice><guimenu>Terminal</guimenu><guimenuitem>Tetap Semula</guimenuitem></menuchoice>.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+        <variablelist> 
+          <varlistentry> 
+             <term>Menetap semula terminal dan kosongkan skrin:</term> 
+             <listitem> 
+                <para>Pilih <menuchoice><guimenu>Terminal</guimenu><guimenuitem>Tetap Semula dan Kosongkan</guimenuitem></menuchoice>.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section>   
+
+  </section> 
+  
+  <!--=========== Preferences ============================== -->  
+
+  <section xml:id="mate-terminal-prefs"><info><title>Keutamaan</title></info> 
+     <para>Untuk mengkonfigur <application>Terminal MATE</application>, pilih <menuchoice><guimenu>Sunting</guimenu><guimenuitem>Profil Semasa</guimenuitem></menuchoice>. Untuk mengkonfigur profil lain yang telah ditetapkan pilih <menuchoice><guimenu>Sunting</guimenu><guimenuitem>Profil</guimenuitem></menuchoice>, pilih profil yang anda mahu sunting, kemudian klik <guibutton>Sunting</guibutton>.</para>
+     <para>Dialog <guilabel>Menyunting Profil</guilabel> mengandungi seksyen bertab berikut yang anda boleh gunakan untuk mengkongfigur <application>Terminal MATE</application>:</para>
+     <itemizedlist> 
+		<listitem><para><xref linkend="mate-terminal-prefs-general"/></para>
+		</listitem>
+		<listitem><para><xref linkend="mate-terminal-prefs-title"/></para>
+		</listitem>
+		<listitem><para><xref linkend="mate-terminal-prefs-colors"/></para>
+		</listitem>
+		<listitem><para><xref linkend="mate-terminal-prefs-effects"/></para>
+		</listitem>
+		<listitem><para><xref linkend="mate-terminal-prefs-scrolling"/></para>
+		</listitem>
+		<listitem><para><xref linkend="mate-terminal-prefs-compatibility"/></para>
+		</listitem>
+	 </itemizedlist>
+
+     <section xml:id="mate-terminal-prefs-general"><info><title>Am</title></info> 
+        <variablelist> 
+          <varlistentry> 
+             <term><guilabel>Nama profil</guilabel></term> 
+             <listitem> 
+                <para>Guna teks ini untuk menentukan nama bagi profil semasa.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Guna fon lebar tetap sistem</guilabel></term>
+             <listitem> 
+                <para>Pilih pilihan ini untuk menggunakan fon lebar tetap piawai yang telah dinyatakan di dalam tab <guilabel>Fon</guilabel> dalam alat keutamaan <application>Penampilan</application>.</para>
+             </listitem> 
+          </varlistentry>
+          <varlistentry> 
+             <term><guilabel>Fon</guilabel></term> 
+             <listitem> 
+                <para>Klik pada butang ini untuk memilih jenis fon dan saiz fon untuk terminal. Butang ini hanya dibenarkan jika pilihan <guilabel>Guna fon terminal sistem</guilabel> dinyahpilih.</para>
+             </listitem> 
+          </varlistentry>
+          <varlistentry>
+             <term><guilabel>Benarkan teks tebal</guilabel></term> 
+             <listitem> 
+                <para>Pilih pilihan ini supaya terminal dapat memaparkan teks tebal.</para>
+             </listitem> 
+          </varlistentry>
+          <varlistentry>
+             <term><guilabel>Tunjuk palang menu secara lalai dalam terminal baharu</guilabel></term> 
+             <listitem> 
+                <para>Pilih pilihan ini untuk menunjukkan palang menu pada tetingkap terminal baharu.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Loceng Terminal</guilabel></term> 
+             <listitem> 
+                <para>Pilih pilihan ini untuk membenarkan loceng terminal.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Aksara pilih-ikut-perkataan</guilabel></term> 
+             <listitem> 
+                <para>Guna kotak teks ini untuk tentukan aksara atau sekumpulan aksara yang mana <application>Terminal MATE</application> anggap sebagai perkataan bila anda memilihnya mengikut perkataan. Sila rujuk <xref linkend="mate-terminal-contents"/> untuk maklumat lanjut bagaimana hendak memilih teks mengikut perkataan.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section> 
+
+     <section xml:id="mate-terminal-prefs-title"><info><title>Tajuk dan Perintah</title></info> 
+        <variablelist> 
+          <varlistentry> 
+             <term><guilabel>Tajuk awal</guilabel></term> 
+             <listitem> 
+                <para>Guna kotak teks ini untuk menyatakan tajuk awal terminal yang menggunakan profil. Terminal baharu yang dimulakan daripada terminal semasa mempunyai tajuk awalan baharu.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Ketika perintah terminal tetapkan tajuknya sendiri</guilabel></term>
+             <listitem> 
+                <para>Guna senarai tarik-turun ini untuk nyatakan bagaimana hendak mengendalikan tajuk ditetapkan secara dinamik, iaitu tajuk terminal ditetapkan oleh perintah yang dijalankan dalam terminal.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Jalankan perintah sebagai shell daftar masuk</guilabel></term> 
+             <listitem> 
+                <para>Pilih pilihan ini untuk memaksa perintah ketika ini berjalan di dalam terminal yang juga dijalankan sebagai shell daftar masuk. Jika perintah bukan shell, maka tetapan tidak memberi apa-apa kesan.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Kemaskini rekod daftar masuk ketika perintah dilancarkan</guilabel></term> 
+             <listitem> 
+                <para>Pilih pilihan ini untuk menyisip satu masukan baharu ke dalam rekod daftar masuk ketika satu shell baharu dibuka.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Jalankan satu perintah suai selain daripada shell saya</guilabel></term> 
+             <listitem> 
+                <para>Pilih pilihan ini untuk menjalankan satu perintah tertentu, selain dari shell biasa, di dalam terminal. Nyatakan perintah suai tersebut di dalam kotak teks <guilabel>Perintah suai</guilabel>.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Ketika perintah masih wujud</guilabel></term> 
+             <listitem> 
+                <para>Guna senarai tarik-turun ini untuk menyatakan apakah tindakan yang perlu dibuat ketika perintah tamat.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section> 
+
+     <section xml:id="mate-terminal-prefs-colors"><info><title>Warna</title></info> 
+        <variablelist> 
+          <varlistentry> 
+             <term><guilabel>Latar Hadapan dan Latar Belakang</guilabel></term> 
+             <listitem> 
+                <para>Pilih pilihan <guilabel>Guna warna daripada tema sistem</guilabel> untuk menggunakan warna yang telah ditetapkan dalam tema Desktop MATE yang ada di dalam tab <guilabel>Tema</guilabel> pada <link xlink:href="help:mate-user-guide/prefs-theme">alat keutamaan <application>Penampilan</application></link>.</para>
+                <para>Guna senarai tarik-turun <guilabel>Skema terbina-dalam</guilabel> untuk menyatakan warna latar hadapan dan latar belakang untuk terminal. <application>Terminal MATE</application> menyokong gabungan warna latar hadapan dan latar belakang:</para>
+                <itemizedlist> 
+                  <listitem> 
+                     <para><guilabel>Hitam dengan kuning cerah</guilabel></para>
+                  </listitem>
+                  <listitem> 
+                     <para><guilabel>Hitam dengan putih</guilabel></para>
+                  </listitem> 
+                  <listitem> 
+                     <para><guilabel>Kelabu dengan hitam</guilabel></para>
+                  </listitem>             
+                  <listitem> 
+                     <para><guilabel>Hijau dengan hitam</guilabel></para>
+                  </listitem>             
+                  <listitem> 
+                     <para><guilabel>Putih dengan hitam</guilabel></para>
+                  </listitem> 
+                  <listitem> 
+                     <para><guilabel>Suai</guilabel></para>
+                     <para>Pilihan ini membolehkan anda pilih warna yang tiada dalam skema warna terpilih.</para>
+                  </listitem> 
+                </itemizedlist> 
+                <para>Paparan sebenar warna latar hadapan dan latar belakang berbeza mengikut skema warna pilihan anda. Sebagai contoh, jika anda memilih <guilabel>Putih dengan hitam</guilabel> dan skema warna <guilabel>konsol Linux</guilabel>, aplikasi memaparkan warna latar hadapan dan belakang sebagai kelabu cerah dengan hitam. Senarai tarik-turun <guilabel>Terbina-dalam</guilabel> hanya dibenarkan jika pilihan <guilabel>Guna warna melalui tema sistem</guilabel> dinyahpilih.</para>
+                <para>Klik pada butang <guibutton>Warna teks</guibutton> untuk memaparkan dialog <guilabel>Pilih warna teks terminal</guilabel>. Guna roda warna atau kotak angka untuk menyuaikan warna yang mahu digunakan sebagai warna teks, kemudian klik <guibutton>OK</guibutton>. Butang <guibutton>warna teks</guibutton> hanya dibenarkan jika pilihan <guilabel>Guna warna melalui tema sistem</guilabel> dinyahpilih.</para>
+                <para>Klik pada butang <guibutton>Warna latar belakang</guibutton> untuk memaparkan dialog <guilabel>Pilih warna latar belakang terminal</guilabel>. Guna roda warna atau kotak angka untuk menyuaikan warna yang mahu digunakan sebagai warna latar belakang, kemudian klik <guibutton>OK</guibutton>. Butang <guibutton>warna latar belakang</guibutton> hanya dibenarkan jika pilihan <guilabel>Guna warna melalui tema sistem</guilabel> dinyahpilih.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Palet</guilabel></term> 
+             <listitem> 
+                <para>Emulasi terminal hanya boleh menggunakan warna 16 ketika melukis teks. Palet warna menyatakan 16 warna tersebut. Aplikasi yang dijalankan dalam terminal menggunakan satu nombor indeks supaya dapat menyatakan satu warna daripada palet ini.</para>
+               <para>Guna senarai tarik-turun <guilabel>Skema terbina-dalam</guilabel> untuk memilih satu skema warna praset. Palet warna di bawah dan kandungan tetingkap terminal kedua-duanya dikemaskini untuk memaparkan skema tersebut.</para>
+               <para>Guna <guilabel>Palet warna</guilabel> untuk menyuaikan warna lalai 16 di dalam palet warna suai. Untuk menyuaikan satu warna, klik pada warna untuk memaparkan dialog <guilabel>Masukan palet</guilabel>. Guna roda warna atau kotak angka untuk menyuaikan warna, kemudian klik <guibutton>OK</guibutton>.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section>
+
+     <section xml:id="mate-terminal-prefs-effects"><info><title>Kesan</title></info> 
+        <variablelist> 
+          <varlistentry> 
+             <term><guilabel>Latar belakang</guilabel></term> 
+             <listitem> 
+                <para>Pilih satu latar belakang untuk tetingkap terminal. Pilihan adalah seperti berikut:</para>
+                <itemizedlist> 
+                  <listitem> 
+                     <para><guilabel>Warna tegar</guilabel></para>
+                     <para>Pilih pilihan ini untuk menggunakan warna latar belakang yang telah dinyatakan di dalam seksyen bertab <guilabel>Warna</guilabel> sebagai warna latar belakang terminal.</para>
+                  </listitem> 
+                  <listitem> 
+                     <para><guilabel>Imej latar belakang</guilabel></para>
+                     <para>Pilih pilihan ini untuk menggunakan satu fail imej sebagai latar belakang untuk terminal. Guna kotak gabungan tarik-turun <guilabel>Fail imej</guilabel> untuk menyatakan lokasi dan nama fail imej. Selain itu, klik <guibutton>Layar</guibutton> untuk menggelintar dan memilih fail imej.</para>
+                     <para>Pilih pilihan <guilabel>Tatal imej latar belakang</guilabel> untuk membenarkan imej latar belakang bertatal dengan teks ketika anda menatalnya melalui terminal. Jika anda tidak memilih pilihan ini, imej latar belakang kekal tetap pada latar belakang terminal dan hanya teks sahaja ditatalkan. Pilihan ini hanya dibenarkan jika anda memilih pilihan <guilabel>Imej latar belakang</guilabel>/</para>
+                  </listitem> 
+                  <listitem> 
+                     <para><guilabel>Latar belakang lutsinar</guilabel></para>
+                     <para>Pilih pilihan ini untuk menggunakan latar belakang lutsinar untuk terminal.</para>
+                  </listitem> 
+                </itemizedlist> 
+             </listitem> 
+          </varlistentry>
+          <varlistentry> 
+             <term><guilabel>Lorek latar belakang lutsinar atau imej</guilabel></term> 
+             <listitem> 
+                <para>Guna pelungsur ini untuk melorek atau malapkan latar belakang terminal. Pilihan ini hanya dibenarkan jika anda memilih pilihan <guilabel>Imej latar belakang</guilabel> atau <guilabel>Latar belakang lutsinar</guilabel>.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section> 
+     
+     <section xml:id="mate-terminal-prefs-scrolling"><info><title>Penatalan</title></info>
+        <variablelist>
+          <varlistentry> 
+             <term><guilabel>Palang tatal</guilabel></term> 
+             <listitem> 
+                <para>Guna senarai tarik-turun ini untuk menyatakan kedudukan palang tatal di dalam tetingkap terminal.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Tatal balik ... baris</guilabel></term> 
+             <listitem> 
+                <para>Guna kotak angka ini untuk menyatakan bilangan baris yang anda boleh tatal balik menggunakan palang tatal. Sebagai contoh, jika anda nyatakan 100 anda boleh tatal balik sehingga 100 baris terakhir yang terpapar di dalam terminal.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry>
+             <term><guilabel>Tatal pada output</guilabel></term> 
+             <listitem> 
+                <para>Pilih pilihan ini untuk membolehkan anda menatal output dalam terminal ketika terminal terus menerus memaparkan lagi output daripada perintah.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Tatal pada ketukan kekunci</guilabel></term> 
+             <listitem> 
+                <para>Pilih pilihan ini yang membolehkan anda menekan mana-mana kekunci pada papan kekunci untuk menatal ke bawah tetingkap terminal berdasarkan bisikan perintah. Tindakan ini hanya diterapkan jika anda menatal ke atas tetingkap terminal dan mahu kembali ke bisikan perintah.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist>
+     </section>
+     
+     <section xml:id="mate-terminal-prefs-compatibility"><info><title>Keserasian</title></info>
+        <variablelist> 
+          <varlistentry> 
+             <term><guilabel>Kekunci Backspace menjana</guilabel></term> 
+             <listitem> 
+                <para>Guna senarai tarik-turun untuk memilih fungsi yang anda mahu kekunci <keycap>Backspace</keycap> lakukan.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guilabel>Kekunci Delete menjana</guilabel></term> 
+             <listitem> 
+                <para>Guna senarai tarik-turun untuk memilih fungsi yang anda mahu kekunci <keycap>Delete</keycap> lakukan.</para>
+             </listitem> 
+          </varlistentry> 
+          <varlistentry> 
+             <term><guibutton>Tetap semula pilihan keserasian ke lalai</guibutton></term> 
+             <listitem> 
+                <para>Klik pada butang ini untuk menetap semula pilihan pada seksyen bertab <guilabel>Keserasian</guilabel> ke tetapan lalainya.</para>
+             </listitem> 
+          </varlistentry> 
+        </variablelist> 
+     </section> 
+  </section> 
+</article>
